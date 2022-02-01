@@ -1,0 +1,6 @@
+arb-dir: lib/languages
+template-arb-file: super_en.arb
+output-dir: lib/languages/translations
+output-localization-file: super_localizations.dart
+output-class: SuperLocalizations
+synthetic-package: false

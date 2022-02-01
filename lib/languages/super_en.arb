@@ -1,0 +1,277 @@
+{
+  "feedbackAddedSuccessfully": "Added Successfully",
+
+  "errorServerException": "Oops! We couldn't connect to the server",
+  "errorCacheException": "No Internet Connection",
+  "errorConnectionException": "No Internet Connection",
+  "errorEmptyException": "There is no data!",
+  "errorInvalidException": "Invalid Data!",
+  "errorExpireException": "Code has been expired",
+  "errorNotFoundException": "No account with these credentials",
+  "errorUserExistsException": "This user is already exist",
+  "errorPasswordException": "Wrong password!",
+  "errorUnauthenticatedException": "Sorry! you are not authenticated to do this",
+  "errorBlockedException": "Sorry! you have been blocked, Contact the admin to more info",
+  "errorUnexpectedException": "Oops! Unexpected error happened! please try again",
+  "errorConflictException": "The request could not be completed due to a conflict",
+
+
+  "validAccepted": "{attribute} must be accepted",
+  "@validAccepted": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      }
+    }
+  },
+  "validBlank": "{attribute} can't be blank",
+  "@validBlank": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      }
+    }
+  },
+  "validConfirmation": "{attribute} doesn't match {other}",
+  "@validConfirmation": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      },
+      "other": {
+        "type": "String"
+      }
+    }
+  },
+  "validEmpty": "{attribute} can't be empty",
+  "@validEmpty": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      }
+    }
+  },
+  "validEqualTo": "{attribute} must be equal to {count}",
+  "@validEqualTo": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      },
+      "count": {}
+    }
+  },
+  "validEven": "{attribute} must be even",
+  "@validEven": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      }
+    }
+  },
+  "validExclusion": "{attribute} is reserved",
+  "@validExclusion": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      }
+    }
+  },
+  "validGreaterThan": "{attribute} must be greater than {count}",
+  "@validGreaterThan": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      },
+      "count": {}
+    }
+  },
+  "validGreaterThanOrEqualTo": "{attribute} must be greater than or equal to {count}",
+  "@validGreaterThanOrEqualTo": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      },
+      "count": {}
+    }
+  },
+  "validInclusion": "{attribute} is not included in the list",
+  "@validInclusion": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      }
+    }
+  },
+  "validInvalid": "{attribute} is invalid",
+  "@validInvalid": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      }
+    }
+  },
+  "validLessThan": "{attribute} must be less than {count}",
+  "@validLessThan": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      },
+      "count": {}
+    }
+  },
+  "validLessThanOrEqualTo": "{attribute} must be less than or equal to {count}",
+  "@validLessThanOrEqualTo": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      },
+      "count": {}
+    }
+  },
+  "validNotANumber": "{attribute} is not a number",
+  "@validNotANumber": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      }
+    }
+  },
+  "validNotAnInteger": "{attribute} must be an integer",
+  "@validNotAnInteger": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      }
+    }
+  },
+  "validOdd": "{attribute} must be odd",
+  "@validOdd": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      }
+    }
+  },
+  "validOtherThan": "{count, plural,other{{attribute} must be other than {count}}",
+  "@validOtherThan": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      },
+      "count": {}
+    }
+  },
+  "validPresent": "{attribute} must be blank",
+  "@validPresent": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      }
+    }
+  },
+  "validRequired": "{attribute} must exist",
+  "@validRequired": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      }
+    }
+  },
+  "validTaken": "{attribute} has already been taken",
+  "@validTaken": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      }
+    }
+  },
+  "validTooLong": "{count, plural,=1{{attribute} is too long (maximum is 1 character)}other{{attribute} is too long (maximum is {count} characters)}",
+  "@validTooLong": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      },
+      "count": {}
+    }
+  },
+  "validTooShort": "{count, plural,=1{{attribute} is too short (minimum is 1 character)}other{{attribute} is too short (minimum is {count} characters)}}",
+  "@validTooShort": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      },
+      "count": {}
+    }
+  },
+  "validWrongLength": "{count, plural,=1{{attribute} is the wrong length (should be 1 character)}other{{attribute} is the wrong length (should be {count} characters)}}",
+  "@validWrongLength": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      },
+      "count": {}
+    }
+  },
+
+
+  "commonHome": "Home",
+  "commonSearch": "Search",
+  "commonLogOut": "LOG OUT",
+  "commonMessage": "Message",
+  "commonLogin": "Login",
+  "commonForgetPassword": "Forget password",
+  "commonProfile": "Profile",
+  "commonOk": "Ok",
+  "commonYes": "Yes",
+  "commonAll": "All",
+  "commonMore": "More",
+  "commonSend": "Send",
+  "commonUpdate": "Update",
+  "commonName": "Name",
+  "commonUsername": "Username",
+  "commonEmail": "E-mail Address",
+  "commonOr": "Or",
+  "commonFirstName": "firstName",
+  "commonLastName": "lastName",
+  "commonPassword": "Password",
+  "commonPasswordConfirmation": "Confirm password",
+  "commonCity": "City",
+  "commonCountry": "Country",
+  "commonAddress": "Address",
+  "commonPhone": "Phone",
+  "commonPhoneNumber": "Phone Number",
+  "commonMobile": "Mobile",
+  "commonAge": "Age",
+  "commonSex": "Sex",
+  "commonGender": "Gender",
+  "commonContent": "Content",
+  "commonDescription": "Description",
+  "commonExcerpt": "Excerpt",
+  "commonAvailable": "Available",
+  "commonSize": "Size",
+  "commonPrice": "Price",
+  "commonDesc": "Desc",
+  "commonTitle": "Title",
+  "commonRegister": "Register",
+  "commonSeeAll": "See all",
+  "commonServices": "Services",
+  "commonSubmit": "Submit",
+
+  "commonQ": "Search",
+
+  "dtDate": "Date",
+  "dtTime": "Time",
+  "dtYear": "Year",
+  "dtMonth": "Month",
+  "dtDay": "Day",
+  "dtHour": "Hour",
+  "dtMinute": "Minute",
+  "dtSecond": "Second",
+  "dtSunday": "Sunday",
+  "dtMonday": "Monday",
+  "dtTuesday": "Tuesday",
+  "dtWednesday": "Wednesday",
+  "dtThursday": "Thursday",
+  "dtFriday": "Friday",
+  "dtSaturday": "Saturday"
+}
