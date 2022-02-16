@@ -23,8 +23,8 @@ class SuperRepository {
   static Future<void> init(
       {Function? snackBar, Map<String, dynamic>? headers}) async {
     _instance ??= SuperRepository();
-    _instance?.headers = headers ?? {};
     await DataProvider.init();
+    _instance?.headers = headers ?? {};
   }
 
   static DataProvider get provider => DataProvider.instance;
