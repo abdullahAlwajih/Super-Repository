@@ -67,7 +67,7 @@ class DataProvider {
       return response;
     } catch (exception) {
       log('insert has exception of type $exception');
-      error = mapExceptionToMessage(exception);
+      throw mapExceptionToMessage(exception);
     }
   }
 

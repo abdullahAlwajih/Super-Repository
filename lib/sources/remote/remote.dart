@@ -95,6 +95,8 @@ class Remote {
 
     } on DioError catch(error){
       statusCode = error.response!.statusCode!;
+      final message = error.response!.data['message']!;
+      if(message != null) throw Exceptions.fromStatusCode(0, message);
       if (!success) {
         log('Server response with status code $statusCode',
             name: 'Wings Remote');

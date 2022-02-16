@@ -3,8 +3,10 @@ import 'exceptions.enum.wings.dart';
 class Exceptions implements Exception {
   Exceptions();
 
-  factory Exceptions.fromStatusCode(int statusCode) {
+  factory Exceptions.fromStatusCode(int statusCode, [message]) {
     switch (statusCode) {
+      case 0:
+        return CustomException(message: message);
       case 204:
         return NoContentException();
       case 400:
@@ -84,7 +86,7 @@ class ReceiveException implements Exception {}
 
 class UnknownException implements Exception {}
 
-class CustomException implements Exception {
+class CustomException implements Exceptions {
   final String message;
 
   CustomException({required this.message});
