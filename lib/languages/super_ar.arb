@@ -1,24 +1,764 @@
 {
-  "feedbackAddedSuccessfully": "تمت الإضافة بنجاح",
-
-  "errorServerException": "عذراً لم نتمكن من الاتصال بالخادم",
+  "appAbout": "حول",
+  "appAboutTheApp": "عن التطبيق",
+  "appApp": "التطبيق",
+  "appAppLanguage": "لغة التطبيق",
+  "appAppSettings": "إعدادات التطبيقات",
+  "appAppVersion": "إصدار التطبيق ",
+  "appApplicationPreferences": "تفضيلات التطبيق",
+  "appDarkMode": "السمة الداكنة",
+  "appHome": "الرئيسية",
+  "appLightMode": "السمة الفاتحة",
+  "appNeedsToBeUpdated": "التطبيق يحتاج إلى تحديث",
+  "appNewUpdate": "تحديث جديد",
+  "appNewUpdateWithFace": "تحديث جديد 😍",
+  "appShareApplication": "مشاركة التطبيق",
+  "appSoPleaseUpdateToTheNewVersion": "لذا يرجى التحديث إلى الإصدار الجديد",
+  "appTapAgainToLeave": "اضغط مرة اخرى للمغادرة",
+  "appToUseThisAppPleaseUpdateToTheLatestVersion": "لاستخدام هذا التطبيق، يرجى تنزيل أحدث إصدار.",
+  "appUpdate": "تحديث",
+  "appUpdateNow": "التحديث الان",
+  "appVersion": "الإصدار",
+  "appWeArePleasedThatYouUseOurApplicationAndWeHopeThatYouWillHaveFunBrowsing": "يسعدنا إستخدامك لتطبيقنا ونتمنى أن تستمتع بالتصفح",
+  "appWeAreWorkingHardToComeUpWithNewServices": "نحن نعمل بجد لتقديم خدمات جديدة",
+  "appWeAreWorkingHardToComeUpWithNewServicesSoPleaseUpdateTheNewVersion": "نحن نعمل بكل جد لنوفر خدمات جديدة لذا نرجو أن تقوم بالتحديث للنسخة الجديدة",
+  "authAccount": "الحساب",
+  "authAccountApproveAlert": "يرجى الإنتظار إلى أن يتم الموافقة على حسابك",
+  "authAccountDetails": "تفاصيل الحساب",
+  "authAccountNumber": "رقم الحساب",
+  "authAccounts": "الحسابات",
+  "authAddImage": "إضافة صورة",
+  "authAddNewAddress": "إضافة عنوان جديد",
+  "authAddress": "عنوان",
+  "authAddressesOfUser": "عناوين المستخدم",
+  "authAge": "العمر",
+  "authAlreadyHaveAnAccount": "هل تملك حساب مسبقا؟",
+  "authAlternativePhone": "رقم الهاتف البديل",
+  "authAnErrorOccurredPleaseTryAgain": "حدث خطأ ما، الرجاء المحاولة مجددا",
+  "authAreYouSureToRemoveThisAddress": "هل أنت متأكد من حذف العنوان",
+  "authAreYouSureYouWantToLogout": "هل أنت متأكد من تسجيل الخروج",
+  "authByUsingTheApplicationAndLoggingInYouAgreeTo": "بإستخدام التطبيق و تسجيل دخولك، فإنك توافق على ",
+  "authCanNotGetTheContactNumber": "غير قادر على الحصول على الرقم",
+  "authChangePassword": "تغيير كلمة المرور",
+  "authChooseAccount": "اختر الحساب",
+  "authChooseUserType": "اختر نوع الحساب",
+  "authCodeIsSent": "تم إرسال الرمز، تحقق من الرسائل النصية",
+  "authCodeWillBeReceivedIn": "سيصلك الرمز خلال",
+  "authCompleteYourProfileDetailsToContinue": "اكمل تفاصيل ملفك الشخصي للمتابعة",
+  "authConfirmPIN": "تأكيد الهوية الشخصية",
+  "authConfirmPassword": "تأكد كلمة المرور",
+  "authConfirmationCode": "رمز التأكيد",
+  "authContinueWithTheSameData": "متابعة مع نفس البيانات",
+  "authCreateANewAccount": "إنشاء حساب جديد",
+  "authCustomerID": "هوية المستخدم",
+  "authDataCompletion": "إستكمال البيانات",
+  "authDonatHaveAccountQuestion": "تسجيل الحساب لأول مرة",
+  "authEMail": "البريد الإلكتروني",
+  "authEditAddress": "تعديل العنوان",
+  "authEditMyData": "تعديل بياناتي",
+  "authEditProfile": "تعديل الحساب",
+  "authEmailAddress": "عنوان بريد الكتروني",
+  "authEmailToResetPassword": "البريد الإلكتروني لإعادة تعيين كلمة المرور",
+  "authEnterAddress": "ادخل العنوان",
+  "authEnterCode": "ادخال الرمز",
+  "authEnterEmail": "ادخل البريد الالكتروني",
+  "authEnterName": "ادخل الإسم",
+  "authEnterPassword": "ادخل كلمة المرور",
+  "authEnterPhone": "ادخل رقم الهاتف",
+  "authEnterPhoneNumber": "ادخل رقم الهاتف",
+  "authEnterTheVerificationCodeSentMomentsAgo": "ادخل رمز التحقق المرسل قبل لحظات",
+  "authEnterTheVerificationCodeSentMomentsAgoToYourMobileNumber": "ادخل رمز التحقق المرسل قبل لحظات إلى رقم جوالك: ",
+  "authEnterTheVerificationCodeSentToYourEmail": "ادخل رمز التأكيد الذي وصل إلى البريد الالكتروني",
+  "authEnterTheVerificationCodeSentToYourPhone": "ادخل رمز التأكيد الذي وصل إلى رقم جوالك",
+  "authEnterVerificationCode": "ادخل رمز التأكيد",
+  "authExit": "خروج",
+  "authFemale": "أنثى",
+  "authFirebaseSmsExpireMessage": "الرمز انتهت صلاحيته، الرجاء ادخال الرمز الجديد أو أعد التسجيل",
+  "authFirstName": "الإسم الأول:",
+  "authForgotPassword": "هل نسيت كلمة المرور؟",
+  "authFourthName": "الاسم الرابع",
+  "authFullAddress": "العنوان الكامل",
+  "authFullName": "الاسم الكامل",
+  "authGender": "الجنس",
+  "authHelpAndPolicies": "المساعدة وسياسة الخصوصية",
+  "authHomeAddress": "عنوانك",
+  "authIAccept": "انا أوافق على",
+  "authIDNumber": "رقم البطاقة",
+  "authIDonatHaveAnAccount": "ليس لدي حساب؟",
+  "authIHaveAccountBackToLogin": "لدي حساب؟ العودة لتسجيل الدخول",
+  "authInvalidCode": "رمز التحقق غير صحيح",
+  "authInvalidNumberFormat": "صيغة رقم غير صحيحة",
+  "authLastName": "الكنية",
+  "authLetsStartWithLogin": "لنبدأ بتسجيل الدخول",
+  "authLetsStartWithRegister": "لنبدأ بالتسجيل!",
+  "authLocalReason": "يرجى المصادقة للوصول إلى حسابك",
+  "authLogin": "تسجيل الدخول",
+  "authLoginTo": "تسجيل الدخول إلى",
+  "authLoginToTheApplication": "الدخول للتطبيق",
+  "authLogout": "تسجيل الخروج",
+  "authMale": "ذكر",
+  "authMobileNumberVerification": "تأكيد رقم الهاتف",
+  "authNewPassword": "كلمة مرور جديدة",
+  "authOrCreateNewAccount": "أو انشئ حساب",
+  "authOrLoginWithAPhoneNumber": "أو سجل دخولك عبر رقم الهاتف",
+  "authOrLoginWithAnEmail": "أو سجل دخولك عبر البريد الالكتروني",
+  "authOrRegisterWithAPhone": "أو قم باستخدام رقم الهاتف",
+  "authOrRegisterWithAnEmail": "أو قم باستخدام البريد الإلكتروني",
+  "authOrSendCodeViaEmail": "أو ارسال الرمز عبر البريد الالكتروني",
+  "authOrSendCodeViaPhoneNumber": "أو ارسال الرمز عبر رقم الهاتف",
+  "authOtpReSent": "تم إرسال الرمز بنجاح",
+  "authPIN": "المعرف الشخصي",
+  "authPassword": "كلمه السر",
+  "authPasswordConfirmation": "تأكيد كلمة المرور",
+  "authPasswordMustContainAtLeastSixCharacters": "يجب أن تحتوي كلمة المرور على ستة أحرف على الأقل.",
+  "authPasswordsDoNotMatch": "كلمة المرور غير متطابقة",
+  "authPhoneNumber": "رقم الهاتف",
+  "authPhoneNumberIsRequired": "رقم الهاتف مطلوب",
+  "authPleaseAcceptTheTermsAndConditions": "الرجاء بقبول الشروط والأحكام",
+  "authPleaseAcceptTheTermsOfUse": "الرجاء الموافقة على شروط الإستخدام",
+  "authPleaseEnterTheCode": "نرجو ادخال الكود",
+  "authPleaseEnterTheCodeSentToYourDevice": "نرجو ادخال الكود المرسل إلى جهازك",
+  "authPleaseFillInSmsCode": "الرجاء ادخال رمز التأكيد الذي سيصلك عبر الرسائل النصية",
+  "authPleaseFillInSmsCodeYouWillReceive": "الرجاء ادخال رمز التأكيد الذي سيصلك عبر الرسائل النصية",
+  "authPleaseFillInYourMobilePhoneNumber": "الرجاء ادخال رقم هاتفك",
+  "authPleaseFillInYourNewPassword": "الرجاء ادخال كلمة المرور الجديدة",
+  "authPrivacyPolicy": "سياسة الخصوصية",
+  "authProfile": "الملف الشخصي",
+  "authProfileSettings": "إعدادات الملف الشخصي",
+  "authRegex": "نمط غير صحيح",
+  "authRegister": "انشاء حساب",
+  "authRegisterYourAccount": "مسجل مسبقاً ؟",
+  "authResendCode": " إعادة إرسال الرمز ؟",
+  "authResendTheCodeAgain": "إعادة ارسال الرمز مجددا",
+  "authResetPassword": "تغيير كلمة المرور",
+  "authSecondName": "الاسم الثاني",
+  "authSendCode": "ارسال الرمز",
+  "authSentToYourDevice": "المرسل إلى جهازك",
+  "authSignIn": "تسجيل الدخول",
+  "authSignOut": "تسجيل الخروج",
+  "authSignOutOfTheApp": "تسجيل الخروج من التطبيق",
+  "authSignUp": "تسجيل الحساب",
+  "authSupportPolicy": "سياسة الدعم",
+  "authTheCodeHasBeenSentTo": "تم إرسال الكود إلى: ",
+  "authTheNumberYouEnteredIsIncorrectPleaseTryAgain": "الرقم الذي أدخلته غير صحيح، يرجى المحاولة مرة أخرى",
+  "authTheVerificationCodeWillArriveWithin": "سوف يصل رمز التحقق في غضون ",
+  "authThirdName": "الاسم الثالث",
+  "authToYourMobileNumber": "إلى رقم هاتفك: ",
+  "authUploadDocuments": "إرفاق الوثائق",
+  "authUploadID": "رفع بطاقة الهوية",
+  "authUploadIdentity": "البطاقة الشخصية",
+  "authUploadIdentityInfo": "ارفق هويتك / البطاقة الشخصية",
+  "authUserAlreadyExists": "هذا الرقم موجود مسبقا",
+  "authUsername": "اسم المُستخدم",
+  "authVerification": "تحقق",
+  "authVerificationCode": "رمز التأكيد",
+  "authVerifyIdentity": "التحقق",
+  "authVerifyIdentityInfo": "تحقق من بياناتك الشخصية",
+  "authVerifyYourMobileNumber": "التحقق من رقم هاتفك",
+  "authVerifyYourQuantityAndClickCheckout": "تحقق من الكمية الخاصة بك وانقر فوق الخروج",
+  "authWaitForTimer": " الرجاء الإنتظار حتى إنتهاء العداد",
+  "authWeHaveFoundThatYourPhoneNumberIsRegisteredWithUsWithYourSubscriptionThroughSocialMediaProgramsSoWeAskYouToCompleteYourData": "لقد وجدنا أن رقم هاتفك مسجل لدينا باشتراكك عن طريق برامج التواصل الاجتماعي، لذا نرجو منك إكمال بياناتك",
+  "authWhenYouChooseToCreateANewAccountAllDataForTheOldAccountWillBeDeleted": "عند إختيارك لإنشاء حساب جديد، سيتم حذف جميع بيانات الحساب القديم",
+  "authWrongVerificationCode": "رمز التأكيد خاطئ",
+  "authYouDidNotReceiveTheCode": "ألم يصلك رمز التحقق؟",
+  "authYouDidNotReceiveTheVerificationCodeWithFace": "لم يصلك رمز التحقق 😕",
+  "authYouDidNotReceivedTheCode": "ألم تحصل على الرمز؟",
+  "authYouNeedToBeLoggedIn": "يتطلب منك أن تكون مسجل الدخول",
+  "authYourAddress": "عنوانك",
+  "authYourAddressIsNotSupportedChooseAAddressWithinYourRegion": "عنوانك غير مدعوم ، اختر عنوانًا داخل منطقتك",
+  "authYourBalance": "رصيدك",
+  "authYourCreditCardNotValid": "بطاقتك الائتمانية غير صالحة",
+  "authYourResetLinkHasBeenSentToYourEmail": "تم إرسال رابط إعادة تعيين إلى البريد الإلكتروني الخاص بك",
+  "commonAdd": "أضف",
+  "commonAdditionalInformation": "معلومات إضافية",
+  "commonAll": "الكل",
+  "commonAmount": "المبلغ",
+  "commonApply": "تنفيذ",
+  "commonApplyFilters": "تطبيق الفلاتر",
+  "commonApprovalStatus": "حالة القبول",
+  "commonAreYouSureWithYourOperationAndOrder": "هل أنت متأكد من هذه العملية؟",
+  "commonAvailable": "متوفر",
+  "commonBalance": "الرصيد",
+  "commonBrowse": "اختر",
+  "commonCallUs": "اتصل بنا",
+  "commonCamera": "كاميرا",
+  "commonCancel": "إلغاء",
+  "commonCanceled": "ألغيت",
+  "commonCarActivationMessage": "قريبا، سيتم تفعيل هذا الخيار",
+  "commonCategories": "الفئات",
+  "commonCategory": "الفئة",
+  "commonChange": "تغيير",
+  "commonChat": "محادثة",
+  "commonChooseCountry": "اختر الدولة",
+  "commonChoosePurpose": "اختر الغرض",
+  "commonClear": "واضح",
+  "commonClickToViewDetails": "اضغط لعرض التفاصيل",
+  "commonClosed": "مغلق",
+  "commonColor": "اللون",
+  "commonComingSoon": "قريبا",
+  "commonComments": "التعليقات",
+  "commonCommonQuestions": "ألاسئلة الشائعة",
+  "commonCompetitions": "المسابقات",
+  "commonConfirm": "تأكيد",
+  "commonConfirmed": "تم التأكيد",
+  "commonContactUs": "تواصل معنا",
+  "commonContent": "المُحتوى",
+  "commonContinueToHome": "استمر",
+  "commonCost": "القيمة",
+  "commonCount": "العدد",
+  "commonCountry": "البلد",
+  "commonCurrency": "العملة",
+  "commonCurrentLocation": "الموقع الحالي",
+  "commonDeclined": "تم رفضه",
+  "commonDefaultValue": "الافتراضي",
+  "commonDelete": "حذف",
+  "commonDeny": "رفض",
+  "commonDesc": "نبذه",
+  "commonDescription": "وصف",
+  "commonDetails": "تفاصيل",
+  "commonDiscount": "تخفيض",
+  "commonDoYouWantToUpdate": "هل تريد تحديث",
+  "commonDonatHaveAnyItemInTheNotificationList": "لا يوجد أي عنصر في قائمة الإشعارات",
+  "commonDone": "تم",
+  "commonDoubleTapOnAnAddressToMakeItDefault": "اضغط مرتين على عنوان لجعله الافتراضي",
+  "commonDragToInteract": "اسحب إلى الشخص",
+  "commonDue": "مستحق",
+  "commonDueAmount": "المستحق",
+  "commonDueDate": "تاريخ",
+  "commonEdit": "تعديل",
+  "commonEnded": "انتهى",
+  "commonEnglish": "الإنجليزية",
+  "commonExcerpt": "المُلخص",
+  "commonExploreWhatsNew": "استكشف جديدنا",
+  "commonFaq": "التعليمات",
+  "commonFavorites": "المفضلة",
+  "commonFee": "العمولة",
+  "commonFees": "رسوم",
+  "commonFields": "مجالات",
+  "commonFilters": "فلتر",
+  "commonFixed": "ثابت",
+  "commonFlashDealIsEnded": "الصفقة انتهت",
+  "commonFlashDeals": "صفقات سريعة",
+  "commonFrom": "من",
+  "commonFullAddressHint": "اسم الشارع، الحي، المدينة",
+  "commonGallery": "الاستوديو",
+  "commonGettingDeliveryFee": "جار تحديد سعر التوصيل، الرجاء الانتظار..",
+  "commonGoToYourApplicationSettingsAndEnableThePermission": "اذهب إلى اعدادات التطبيقات في جهازك وقم بتفعيل الأذونات",
+  "commonGuest": "زائر",
+  "commonHello": "أهلا بك",
+  "commonHelloINeedHelp": "مرحبا، احتاج مساعدة .. ",
+  "commonHelloWithFace": "أهلا بك 👋",
+  "commonHelpSupport": "الدعم والمساعدة",
+  "commonIAccept": "انا أوافق على",
+  "commonInformation": "معلومات",
+  "commonInterest": "فائدة",
+  "commonIsOnlineNow": "متصل الان",
+  "commonItem": "الصنف",
+  "commonItems": "العناصر",
+  "commonJoin": "انضم إلى",
+  "commonKM": "كم",
+  "commonLanguage": "اللغة",
+  "commonLanguages": "اللغات",
+  "commonLater": "لاحقاً",
+  "commonLetsBegin": "لنبدأ",
+  "commonLoadingMoreHistory": "تحميل",
+  "commonLocationDescription": "وصف الموقع",
+  "commonLocationIsNotSpecified": "لم يتم تحديد الموقع",
+  "commonLocationPermission": "أذونات الوصول إلى الموقع",
+  "commonLongPressToDeleteItem": "اضغط مطولا على العنصر لحذفه",
+  "commonLongPressToEditItemSwipeItemToDeleteIt": "اضغط مع الاستمرار لتحرير العنصر ، واسحب العنصر لحذفه",
+  "commonMapsExplorer": "مستكشف الخرائط",
+  "commonMasterCard": "بطاقة ائتمان",
+  "commonMaximum": "الحد الاقصى",
+  "commonMaximumPrincipal": "اقصى مبلغ",
+  "commonMe": "أنا",
+  "commonMessage": "رسالة",
+  "commonMinPriceCannotBeLargerThanMaxPrice": "لا يمكن أن يكون السعر الادنى اعلى من الاقصى",
+  "commonMinimum": "الحد الادنى",
+  "commonMinimumPrincipal": "اقل مبلغ",
+  "commonMore": "أكثر",
+  "commonMoreOptions": "خيارات إضافية",
+  "commonNearTo": "قريب من",
+  "commonNearToYourCurrentLocation": "بالقرب من موقعك الحالي",
+  "commonNet": "الصافي",
+  "commonNewArrival": "وصل حديثا",
+  "commonNewOrderFromClient": "طلب جديد من العميل",
+  "commonNext": "التالي",
+  "commonNo": "لا",
+  "commonNoAccountChosen": "لا يوجد حساب تم اختياره",
+  "commonNoAddressIsAdded": "لم يتم اضافة اي عنوان",
+  "commonNoCategoriesAreAvailable": "لا يوجد اي فئات",
+  "commonNoDataIsAvailable": "لا يوجد اي بيانات",
+  "commonNoFavorites": "لا توجد مفضلات",
+  "commonNoFileIsChosen": "لم يتم اختيار",
+  "commonNoFlashDealsAreAvailableNow": "لا يوجد صفقات سريعة حاليا",
+  "commonNoItemsAreOrdered": "لا يوجد اصناف مطلوبة",
+  "commonNoMoreHistory": "لا يوجد اخرى ",
+  "commonNoPaymentMethodIsAdded": "لم يتم اضافة طريقة الدفع",
+  "commonNoRechargesYet": "لا يوجد شحن",
+  "commonNoResultFromSearch": "لا نتائج من البحث",
+  "commonNoReviewsYetBeTheFirstOneToAddReview": "لا يوجد اي مراجعة بعد، كن الأول لإضافة مراجعة",
+  "commonNoSubCategoriesAreAvailable": "لا يوجد فئات فرعية",
+  "commonNote": "ملاحظة",
+  "commonNothingToPay": "لا شيء للدفع",
+  "commonNotifications": "إشعارات",
+  "commonOk": "موافق",
+  "commonOpen": "مفتوح",
+  "commonOptional": "(اختياري)",
+  "commonOptions": "خيارات",
+  "commonOr": "او",
+  "commonOrCheckoutWith": "أو الخروج مع",
+  "commonOrder": "طلب",
+  "commonOther": "اخرى",
+  "commonOurDifferentBranches": "فروعنا المختلفة",
+  "commonOurNew": "جديدنا",
+  "commonOurVariousServices": "خدماتنا المتنوعة",
+  "commonPenalty": "الجزاء",
+  "commonPercent": "نسبة",
+  "commonPermissionIsRequired": "إذن الوصول متطلب",
+  "commonPermissionRequired": "يتطلب اذن الوصول",
+  "commonPhoneBalanceInformation": "معلومات الرصيد",
+  "commonPhotoPermission": "أذونات الوصول إلى الصور",
+  "commonPickup": "احجز",
+  "commonPleaseEnterTheAddress": "الرجاء ادخال العنوان",
+  "commonPleaseFillInField": "الرجاء املاء الحقل",
+  "commonPleaseSelectAnItem": "يرجى تحديد عنصر واحد على الأقل",
+  "commonPleaseSelectTheCity": "الرجاء تحديد المدينة",
+  "commonPleaseSelectTheCountry": "الرجاء تحديد البلد",
+  "commonPleaseSelectTheCountryAndTheLocation": "الرجاء اختيار البلد وتحديد الموقع",
+  "commonPleaseSpecifyLocationInTheCountryYouSelect": "الرجاء تحديد موقع في البلد المختارة",
+  "commonPleaseVerifyYouAreNotARobot": "الرجاء استكمال عملية التحقق",
+  "commonPleaseWait": "يرجى الانتظار ...",
+  "commonPrice": "السعر",
+  "commonPriceHighToLow": "سعر اعلى لأدنى",
+  "commonPriceLowToHigh": "سعر ادنى لأعلى",
+  "commonPriceRange": "السعر",
+  "commonPrincipalAmount": "المبلغ الاساسي",
+  "commonProceed": "الإستمرار",
+  "commonPromotionalCodes": "الرموز الترويجية",
+  "commonPurpose": "الغرض",
+  "commonQ": "البحث",
+  "commonRecentReviews": "المراجعات الأخيرة",
+  "commonRecentSearch": "البحث الأخير",
+  "commonRecentTransactions": "آخر العمليات",
+  "commonRegionMustBeSelected": "يجب تحديد المنطقة",
+  "commonRemove": "حذف",
+  "commonRepeatTransactions": "تكرار عملية سابقة",
+  "commonReports": "التقارير",
+  "commonRequestConfirm": "هل أنت متأكد من أنك تريد الإستمرار",
+  "commonResendCode": "اعادة الارسال",
+  "commonReset": "إعادة تعيين",
+  "commonReturnPolicy": "سياسة الاسترداد",
+  "commonReviewCannotBeEmpty": "لا يمكن أن تكون المراجعة فارغة",
+  "commonReviews": "المراجعات",
+  "commonSave": "حفظ",
+  "commonSearch": "بحث",
+  "commonSearchPastConversations": "ابحث في المحادثات السابقة",
+  "commonSearchYourInterests": "ابحث عن اهتمامك",
+  "commonSections": "الأقسام",
+  "commonSeeAll": "إظهار الكل",
+  "commonSelectCity": "اختار المدينة",
+  "commonSelectCountry": "اختار البلد",
+  "commonSelectDeliveryAddress": "حدد موقع التوصيل الخاص بك",
+  "commonSelectOptions": "قم بالتحديد",
+  "commonSelectOptionsToAddThemOnTheProduct": "حدد خيارات لإضافتها على المنتج",
+  "commonSelectPickupDelivery": "اختر اما التقاط أو توصيل",
+  "commonSelectYourPreferredLanguages": "حدد لغاتك المفضلة",
+  "commonSelectYourPreferredPaymentMode": "حدد وضع الدفع المفضل لديك",
+  "commonSend": "إرسال",
+  "commonSendPasswordResetLink": "أرسل الرابط",
+  "commonServicePoints": "نقاط الخدمة",
+  "commonServices": "خدمات",
+  "commonSettings": "الإعدادات",
+  "commonShowLess": "عرض أقل",
+  "commonSize": "الحجم",
+  "commonSkip": "تخطى",
+  "commonSort": "فرز",
+  "commonStart": "ابدأ",
+  "commonStartExploring": "ابدأ الاستكشاف",
+  "commonSubTotal": "المجموع الفرعي",
+  "commonSubmit": "إرسال",
+  "commonSubscription": "إشتراك",
+  "commonSupport": "الدعم",
+  "commonSwipeItemToDeleteIt": "اسحب العنصر لحذفه",
+  "commonSwipeItemToViewMoreDetails": "اسحب العنصر لعرض تفاصيل اكثر",
+  "commonTapToViewMoreDetails": "انقر لإظهار التفاصيل",
+  "commonTax": "ضريبة",
+  "commonTaxesIncluded": "شامل الضريبة",
+  "commonTermsAndConditions": "الشروط والأحكام",
+  "commonTermsOfUse": "شروط الإستخدام",
+  "commonThePaymentServiceYouSelectIsNotAvailable": "خدمة الدفع الذي اخترتها غير مفعلة بعد",
+  "commonThisAppNeedsToTakePhotosForProfileImage": "هذا التطبيق بحاجة الوصول إلى الصور لتعديل صورة الحساب الشخصي",
+  "commonThisAppNeedsToTakeYourLocation": "التطبيق بحاجة الوصول إلى موقعك",
+  "commonTill": "حتى",
+  "commonTitle": "العنوان",
+  "commonToWhere": "إلى اين",
+  "commonTodayDeals": "صفقات اليوم",
+  "commonTopRated": "الاعلى تقييم",
+  "commonTotal": "مجموع",
+  "commonTotalAmount": "المجموع الكلي",
+  "commonTotalPrice": "مجموع السعر",
+  "commonTrackingOrder": "تتبع الطلب",
+  "commonTransactions": "العمليات",
+  "commonTrendingThisWeek": "تتجه هذا الأسبوع",
+  "commonTryAgain": "اعادة المحاولة",
+  "commonTypeYourMessageHere": "اكتب رسالتك هنا",
+  "commonTypeYourReviewHere": "اكتب مراجعتك هنا",
+  "commonUnknown": "مجهول",
+  "commonUnnamedLocation": "عنوان غير مسمى",
+  "commonUnpaid": "غير مدفوع",
+  "commonUnspecified": "غير محدد",
+  "commonVerify": "تحقق",
+  "commonVerifyYour": "أكد",
+  "commonView": "عرض",
+  "commonViewAll": "عرض الكل",
+  "commonViewDetails": "عرض التفاصيل",
+  "commonViewLess": "عرض أقل",
+  "commonViewMore": "عرض المزيد",
+  "commonViewStatement": "عرض العمليات",
+  "commonWeWishYouANiceDay": "نتمنى لك يوماً سعيداً",
+  "commonWelcome": "أهلا بك",
+  "commonWelcomeBack": "أهلا بعودتك",
+  "commonWelcomeBackWithFace": "أهلا بعودتك 👋",
+  "commonWelcomeWithFace": "مرحبا بك 👋",
+  "commonWhatTheySay": "ماذا يقولون ؟",
+  "commonWhoToInteractWith": "من الشخص الذي تريد التفاعل معه",
+  "commonYes": "نعم",
+  "dtAM": "صباح",
+  "dtBirthDate": "تاريخ الميلاد",
+  "dtDaily": "يومي",
+  "dtDate": "التاريخ",
+  "dtDateTime": "التاريخ / الوقت",
+  "dtDay": "اليوم",
+  "dtExpiryDate": "تاريخ الانتهاء",
+  "dtFriday": "الجمعة",
+  "dtHour": "ساعة",
+  "dtMinute": "دقيقة",
+  "dtMonday": "الاثنين",
+  "dtMonth": "الشهر",
+  "dtMonthly": "شهري",
+  "dtPM": "مساء",
+  "dtReleaseDate": "تاريخ الاصدار",
+  "dtSaturday": "السبت",
+  "dtSecond": "ثانية",
+  "dtStartingDate": "تاريخ البدء",
+  "dtSunday": "الأحد",
+  "dtThursday": "الخميس",
+  "dtTime": "الوقت",
+  "dtTuesday": "الثلاثاء",
+  "dtUnspecifiedTime": "الوقت غير محدد",
+  "dtWednesday": "الأربعاء",
+  "dtWeek": "اسبوع",
+  "dtWeekly": "اسبوعي",
+  "dtYear": "السنة",
+  "dtYearly": "سنوي",
+  "errorAnErrorOccurredPleaseTryAgain": "حدث خطأ ما، الرجاء المحاولة مجددا",
+  "errorBlockedException": "عذرا ! لقد تم حظر حسابك. يرجى التواصل مع المسؤول لإزالة الحظر",
+  "errorButYouCanClickTheButtonBelowToGoBackToTheMainPage": "ولكن يمكنك النقر فوق الزر أدناه للعودة إلى الصفحة الرئيسية",
   "errorCacheException": "لاتوجد بيانات حتى الان حاول الإتصال بالإنترنت",
+  "errorCheckYourInternetConnection": "تأكد من اتصالك بالإنترنت",
+  "errorCheckYourInternetConnectionOrTryAgain": "تأكد من اتصالك بالإنترنت أو حاول لاحقاً",
+  "errorConflictException": "تعذر إكمال الطلب بسبب وجود تعارض",
   "errorConnectionException": "لايوجد اتصال بالانترنت!",
   "errorEmptyException": "لاتوجد أي بيانات في الوقت الحالي!",
-  "errorInvalidException": "تاكد من صحة  البيانات المدخلة",
+  "errorEmptyFailure": "لا توجد بيانات حالياً",
   "errorExpireException": "انتهت صلاحية الكود",
+  "errorInvalidException": "تأكد من صحة  البيانات المدخلة",
+  "errorInvalidFailure": "هناك خطأ في البيانات المدخلة",
   "errorNotFoundException": "لايوجد حساب بهذه البيانات!",
-  "errorUserExistsException": "قد يكون هذا الحساب موجود مسبقاً! حاول تغيير رقم الهاتف او الايميل",
+  "errorNotFoundFailure": "لاتوجد أي بيانات في الوقت الحالي!",
+  "errorOccurredTryAgainLater": "حدث خطأ ما، الرجاء المحاولة لاحقاً",
+  "errorOhOhYouAreLost": "أوه أوه! أنت ضائع",
   "errorPasswordException": "كلمة المرور غير صحيحة",
-  "errorUnauthenticatedException": "عذرا ! أنت غير مخول لهذه العملية قم بتجسيل الدخول",
-  "errorBlockedException": "عذرا ! لقد تم حظر حسابك. يرجى التواصل مع المسؤول لإزالة الحظر",
-  "errorUnexpectedException": "عذراً، حدث خطأ غير متوقع يرجى المحاوله لاحقأ",
-  "errorConflictException": "تعذر إكمال الطلب بسبب وجود تعارض",
-
+  "errorReceiveFailure": "حدث خطأ اثناء استقبال البيانات",
+  "errorServerException": "عذراً لم نتمكن من الاتصال بالخادم",
+  "errorThePageYouAreLookingForDoesNotExistHowYouGotHereIsQuiteAPuzzle": "الصفحة التي تبحث عنها غير موجودة. كيف وصلت إلى هنا هو لغز محير 🤭",
+  "errorThePageYouAreLookingForDoesNotExistHowYouGotHereIsQuiteAPuzzleButYouCanClickTheButtonBelowToGoBackToTheMainPage": "الصفحة التي تبحث عنها غير موجودة. كيف وصلت إلى هنا هو لغز محير 🤭 ولكن يمكنك النقر فوق الزر أدناه للعودة إلى الصفحة الرئيسية",
+  "errorThereIsAProblemChoosingTheAddress": "هناك مشكلة في اختيار العنوان",
+  "errorThisAccountNotExist": "هذا الحساب غير موجود",
+  "errorThisAccountNotReady": "هذا الحساب ليس جاهزًا بعد",
+  "errorThisEmailAccountExists": "حساب البريد الإلكتروني هذا موجود",
+  "errorUnauthenticatedException": "عذرا ! أنت غير مخول لهذه العملية قم بتسجيل الدخول",
+  "errorUnauthenticatedFailure": "عذرا ! قم بتسجيل الدخول مرة أخرى والمحاولة",
+  "errorUnexpectedException": "عذراً، حدث خطأ غير متوقع يرجى المحاولة لاحقاًً",
+  "errorUniqueFailure": " حاول تغيير رقم الهاتف n /قد يكون هذا الحساب موجود مسبقاً ",
+  "errorUserExistsException": "قد يكون هذا الحساب موجود مسبقاً! حاول تغيير رقم الهاتف أو الايميل",
+  "errorUserExistsFailure": "لايوجد حساب بهذه البيانات! تأكد من البيانات.",
+  "errorVerifyEmailSettings": "خطأ! تحقق من إعدادات البريد الإلكتروني",
+  "errorVerifyYourInternetConnection": "تحقق من اتصالك بالإنترنت",
+  "errorWrongEmailOrPassword": "البريد الإلكتروني أو كلمة المرور خاطئة",
+  "feedbackAddedSuccessfully": "تمت الإضافة بنجاح",
+  "feedbackAddressesRefreshedSuccessfully": "تم تحديث العناوين بنجاح",
+  "feedbackApproved": "تم الموافقة عليه",
+  "feedbackCartsRefreshedSuccessfully": "تم تحديث سلة التسوق بنجاح",
+  "feedbackCategoryRefreshedSuccessfully": "تم تحديث الفئة بنجاح",
+  "feedbackDeliveryAddressRemovedSuccessfully": "تمت إزالة عنوان التسليم بنجاح",
+  "feedbackFaqsRefreshedSuccessfully": "تم تحديث الاسئلة بنجاح",
+  "feedbackFavoritesRefreshedSuccessfully": "تم تحديث المفضلة بنجاح",
+  "feedbackHasBeenUpdatedSuccessfully": "تم تحديث التطبيق بنجاح",
+  "feedbackMarketRefreshedSuccessfully": "تم تحديث المتجر بنجاح",
+  "feedbackNewAddressAddedSuccessfully": "تمت إضافة العنوان الجديد بنجاح",
+  "feedbackNotificationsRefreshedSuccessfully": "تم تحديث الإشعارات بنجاح",
+  "feedbackOrderRefreshedSuccessfully": "تم تحديث الطلب بنجاح",
+  "feedbackOrdersRefreshedSuccessfully": "تم تحديث الطلبات بنجاح",
+  "feedbackPaymentCardUpdatedSuccessfully": "تم تحديث بطاقة الدفع بنجاح",
+  "feedbackPaymentSettingsUpdatedSuccessfully": "تم تحديث إعدادات الدفع بنجاح",
+  "feedbackProductRefreshedSuccessfully": "تم تحديث المنتج بنجاح",
+  "feedbackProfileSettingsUpdatedSuccessfully": "تم تحديث إعدادات ملف الشخصي بنجاح",
+  "feedbackRequestHasBeenSentSuccessfully": "تم إرسال الطلب بنجاح",
+  "feedbackReviewsRefreshedSuccessfully": "تم تحديث المراجعات بنجاح!",
+  "feedbackSuccess": "تم بنجاح",
+  "feedbackTheAddressUpdatedSuccessfully": "تم تحديث العنوان بنجاح",
+  "feedbackTheMarketHasBeenRatedSuccessfully": "تم تصنيف المتجر بنجاح",
+  "feedbackTheProductHasBeenRatedSuccessfully": "تم تصنيف المنتج بنجاح",
+  "feedbackTrackingRefreshedSuccessfully": "تم تحديث التتبع بنجاح",
+  "feedbackTransferredSuccessfully": "تم تحويل المبلغ بنجاح",
+  "feedbackYourAccountIsCreated": "تم انشاء حسابك",
+  "feedbackYourOrderHasBeenSuccessfullySubmitted": "تم تقديم طلبك بنجاح",
+  "placeCity": "المدينة",
+  "placeCountry": "الدولة",
+  "placeDistrict": "المنطقة",
+  "placeFromWhere": "من اين",
+  "shopAddCouponCode": "ادخل رمز الكوبون",
+  "shopAddDeliveryAddress": "أضف عنوان التسليم",
+  "shopAddNewDeliveryAddress": "أضف عنوان تسليم جديد",
+  "shopAddNoteToOrder": "اضف ملاحظة للطلب",
+  "shopAddOrderToFavorites": "اضافة الطلب للمفضلة",
+  "shopAddToCart": "اضف إلى السلة",
+  "shopAddedToCart": "تمت الاضافة إلى السلة",
+  "shopAllBrands": "جميع الماركات",
+  "shopAllDeliveries": "جميع التوصيلات",
+  "shopAllMarkets": "جميع المتاجر",
+  "shopAllPayments": "جميع المدفوعات",
+  "shopAllProduct": "جميع المنتجات",
+  "shopAllProducts": "جميع المنتجات ",
+  "shopAllStatus": "كل الحالات",
+  "shopAmountCannotBeEmpty": "لا يمكن أن يكون المبلغ فارغا",
+  "shopAmountIsRequired": "المبلغ متطلب",
+  "shopApplyCoupon": "تنفيذ القسيمة",
+  "shopAreSureYouWantToProceed": "هل أنت متأكد من استكمال الطلب",
+  "shopAreYouSureToRemoveThisItem": "هل أنت متأكد من حذف هذا الصنف",
+  "shopAreYouSureWithYourOrder": "هل أنت متأكد من طلبك؟",
+  "shopAreYouSureYouWantToCancelThisOrder": "هل أنت متأكد أنك تريد إلغاء هذا الطلب؟",
+  "shopAtLeastOnStarMustBeGiven": "على الأقل نجمة واحدة",
+  "shopBranch": "الفرع",
+  "shopBrands": "الماركات",
+  "shopBuyNow": "الشراء الان",
+  "shopCVC": "رمز التحقق من البطاقة",
+  "shopCancelOrder": "الغاء الطلب",
+  "shopCannotOrderItemsLessThan": "لا يمكن طلب اصناف اقل من",
+  "shopCannotOrderItemsMoreThan": "لا يمكن طلب اصناف اكثر من",
+  "shopCantCalculateDeliveryFee": "غير قادر على حساب رسوم التوصيل",
+  "shopCar": "سيارة",
+  "shopCardNumber": "رقم البطاقة",
+  "shopCart": "عربة التسوق",
+  "shopCartIsEmpty": "السلة فارغة",
+  "shopCashOnDelivery": "الدفع عند الاستلام",
+  "shopChangeCoupon": "تغيير الكوبون",
+  "shopChatWithSeller": "محادثة البائع",
+  "shopCheckBalance": "التحقق من الرصيد",
+  "shopCheckout": "الدفع",
+  "shopChooseBranch": "اختر الفرع",
+  "shopChooseCurrency": "اختر العملة",
+  "shopChooseProduct": "اختر المنتج",
+  "shopChooseTheMarketsBranch": "إختيار فرع المتاجر",
+  "shopClickOnTheProductToGetMoreDetailsAboutIt": "انقر على المنتج للحصول على مزيد من التفاصيل حوله",
+  "shopClickOnTheStarsBelowToLeaveComments": "انقر على النجوم أدناه لترك التعليقات",
+  "shopClickToConfirmYourAddressAndPayOrLongPress": "انقر لتأكيد عنوانك والدفع أو الضغط لفترة طويلة لتحرير عنوانك",
+  "shopClickToPayCashOnDelivery": "انقر لدفع نقدا عند التسليم",
+  "shopClickToPayOnPickup": "انقر للدفع عند الاستلام",
+  "shopClickToPayWithRazorpayMethod": "اضغط للدفع عبر رازور باي",
+  "shopClickToPayWithYourMasterCard": "انقر للدفع باستخدام بطاقةماستر كارد ",
+  "shopClickToPayWithYourPaypalAccount": "انقر للدفع باستخدام حساب باي بال الخاص بك",
+  "shopClickToPayWithYourVisaCard": "انقر للدفع باستخدام بطاقة فيزا كارد الخاصة بك",
+  "shopClubPoint": "نقاط الشراء",
+  "shopConfirmOrder": "تأكيد طلبك",
+  "shopConfirmPayment": "تأكيد الدفع",
+  "shopConfirmYourDeliveryAddress": "قم بتأكيد عنوان التسليم الخاص بك",
+  "shopContactSeller": "تواصل مع البائع",
+  "shopCoupon": "كوبون",
+  "shopCouponCode": "رمز القسيمة",
+  "shopCreatingOrder": "تنفيذ الطلب",
+  "shopCustomOrder": "طلب مخصص",
+  "shopDefaultCreditCard": "بطاقة الائتمان الافتراضية",
+  "shopDeliverTo": "توصيل إلى",
+  "shopDeliverable": "قابل للتسليم",
+  "shopDelivered": "تم التوصيل",
+  "shopDelivery": "توصيل",
+  "shopDeliveryAddress": "عنوان التسليم",
+  "shopDeliveryAddressOutsideTheDeliveryRangeOfThisMarkets": "عنوان التسليم خارج نطاق التسليم لهذه الأسواق.",
+  "shopDeliveryAddresses": "عناوين التسليم",
+  "shopDeliveryFee": "رسوم التوصيل",
+  "shopDeliveryFeeIsCalculated": "تم احتساب رسوم التوصيل",
+  "shopDeliveryInformation": "معلومات التوصيل",
+  "shopDeliveryMethod": "خيارات التوصيل",
+  "shopDeliveryMethodNotAllowed": "طريقة التسليم غير مسموح بها!",
+  "shopDeliveryOrPickup": "التسليم أو الاستلام",
+  "shopDeliveryService": "خدمة التوصيل",
+  "shopDeliveryStatus": "حالة التوصيل",
+  "shopDescriptionHint": "المنزل/الشقة/اسم الشركة/المبنى...",
+  "shopDonatHaveAnyItemInYourCart": "لا يوجد أي عنصر في سلة التسوق الخاصة بك",
+  "shopEmptyCart": "السلة فارغة",
+  "shopEnterAmount": "ادخل المبلغ",
+  "shopEnterCouponCode": "ادخل رمز القسيمة",
+  "shopEnterTheCodeSent": "ادخل الرمز",
+  "shopExpectedAmount": "المبلغ المتوقع",
+  "shopFavoriteOrders": "الطلبات المفضلة",
+  "shopFavoriteProducts": "المنتجات المفضلة",
+  "shopFeaturedCategories": "فئات مميزة",
+  "shopFeaturedProducts": "منتجات مميزة",
+  "shopFetchingPaypalUrl": "جار الاتصال مع رابط باي بال",
+  "shopGettingCoupon": "جار طلب الكوبون، الرجاء الانتظار..",
+  "shopGross": "المبلغ كامل",
+  "shopHaveCouponCode": "هل تملك كوبون؟",
+  "shopHowWouldYouRateThisMarket": "كيف تقيم هذا المتجر؟",
+  "shopInYourCart": "في السلة",
+  "shopInvalidCouponCode": "كوبون خاطئ",
+  "shopKeepYourOldMealsOfThisMarket": "احتفظ بوجباتك القديمة في هذا المتجر",
+  "shopLoadingMoreBrands": "تحميل ماركات اكثر",
+  "shopLoadingMoreOrders": "تحميل طلبات اخرى",
+  "shopLoadingMoreProducts": "تحميل منتجات اخرى",
+  "shopLoadingMoreReviews": "تحميل مراجعات أخرى",
+  "shopLoadingMoreShops": "تحميل متاجر اخرى",
+  "shopMarket": "المتجر",
+  "shopMarkets": "المتاجر",
+  "shopMarketsNearTo": "أسواق قريبة من",
+  "shopMarketsNearToYourCurrentLocation": "الأسواق بالقرب من موقعك الحالي",
+  "shopMarketsResults": "نتائج الأسواق",
+  "shopMostPopular": "الأكثر شعبية",
+  "shopMotorBike": "دراجة نارية",
+  "shopMyOrders": "طلباتي",
+  "shopNoBrandsAreAvailable": "لا يوجد ماركات",
+  "shopNoFeaturedProductsFromThisSeller": "لا يوجد منتجات مميزة لهذا البائع",
+  "shopNoMoreBrands": "لا يوجد ماركات اخرى",
+  "shopNoMoreOrders": "لا يوجد طلبات اخرى",
+  "shopNoMoreProducts": "لا يوجد منتجات اخرى",
+  "shopNoMoreReviews": "لا يوجد مراجعات أخرى",
+  "shopNoMoreShops": "لا يوجد متاجر اخرى",
+  "shopNoNewArrivals": "لا يوجد منتجات وصلت حديثا",
+  "shopNoProductsAreAvailable": "لا يوجد منتجات",
+  "shopNoRelatedProducts": "لا يوجد منتجات مشابهة",
+  "shopNoReviews": "لا يوجد تعليقات",
+  "shopNoShopsAreAvailable": "لا يوجد متاجر",
+  "shopNoTopSellingProductsFromThisSeller": "لا يوجد منتجات مفضلة لهذا التاجر",
+  "shopNotDeliverable": "غير قابل للتسليم",
+  "shopOnTheWay": "في الطريق",
+  "shopOneOrMoreProductsInYourCartNotDeliverable": "منتج واحد أو أكثر في سلة التسوق الخاصة بك غير قابلة للتسليم.",
+  "shopOpenedMarkets": "الأسواق المفتوحة",
+  "shopOrderCode": "رمز الطلب",
+  "shopOrderCost": "قيمة الطلب",
+  "shopOrderDate": "تاريخ الطلب",
+  "shopOrderDetails": "تفاصيل الطلب",
+  "shopOrderID": "رقم التعريف الخاص بالطلب",
+  "shopOrderInformation": "معلومات الطلب",
+  "shopOrderIsReceived": "تم استقبال طلبك",
+  "shopOrderPlaced": "تم الطلب",
+  "shopOrderReceived": "تم استقبال الطلب",
+  "shopOrderStatusChanged": "تغيرت حالة الطلب",
+  "shopOrderThisOrderIdHasBeenCanceled": "تم الغاء الطلب",
+  "shopOrderedByNearbyFirst": "تم طلبه مسبقًا أولاً",
+  "shopOrderedProducts": "المنتجات المطلوبة",
+  "shopOrders": "الطلبات",
+  "shopPaid": "تم الدفع",
+  "shopParcelDeliveryService": "خدمة توصيل الطرود",
+  "shopPayWithPaypal": "الدفع عبر باي بال",
+  "shopPayWithRazorPay": "ادفع عبر رازور باي",
+  "shopPayWithStripe": "ادفع عبر سترايب",
+  "shopPaymentCancelled": "تم إالغاء عملية الدفع",
+  "shopPaymentMethod": "طريقة الدفع",
+  "shopPaymentOptions": "خيارات الدفع",
+  "shopPaymentSettings": "إعدادات الدفع",
+  "shopPaymentStatus": "حالة الدفع",
+  "shopPaymentsSettings": "إعدادات المدفوعات",
+  "shopPaypal": "باي بال",
+  "shopPending": "قيد الانتظار",
+  "shopPickupYourProductFromTheMarket": "التقاط المنتج الخاص بك من المتجر",
+  "shopPillPay": "سداد",
+  "shopPleaseAddOrdersWithPriceOrMoreToPerformThePurchase": "لتنفيذ الطلب، الرجاء اضافة طلب على الاقل سعره",
+  "shopPleaseChooseOneOptionToPay": "الرجاء اختيار أحد الخيارات للدفع",
+  "shopPleaseLoginToViewTheCartItems": "الرجاء تسجيل الدخول لعرض السلة",
+  "shopPreparing": "تجهيز الطلب",
+  "shopProceedToPayment": "الانتقال إلى الدفع",
+  "shopProceedToShipping": "الانتقال إلى الشحن",
+  "shopProductCategories": "فئات المنتجات",
+  "shopProductName": "اسم المنتج",
+  "shopProductPricesDoNotMatchPleaseUpdateTheData": "أسعار المنتجات غير متطابقة ، يرجى تحديث البيانات",
+  "shopProducts": "المنتجات",
+  "shopProductsResult": "نتيجة المنتجات",
+  "shopProductsResults": "نتائج المنتجات",
+  "shopProductsYouMayLike": "منتجات قد تعجبك",
+  "shopPurchaseHistory": "تاريخ المشتريات",
+  "shopQuantity": "كمية",
+  "shopReady": "جاهز",
+  "shopReceiver": "المستقبل",
+  "shopReceiverAddress": "عنوان المستلم",
+  "shopReceiverInformation": "معلومات المستقبل",
+  "shopReceiverLocation": "موقع المستلم",
+  "shopReceiverName": "اسم المستلم",
+  "shopReceiverPhone": "رقم المستلم",
+  "shopRecentOrders": "الطلبيات الأخيرة",
+  "shopRecipientAddress": "عنوان المستلم",
+  "shopRecipientInformation": "معلومات المتسلم",
+  "shopResetCart": "إعادة تعيين السلة؟",
+  "shopResetCartAndCancelOrderFromPreviousMarket": "اعادة تعيين السلة والغاء الطلب السابق",
+  "shopResetYourCartAndOrderMealsFormThisMarket": "إعادة تعيين عربة التسوق وطلب وجبات الطعام من هذا المتجر",
+  "shopSaveOnYourOrder": "وفر في طلبك",
+  "shopSearchForMarketsOrProducts": "ابحث عن الأسواق أو المنتجات",
+  "shopSearchProductsOf": "بحث عن منتجات",
+  "shopSearchProductsOfBrand": "بحث منتجات خاصة بماركة ",
+  "shopSearchProductsOfShop": "بحث منتجات متجر",
+  "shopSearchProductsTheMarket": "بحث عن الاصناف",
+  "shopSeller": "البائع",
+  "shopSellerPolicy": "سياسة البائع",
+  "shopSellers": "البائعين",
+  "shopSenderAddress": "عنوان المرسل",
+  "shopSenderInformation": "معلومات المرسل",
+  "shopSenderLocation": "موقع المرسل",
+  "shopSenderPhone": "رقم المرسل",
+  "shopSetYourDeliveryAddress": "حدد عنوان التوصيل",
+  "shopShippingAddress": "عنوان الشحن",
+  "shopShippingCost": "قيمة الشحن",
+  "shopShippingMethod": "طريقة الشحن",
+  "shopShopping": "التسوق",
+  "shopShoppingCart": "عربة التسوق",
+  "shopShowCart": "عرض السلة",
+  "shopSortProductsBy": "فرز المنتجات حسب",
+  "shopSubmitOrder": "تنفيذ الطلب",
+  "shopTellUsAboutThisMarket": "أخبرنا عن هذا المتجر",
+  "shopTellUsAboutThisProduct": "أخبرنا عن هذا المنتج",
+  "shopTheProductWasRemovedFromYourCart": "تمت إزالة الصنف من السلة",
+  "shopThisMarketIsClosed": "هذا المتجر مغلق!",
+  "shopThisMarketNotSupportDeliveryMethod": "هذا المتجر لا يدعم طريقة التسليم.",
+  "shopThisOrderIsAddedToFavorite": "تم اضافة الطلب للمفضلة",
+  "shopThisOrderWillBeRemovedFromFavorites": "سيتم ازالة الطلب من المفضلة",
+  "shopThisProductWasAddedToCart": "تمت إضافة هذا المنتج إلى سلة التسوق",
+  "shopThisProductWasAddedToFavorite": "تم اضافة المنتج إلى المفضلة",
+  "shopThisProductWasRemovedFromFavorites": "تم ازالة المنتج من المفضلة",
+  "shopTopCategories": "افضل الفئات",
+  "shopTopMarkets": "أهم الأسواق",
+  "shopTopSellers": "افضل البائعين",
+  "shopTopSellingProducts": "اعلى المبيعات",
+  "shopTopSellingProductsFromThisSeller": "أفضل المبيعات لهذا التاجر",
+  "shopUnknownMarket": "متجر غير معروف",
+  "shopUpdateCart": "تحديث السلة",
+  "shopValidCouponCode": "كوبون صحيح",
+  "shopViewAllProductsFromThisSeller": "عرض جميع المنتجات الخاصة بهذا البائع",
+  "shopViewCart": "عرض السلة",
+  "shopViewProducts": "عرض المنتجات",
+  "shopViewSubCategories": "عرض الفئات الفرعية",
+  "shopVisaCard": "بطاقة فيزا",
+  "shopWishlist": "قائمة الرغبات",
+  "shopYouCanDiscoverMarkets": "يمكنك اكتشاف الأسواق والمتاجر من حولك واختيار أفضل وجبة لك بعد بضع دقائق نجهزها ونقدمها لك",
+  "shopYouCanNotCancelThisOrderAfterPreparingIt": "لا يمكنك الغاء الطلب بعد تجهيزه",
+  "shopYouCanUseFiltersWhileSearchingForProducts": "يإمكانك استخدام الفلتر عند البحث على المنتجات",
+  "shopYouDonatHaveAnyOrder": "ليس لديك أي طلب",
+  "shopYouHaveNoWishlist": "لا يوجد لديك قائمة رغبات",
+  "shopYouMustAddProductsOfTheSameMarketsChooseOne": "يجب عليك إضافة منتجات من نفس الأسواق اختر سوقًا واحدًا فقط!",
+  "shopYouMustSignInToAccessToThisSection": "يجب عليك تسجيل الدخول للوصول إلى هذا القسم",
   "validAccepted": "يجب أن تقبل {attribute}",
-  "validBlank": "لا يمكن أن يكون محتوى {attribute} فارغاً",
+  "validBlank": "لا يمكن أن يكون المحتوى {attribute} فارغاً",
   "validConfirmation": "محتوى {attribute} لا يتطابق مع {other}",
-  "validEmpty": "لا يمكن أن يكون محتوى {attribute} فارغاً",
+  "validEmpty": "لا يمكن أن يكون المحتوى {attribute} فارغاً",
   "validEqualTo": "يجب أن يساوي طول {attribute} {count}",
   "validEven": "يجب أن يكون عدد {attribute} زوجياً",
   "validExclusion": "حقل {attribute} محجوز",
@@ -29,75 +769,23 @@
   "validLessThan": "يجب أن يكون عدد {attribute} أصغر من {count}",
   "validLessThanOrEqualTo": "يجب أن يكون عدد {attribute} أصغر أو  يساوي {count}",
   "validNotANumber": "يجب أن يكون محتوى {attribute} رقماً",
+  "validNotAValidAddress": "عنوان غير صالح",
+  "validNotAValidDate": "التاريخ غير صالح",
+  "validNotAValidEmail": "البريد الإلكتروني غير صالح",
+  "validNotAValidFullName": "الاسم الكامل غير صالح",
+  "validNotAValidNumber": "رقم غير صالح",
+  "validNotAValidPhone": "رقم الهاتف غير صالح",
+  "validNotAValidText": "نص غير صحيح",
   "validNotAnInteger": "يجب أن يكون عدد {attribute} عدد صحيحاً",
   "validOdd": "يجب أن يكون عدد {attribute} عدداً فردياً",
   "validOtherThan": "{count, plural,=0{طول {attribute} يجب ألاّ يكون صفر حرف}=1{طول {attribute} يجب ألاّ يكون حرفاً واحداً}=2{طول {attribute} يجب ألاّ يكون حرفان}few{طول {attribute} يجب ألاّ يكون {count} أحرف}other{طول {attribute} يجب ألاّ يكون {count} حرفاً}}",
   "validPresent": "يجب ترك حقل {attribute} فارغاً",
-  "validRequired": "{attribute} يجب ان يحتوي على قيمه",
+  "validRequired": "{attribute} يجب أن يحتوي على قيمه",
+  "validShouldBeAValidEmail": "يجب أن يكون بريدًا إلكترونيًا صالحًا",
+  "validShouldBeMoreThan3Letters": "يجب أن يكون أكثر من 3 أحرف",
+  "validShouldBeMoreThan6Letters": "يجب أن يكون أكثر من 6 أحرف",
   "validTaken": "حقل {attribute} محجوز مسبقاً",
-  "validTooLong": "{count, plural,=0{محتوى {attribute} أطول من اللّازم (الحد الأقصى هو ولا حرف)}=1{محتوى {attribute} أطول من اللّازم (الحد الأقصى هو حرف واحد)}=2{محتوى {attribute} أطول من اللّازم (الحد الأقصى هو حرفان)}few{محتوى {attribute} أطول من اللّازم (الحد الأقصى هو {count} حروف)}other{محتوى {attribute} أطول من اللّازم (الحد الأقصى هو {count} حرف)}",
-  "validTooShort": "{count, plural,=0{محتوى {attribute} أقصر من اللّازم (الحد الأدنى هو ولا حرف)}=1{محتوى {attribute} أقصر من اللّازم (الحد الأدنى هو حرف واحد)}=2{محتوى {attribute} أقصر من اللّازم (الحد الأدنى هو حرفان)}few{محتوى {attribute} أقصر من اللّازم (الحد الأدنى هو {count} حروف)}other{محتوى {attribute} أقصر من اللّازم (الحد الأدنى هو {count} حرف)}",
-  "validWrongLength": "{count, plural,=0{طول {attribute} غير مطابق للحد المطلوب (يجب أن يكون ولا حرف)}=1{طول {attribute} غير مطابق للحد المطلوب (يجب أن يكون حرف واحد)}=2{طول {attribute} غير مطابق للحد المطلوب (يجب أن يكون حرفان)}few{طول {attribute} غير مطابق للحد المطلوب (يجب أن يكون {count} أحرف)}other{طول {attribute} غير مطابق للحد المطلوب (يجب أن يكون {count} حرف)}",
-
-
-  "commonHome": "الصفحة الرئيسية",
-  "commonSearch": "بحث",
-  "commonLogOut": "تسجيل خروج",
-  "commonMessage": "رسالة",
-  "commonLogin": "تسجيل الدخول",
-  "commonForgetPassword": "نسيت كلمة المرور؟",
-  "commonProfile": "الملف الشخصي",
-  "commonOk": "موافق",
-  "commonYes": "نعم",
-  "commonAll": "الجميع",
-  "commonMore": "أكثر",
-  "commonSend": "إرسال",
-  "commonUpdate": "تحديث",
-  "commonName": "الاسم",
-  "commonUsername": "اسم المُستخدم",
-  "commonEmail": "البريد الالكتروني",
-  "commonFirstName": "الاسم",
-  "commonLastName": "اسم العائلة",
-  "commonPassword": "كلمة المرور",
-  "commonPasswordConfirmation": "تأكيد كلمة المرور",
-  "commonCity": "المدينة",
-  "commonCountry": "الدولة",
-  "commonAddress": "العنوان",
-  "commonPhone": "الهاتف",
-  "commonPhoneNumber": "رقم الهاتف",
-  "commonMobile": "الجوال",
-  "commonAge": "العمر",
-  "commonSex": "الجنس",
-  "commonGender": "النوع",
-  "commonContent": "المُحتوى",
-  "commonDescription": "الوصف",
-  "commonExcerpt": "المُلخص",
-  "commonAvailable": "مُتاح",
-  "commonSize": "الحجم",
-  "commonPrice": "السعر",
-  "commonDesc": "نبذه",
-  "commonTitle": "العنوان",
-  "commonRegister": "تسجل",
-  "commonSeeAll": "إظهار الكل",
-  "commonServices": "خدمات",
-  "commonSubmit": "إرسال",
-  "commonQ": "البحث",
-  "commonOr": "أو",
-
-
-  "dtDate": "التاريخ",
-  "dtTime": "الوقت",
-  "dtYear": "السنة",
-  "dtMonth": "الشهر",
-  "dtDay": "اليوم",
-  "dtHour": "ساعة",
-  "dtMinute": "دقيقة",
-  "dtSecond": "ثانية",
-  "dtSunday": "الأحد",
-  "dtMonday": "الاثنين",
-  "dtTuesday": "الثلاثاء",
-  "dtWednesday": "الأربعاء",
-  "dtThursday": "الخميس",
-  "dtFriday": "الجمعة",
-  "dtSaturday": "السبت"
+  "validTooLong": "{count, plural,=0{محتوى {attribute} أطول من اللّازم (الحد الأقصى هو ولا حرف)}=1{محتوى {attribute} أطول من اللّازم (الحد الأقصى هو حرف واحد)}=2{محتوى {attribute} أطول من اللّازم (الحد الأقصى هو حرفان)}few{محتوى {attribute} أطول من اللّازم (الحد الأقصى هو {count} أحرف)}other{محتوى {attribute} أطول من اللّازم (الحد الأقصى هو {count} حرف)}",
+  "validTooShort": "{count, plural,=0{محتوى {attribute} أقصر من اللّازم (الحد الأدنى هو ولا حرف)}=1{محتوى {attribute} أقصر من اللّازم (الحد الأدنى هو حرف واحد)}=2{محتوى {attribute} أقصر من اللّازم (الحد الأدنى هو حرفان)}few{محتوى {attribute} أقصر من اللّازم (الحد الأدنى هو {count} أحرف)}other{محتوى {attribute} أقصر من اللّازم (الحد الأدنى هو {count} حرف)}",
+  "validWrongLength": "{count, plural,=0{طول {attribute} غير مطابق للحد المطلوب (يجب أن يكون ولا حرف)}=1{طول {attribute} غير مطابق للحد المطلوب (يجب أن يكون حرف واحد)}=2{طول {attribute} غير مطابق للحد المطلوب (يجب أن يكون حرفان)}few{طول {attribute} غير مطابق للحد المطلوب (يجب أن يكون {count} أحرف)}other{طول {attribute} غير مطابق للحد المطلوب (يجب أن يكون {count} حرف)}"
 }

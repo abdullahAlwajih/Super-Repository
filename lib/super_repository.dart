@@ -1,5 +1,4 @@
 library super_repository;
-
 import 'app/models/base_model.dart';
 import 'errors/error.model.dart';
 import 'errors/exceptions.enum.wings.dart';
@@ -7,6 +6,11 @@ import 'errors/exceptions.dart';
 import 'sources/main.provider.dart';
 import 'sources/remote/request.dart';
 
+export 'errors/error.model.dart';
+export 'sources/remote/request.dart';
+export 'sources/main.provider.dart';
+export 'sources/remote/remote.dart';
+export 'sources/local/local.dart';
 
 class SuperRepository {
   static SuperRepository? _instance;
@@ -23,8 +27,9 @@ class SuperRepository {
   static Future<void> init(
       {Function? snackBar, Map<String, dynamic>? headers}) async {
     _instance ??= SuperRepository();
-    await DataProvider.init();
     _instance?.headers = headers ?? {};
+    await DataProvider.init();
+
   }
 
   static DataProvider get provider => DataProvider.instance;
@@ -95,7 +100,7 @@ class SuperRepository {
       }
 
       return temp;
-    } catch (_) {
+    } catch (e) {
       rethrow;
     }
   }
@@ -105,5 +110,38 @@ class SuperRepository {
   void customEmptyException(
       {required String message, String? image, String? icon}) {
     emptyException = ErrorModel(message: message, image: image!, icon: icon!);
+  }
+
+  Future<dynamic> updateData(
+      {required Request request,
+        BaseModel? model,
+        bool shouldCache = false}) async {
+
+    return await provider.update(request: request, shouldCache: shouldCache);
+
+    // var response =
+    // await provider.update(request: request, shouldCache: shouldCache);
+
+    // if (provider.error.message.isNotEmpty) {
+    //   throw provider.error.exception.runtimeType ==
+    //       Exceptions.fromEnumeration(ExceptionTypes.empty).runtimeType
+    //       ? (emptyException ?? provider.error)
+    //       : provider.error;
+    // }
+    //
+    // if (model != null) {
+    //   if (response is List) {
+    //     return model.fromJsonList(response);
+    //   } else if (response is Map<String, dynamic>) {
+    //     return model.fromJson(response);
+    //   } else {
+    //     return response;
+    //   }
+    // } else {
+    //   return response;
+    // }
+
+    // Future.delayed(const Duration(milliseconds: 1000),
+    //     () => currentState.value = WingsState.success());
   }
 }

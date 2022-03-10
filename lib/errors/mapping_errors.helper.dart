@@ -90,6 +90,13 @@ ErrorModel mapExceptionToMessage(Object exception) {
         icon: ErrorAssets.emptyExceptionIcon,
         exception: EmptyException(),
       );
+    case CustomException:
+      return ErrorModel(
+        message: (exception as CustomException).message,
+        image: ErrorAssets.emptyExceptionImage,
+        icon: ErrorAssets.emptyExceptionIcon,
+        exception: CustomException(message: (exception.message)),
+      );
     default:
       return ErrorModel(
         message: 'Error:UnexpectedException'.tr,
