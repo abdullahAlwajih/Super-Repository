@@ -4,7 +4,6 @@ import 'dart:developer';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
 
-import '../errors/error.model.dart';
 import '../errors/exceptions.enum.wings.dart';
 import '../errors/exceptions.dart';
 import '../errors/mapping_errors.helper.dart';

@@ -9,7 +9,6 @@ import '../../errors/exceptions.enum.wings.dart';
 import '../../errors/exceptions.dart';
 import '../../errors/mapping_errors.helper.dart';
 import 'methods.enums.dart';
-import 'request.dart';
 
 class Remote {
   static Remote? _instance;
