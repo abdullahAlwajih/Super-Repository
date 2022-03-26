@@ -26,87 +26,87 @@ abstract class FirebaseErrors {
 
   static String? getMessage(message) {
     if (message.toString().contains(kInvalidCustomToken)) {
-      return SuperLocalizations.of(SuperRepository.instance.navigatorKey.currentState!.context)!
+      return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseInvalidCustomToken;
     }
     else if (message.toString().contains(kCredentialMismatch)) {
-      return SuperLocalizations.of(SuperRepository.instance.navigatorKey.currentState!.context)!
+      return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseCredentialMismatch;
     }
     else if (message.toString().contains(kInvalidEmail)) {
-      return SuperLocalizations.of(SuperRepository.instance.navigatorKey.currentState!.context)!
+      return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseInvalidEmail;
     }
     else if (message.toString().contains(kTokenExpired)) {
-      return SuperLocalizations.of(SuperRepository.instance.navigatorKey.currentState!.context)!
+      return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseTokenExpired;
     }
     else if (message.toString().contains(kUserDisabled)) {
-      return SuperLocalizations.of(SuperRepository.instance.navigatorKey.currentState!.context)!
+      return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseUserDisabled;
     }
     else if (message.toString().contains(kUserNotFound)) {
-      return SuperLocalizations.of(SuperRepository.instance.navigatorKey.currentState!.context)!
+      return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseUserNotFound;
     }
     else if (message.toString().contains(kInvalidRefreshToken)) {
-      return SuperLocalizations.of(SuperRepository.instance.navigatorKey.currentState!.context)!
+      return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseInvalidRefreshToken;
     }
     else if (message.toString().contains(kInvalidGrantType)) {
-      return SuperLocalizations.of(SuperRepository.instance.navigatorKey.currentState!.context)!
+      return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseInvalidGrantType;
     }
     else if (message.toString().contains(kMissingRefreshToken)) {
-      return SuperLocalizations.of(SuperRepository.instance.navigatorKey.currentState!.context)!
+      return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseMissingRefreshToken;
     }
     else if (message.toString().contains(kEmailExists)) {
-      return SuperLocalizations.of(SuperRepository.instance.navigatorKey.currentState!.context)!
+      return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseEmailExists;
     }
     else if (message.toString().contains(kOperationNotAllowed)) {
-      return SuperLocalizations.of(SuperRepository.instance.navigatorKey.currentState!.context)!
+      return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseOperationNotAllowed;
     }
     else if (message.toString().contains(kTooManyAttemptsTryLater)) {
-      return SuperLocalizations.of(SuperRepository.instance.navigatorKey.currentState!.context)!
+      return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseTooManyAttemptsTryLater;
     }
     else if (message.toString().contains(kEmailNotFound)) {
-      return SuperLocalizations.of(SuperRepository.instance.navigatorKey.currentState!.context)!
+      return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseEmailNotFound;
     }
     else if (message.toString().contains(kInvalidPassword)) {
-      return SuperLocalizations.of(SuperRepository.instance.navigatorKey.currentState!.context)!
+      return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseInvalidPassword;
     }
     else if (message.toString().contains(kInvalidIDPResponse)) {
-      return SuperLocalizations.of(SuperRepository.instance.navigatorKey.currentState!.context)!
+      return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseInvalidIDPResponse;
     }
     else if (message.toString().contains(kExpiredOOBCode)) {
-      return SuperLocalizations.of(SuperRepository.instance.navigatorKey.currentState!.context)!
+      return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseExpiredOOBCode;
     }
     else if (message.toString().contains(kInvalidOOBCode)) {
-      return SuperLocalizations.of(SuperRepository.instance.navigatorKey.currentState!.context)!
+      return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseInvalidOOBCode;
     }
     else if (message.toString().contains(kInvalidIDToken)) {
-      return SuperLocalizations.of(SuperRepository.instance.navigatorKey.currentState!.context)!
+      return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseInvalidIDToken;
     }
     else if (message.toString().contains(kWeakPassword)) {
-      return SuperLocalizations.of(SuperRepository.instance.navigatorKey.currentState!.context)!
+      return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseWeakPassword;
     }
     else if (message.toString().contains(kCredentialTooOldLoginAgain)) {
-      return SuperLocalizations.of(SuperRepository.instance.navigatorKey.currentState!.context)!
+      return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseCredentialTooOldLoginAgain;
     }
     else if (message.toString().contains(kFederatedUserIDAlreadyLinked)) {
-      return SuperLocalizations.of(SuperRepository.instance.navigatorKey.currentState!.context)!
+      return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseFederatedUserIDAlreadyLinked;
     }
     else {
