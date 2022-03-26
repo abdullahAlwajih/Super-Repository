@@ -19,7 +19,7 @@ class SuperRepository {
   static SuperRepository? _instance;
 
   late Map<String, dynamic> headers;
-  late BuildContext context;
+  GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
   static SuperRepository get instance {
     if (_instance == null) init();
     return _instance!;
