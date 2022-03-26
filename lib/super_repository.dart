@@ -1,4 +1,6 @@
 library super_repository;
+import 'package:flutter/cupertino.dart';
+
 import 'app/models/base_model.dart';
 import 'errors/error.model.dart';
 import 'errors/exceptions.enum.wings.dart';
@@ -17,20 +19,20 @@ class SuperRepository {
   static SuperRepository? _instance;
 
   late Map<String, dynamic> headers;
-
+  late BuildContext context;
   static SuperRepository get instance {
-    if (_instance == null) init();
+    // if (_instance == null) init();
     return _instance!;
   }
 
   /// This is the initialization of the main class of Wings framework
   /// and it should be called before runApp() is called
   static Future<void> init(
-      {Function? snackBar, Map<String, dynamic>? headers}) async {
+      {required BuildContext context, Function? snackBar, Map<String, dynamic>? headers}) async {
     _instance ??= SuperRepository();
     _instance?.headers = headers ?? {};
+    _instance?.context = context;
     await DataProvider.init();
-
   }
 
   static DataProvider get provider => DataProvider.instance;

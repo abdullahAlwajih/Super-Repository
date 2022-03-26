@@ -73,33 +73,28 @@ class Remote {
         },
       );
 
-      // statusCode = response.statusCode!;
-      //
-      // if (!success) {
-      //   log('Server response with status code $statusCode',
-      //       name: 'Wings Remote');
-      //   throw Exceptions.fromStatusCode(statusCode);
-      // }
+      statusCode = response.statusCode!;
 
-      _checkInvalidResponse(response.data);
-
-
-      // if (WingsResponseFormat.key != null &&
-      //     WingsResponseFormat.key!.isNotEmpty) {
-      //   return response.data[WingsResponseFormat.key];
-      // }
-
-      return response.data['data'];
-
-
-    } on DioError catch(error){
-      statusCode = error.response!.statusCode!;
-      final message = error.response!.data['message']!;
-      if(message != null) throw Exceptions.fromStatusCode(0, message);
       if (!success) {
         log('Server response with status code $statusCode',
             name: 'Wings Remote');
         throw Exceptions.fromStatusCode(statusCode);
+      }
+
+      _checkInvalidResponse(response.data);
+
+
+      if (response.data['data'] != null) return response.data['data'];
+      return response.data;
+
+
+    } on DioError catch(error){
+      statusCode = error.response!.statusCode!;
+      final message = error.response!.data['message'] ?? error.response!.data['error']['message'];
+      if (!success) {
+        log('Server response with status code $statusCode',
+            name: 'Wings Remote');
+        throw Exceptions.fromStatusCode(statusCode, message);
       }
     } catch (exception) {
       SuperRepository.provider.error = mapExceptionToMessage(exception);

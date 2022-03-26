@@ -13,6 +13,13 @@ ErrorModel mapExceptionToMessage(Object exception) {
         icon: ErrorAssets.serverExceptionIcon,
         exception: ServerException(),
       );
+    case ConflictException:
+      return ErrorModel(
+        message: (exception as ConflictException).message ?? '',
+        image: ErrorAssets.connectionExceptionImage,
+        icon: ErrorAssets.connectionExceptionIcon,
+        exception: ConnectionException(),
+      );
     case CacheException:
       return ErrorModel(
         message: 'Error:CacheException'.tr,

@@ -80,8 +80,11 @@ class ProcessException extends Exceptions {}
 
 class TimeoutException extends Exceptions {}
 
-class ConflictException extends Exceptions {}
+class ConflictException extends Exceptions {
+  final String? message;
 
+  ConflictException({this.message});
+}
 class ReceiveException implements Exception {}
 
 class UnknownException implements Exception {}
