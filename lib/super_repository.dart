@@ -21,7 +21,7 @@ class SuperRepository {
   late Map<String, dynamic> headers;
   late BuildContext context;
   static SuperRepository get instance {
-    // if (_instance == null) init();
+    if (_instance == null) init();
     return _instance!;
   }
 
