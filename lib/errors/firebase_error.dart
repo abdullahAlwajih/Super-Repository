@@ -23,7 +23,7 @@ abstract class FirebaseErrors {
   static const kFederatedUserIDAlreadyLinked =
       "FEDERATED_USER_ID_ALREADY_LINKED";
 
-  String? firebaseError(message) {
+  static String? getMessage(message) {
     switch (message) {
       case kInvalidCustomToken:
         return SuperLocalizations.of(SuperRepository.instance.context)!

@@ -1,4 +1,5 @@
 import 'package:get/get_utils/src/extensions/internacionalization.dart';
+import 'package:super_repository/errors/firebase_error.dart';
 
 import 'error_asset.static.dart';
 import 'error.model.dart';
@@ -15,7 +16,7 @@ ErrorModel mapExceptionToMessage(Object exception) {
       );
     case ConflictException:
       return ErrorModel(
-        message: (exception as ConflictException).message ?? '',
+        message:FirebaseErrors.getMessage((exception as ConflictException).message) ?? '',
         image: ErrorAssets.connectionExceptionImage,
         icon: ErrorAssets.connectionExceptionIcon,
         exception: ConnectionException(),
