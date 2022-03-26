@@ -10,7 +10,7 @@ class Exceptions implements Exception {
       case 204:
         return NoContentException();
       case 400:
-        return ConflictException();
+        return ConflictException(message: message);
 
       case 401:
         return UnauthenticatedException();
