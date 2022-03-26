@@ -1532,6 +1532,9 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get firebaseFederatedUserIDAlreadyLinked => 'بيانات الاعتماد هذه مرتبطة بالفعل بحساب مستخدم مختلف.';
 
   @override
+  String get firebaseInvalidEmail => 'عنوان البريد الإلكتروني منسق بشكل سيئ.';
+
+  @override
   String get feedbackAddedSuccessfully => 'تمت الإضافة بنجاح';
 
   @override

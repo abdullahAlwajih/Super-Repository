@@ -4,6 +4,7 @@ abstract class FirebaseErrors {
   static const kInvalidCustomToken = "INVALID_CUSTOM_TOKEN";
   static const kCredentialMismatch = "CREDENTIAL_MISMATCH";
   static const kTokenExpired = "TOKEN_EXPIRED";
+  static const kInvalidEmail = "INVALID_EMAIL";
   static const kUserDisabled = "USER_DISABLED";
   static const kUserNotFound = "USER_NOT_FOUND";
   static const kInvalidRefreshToken = "INVALID_REFRESH_TOKEN";
@@ -31,6 +32,9 @@ abstract class FirebaseErrors {
       case kCredentialMismatch:
         return SuperLocalizations.of(SuperRepository.instance.context)!
             .firebaseCredentialMismatch;
+        case kInvalidEmail:
+        return SuperLocalizations.of(SuperRepository.instance.context)!
+            .firebaseInvalidEmail;
       case kTokenExpired:
         return SuperLocalizations.of(SuperRepository.instance.context)!
             .firebaseTokenExpired;

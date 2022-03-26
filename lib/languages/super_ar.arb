@@ -507,6 +507,7 @@
   "firebaseWeakPassword":"يجب أن تتكون كلمة المرور من 6 أحرف أو أكثر.",
   "firebaseCredentialTooOldLoginAgain": "لم تعد بيانات اعتماد المستخدم صالحة. يجب على المستخدم تسجيل الدخول مرة أخرى.",
   "firebaseFederatedUserIDAlreadyLinked": "بيانات الاعتماد هذه مرتبطة بالفعل بحساب مستخدم مختلف.",
+  "firebaseInvalidEmail": "عنوان البريد الإلكتروني منسق بشكل سيئ.",
 
   "feedbackAddedSuccessfully": "تمت الإضافة بنجاح",
   "feedbackAddressesRefreshedSuccessfully": "تم تحديث العناوين بنجاح",

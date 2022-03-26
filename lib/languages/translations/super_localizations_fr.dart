@@ -1532,6 +1532,9 @@ class SuperLocalizationsFr extends SuperLocalizations {
   String get firebaseFederatedUserIDAlreadyLinked => 'Cet identifiant est déjà associé à un autre compte utilisateur.';
 
   @override
+  String get firebaseInvalidEmail => 'L\'adresse e-mail est mal formatée.';
+
+  @override
   String get feedbackAddedSuccessfully => 'Ajouté avec succès';
 
   @override

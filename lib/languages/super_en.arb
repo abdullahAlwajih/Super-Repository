@@ -680,6 +680,7 @@
   "firebaseWeakPassword":" The password must be 6 characters long or more.",
   "firebaseCredentialTooOldLoginAgain": "The user's credential is no longer valid. The user must sign in again.",
   "firebaseFederatedUserIDAlreadyLinked": "This credential is already associated with a different user account.",
+  "firebaseInvalidEmail": "The email address is badly formatted.",
 
   "feedbackAddedSuccessfully": "Added Successfully",
   "feedbackAddressesRefreshedSuccessfully": "Addresses have been updated successfully",

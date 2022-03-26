@@ -507,6 +507,7 @@
   "firebaseWeakPassword":"Le mot de passe doit comporter 6 caractères ou plus.",
   "firebaseCredentialTooOldLoginAgain": "L'identifiant de l'utilisateur n'est plus valide. L'utilisateur doit se reconnecter.",
   "firebaseFederatedUserIDAlreadyLinked": "Cet identifiant est déjà associé à un autre compte utilisateur.",
+  "firebaseInvalidEmail": "L'adresse e-mail est mal formatée.",
 
   "feedbackAddedSuccessfully": "Ajouté avec succès",
   "feedbackAddressesRefreshedSuccessfully": "Les adresses ont été mises à jour avec succès",

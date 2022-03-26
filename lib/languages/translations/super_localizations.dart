@@ -3144,6 +3144,12 @@ abstract class SuperLocalizations {
   /// **'This credential is already associated with a different user account.'**
   String get firebaseFederatedUserIDAlreadyLinked;
 
+  /// No description provided for @firebaseInvalidEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'The email address is badly formatted.'**
+  String get firebaseInvalidEmail;
+
   /// No description provided for @feedbackAddedSuccessfully.
   ///
   /// In en, this message translates to:
