@@ -25,72 +25,92 @@ abstract class FirebaseErrors {
       "FEDERATED_USER_ID_ALREADY_LINKED";
 
   static String? getMessage(message) {
-    switch (message) {
-      case kInvalidCustomToken:
-        return SuperLocalizations.of(SuperRepository.instance.context)!
-            .firebaseInvalidCustomToken;
-      case kCredentialMismatch:
-        return SuperLocalizations.of(SuperRepository.instance.context)!
-            .firebaseCredentialMismatch;
-        case kInvalidEmail:
-        return SuperLocalizations.of(SuperRepository.instance.context)!
-            .firebaseInvalidEmail;
-      case kTokenExpired:
-        return SuperLocalizations.of(SuperRepository.instance.context)!
-            .firebaseTokenExpired;
-      case kUserDisabled:
-        return SuperLocalizations.of(SuperRepository.instance.context)!
-            .firebaseUserDisabled;
-      case kUserNotFound:
-        return SuperLocalizations.of(SuperRepository.instance.context)!
-            .firebaseUserNotFound;
-      case kInvalidRefreshToken:
-        return SuperLocalizations.of(SuperRepository.instance.context)!
-            .firebaseInvalidRefreshToken;
-      case kInvalidGrantType:
-        return SuperLocalizations.of(SuperRepository.instance.context)!
-            .firebaseInvalidGrantType;
-      case kMissingRefreshToken:
-        return SuperLocalizations.of(SuperRepository.instance.context)!
-            .firebaseMissingRefreshToken;
-      case kEmailExists:
-        return SuperLocalizations.of(SuperRepository.instance.context)!
-            .firebaseEmailExists;
-      case kOperationNotAllowed:
-        return SuperLocalizations.of(SuperRepository.instance.context)!
-            .firebaseOperationNotAllowed;
-      case kTooManyAttemptsTryLater:
-        return SuperLocalizations.of(SuperRepository.instance.context)!
-            .firebaseTooManyAttemptsTryLater;
-      case kEmailNotFound:
-        return SuperLocalizations.of(SuperRepository.instance.context)!
-            .firebaseEmailNotFound;
-      case kInvalidPassword:
-        return SuperLocalizations.of(SuperRepository.instance.context)!
-            .firebaseInvalidPassword;
-      case kInvalidIDPResponse:
-        return SuperLocalizations.of(SuperRepository.instance.context)!
-            .firebaseInvalidIDPResponse;
-      case kExpiredOOBCode:
-        return SuperLocalizations.of(SuperRepository.instance.context)!
-            .firebaseExpiredOOBCode;
-      case kInvalidOOBCode:
-        return SuperLocalizations.of(SuperRepository.instance.context)!
-            .firebaseInvalidOOBCode;
-      case kInvalidIDToken:
-        return SuperLocalizations.of(SuperRepository.instance.context)!
-            .firebaseInvalidIDToken;
-      case kWeakPassword:
-        return SuperLocalizations.of(SuperRepository.instance.context)!
-            .firebaseWeakPassword;
-      case kCredentialTooOldLoginAgain:
-        return SuperLocalizations.of(SuperRepository.instance.context)!
-            .firebaseCredentialTooOldLoginAgain;
-      case kFederatedUserIDAlreadyLinked:
-        return SuperLocalizations.of(SuperRepository.instance.context)!
-            .firebaseFederatedUserIDAlreadyLinked;
-      default:
-        return null;
+    if (message.toString().contains(kInvalidCustomToken)) {
+      return SuperLocalizations.of(SuperRepository.instance.context)!
+          .firebaseInvalidCustomToken;
+    }
+    else if (message.toString().contains(kCredentialMismatch)) {
+      return SuperLocalizations.of(SuperRepository.instance.context)!
+          .firebaseCredentialMismatch;
+    }
+    else if (message.toString().contains(kInvalidEmail)) {
+      return SuperLocalizations.of(SuperRepository.instance.context)!
+          .firebaseInvalidEmail;
+    }
+    else if (message.toString().contains(kTokenExpired)) {
+      return SuperLocalizations.of(SuperRepository.instance.context)!
+          .firebaseTokenExpired;
+    }
+    else if (message.toString().contains(kUserDisabled)) {
+      return SuperLocalizations.of(SuperRepository.instance.context)!
+          .firebaseUserDisabled;
+    }
+    else if (message.toString().contains(kUserNotFound)) {
+      return SuperLocalizations.of(SuperRepository.instance.context)!
+          .firebaseUserNotFound;
+    }
+    else if (message.toString().contains(kInvalidRefreshToken)) {
+      return SuperLocalizations.of(SuperRepository.instance.context)!
+          .firebaseInvalidRefreshToken;
+    }
+    else if (message.toString().contains(kInvalidGrantType)) {
+      return SuperLocalizations.of(SuperRepository.instance.context)!
+          .firebaseInvalidGrantType;
+    }
+    else if (message.toString().contains(kMissingRefreshToken)) {
+      return SuperLocalizations.of(SuperRepository.instance.context)!
+          .firebaseMissingRefreshToken;
+    }
+    else if (message.toString().contains(kEmailExists)) {
+      return SuperLocalizations.of(SuperRepository.instance.context)!
+          .firebaseEmailExists;
+    }
+    else if (message.toString().contains(kOperationNotAllowed)) {
+      return SuperLocalizations.of(SuperRepository.instance.context)!
+          .firebaseOperationNotAllowed;
+    }
+    else if (message.toString().contains(kTooManyAttemptsTryLater)) {
+      return SuperLocalizations.of(SuperRepository.instance.context)!
+          .firebaseTooManyAttemptsTryLater;
+    }
+    else if (message.toString().contains(kEmailNotFound)) {
+      return SuperLocalizations.of(SuperRepository.instance.context)!
+          .firebaseEmailNotFound;
+    }
+    else if (message.toString().contains(kInvalidPassword)) {
+      return SuperLocalizations.of(SuperRepository.instance.context)!
+          .firebaseInvalidPassword;
+    }
+    else if (message.toString().contains(kInvalidIDPResponse)) {
+      return SuperLocalizations.of(SuperRepository.instance.context)!
+          .firebaseInvalidIDPResponse;
+    }
+    else if (message.toString().contains(kExpiredOOBCode)) {
+      return SuperLocalizations.of(SuperRepository.instance.context)!
+          .firebaseExpiredOOBCode;
+    }
+    else if (message.toString().contains(kInvalidOOBCode)) {
+      return SuperLocalizations.of(SuperRepository.instance.context)!
+          .firebaseInvalidOOBCode;
+    }
+    else if (message.toString().contains(kInvalidIDToken)) {
+      return SuperLocalizations.of(SuperRepository.instance.context)!
+          .firebaseInvalidIDToken;
+    }
+    else if (message.toString().contains(kWeakPassword)) {
+      return SuperLocalizations.of(SuperRepository.instance.context)!
+          .firebaseWeakPassword;
+    }
+    else if (message.toString().contains(kCredentialTooOldLoginAgain)) {
+      return SuperLocalizations.of(SuperRepository.instance.context)!
+          .firebaseCredentialTooOldLoginAgain;
+    }
+    else if (message.toString().contains(kFederatedUserIDAlreadyLinked)) {
+      return SuperLocalizations.of(SuperRepository.instance.context)!
+          .firebaseFederatedUserIDAlreadyLinked;
+    }
+    else {
+      return null;
     }
   }
-}
+}}
