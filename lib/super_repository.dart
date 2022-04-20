@@ -14,6 +14,7 @@ export 'sources/main.provider.dart';
 export 'sources/remote/remote.dart';
 export 'sources/local/local.dart';
 export 'languages/translations/super_localizations.dart';
+export 'app_store.dart';
 
 class SuperRepository {
   static SuperRepository? _instance;
