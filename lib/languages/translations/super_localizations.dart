@@ -147,7 +147,7 @@ abstract class SuperLocalizations {
   /// No description provided for @appHome.
   ///
   /// In en, this message translates to:
-  /// **'Main'**
+  /// **'Home'**
   String get appHome;
 
   /// No description provided for @appLightMode.
@@ -3149,6 +3149,12 @@ abstract class SuperLocalizations {
   /// In en, this message translates to:
   /// **'The email address is badly formatted.'**
   String get firebaseInvalidEmail;
+
+  /// No description provided for @firebaseTooManyRequests.
+  ///
+  /// In en, this message translates to:
+  /// **'We have blocked all requests from this device due to unusual activity. Try again later.'**
+  String get firebaseTooManyRequests;
 
   /// No description provided for @feedbackAddedSuccessfully.
   ///

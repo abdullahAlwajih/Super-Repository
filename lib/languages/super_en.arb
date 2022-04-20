@@ -180,7 +180,7 @@
   "appAppVersion": "app version",
   "appApplicationPreferences": "Application Preferences",
   "appDarkMode": "dark theme",
-  "appHome": "Main",
+  "appHome": "Home",
   "appLightMode": "light theme",
   "appNeedsToBeUpdated": "The app needs to be updated",
   "appNewUpdate": "new update",
@@ -681,7 +681,7 @@
   "firebaseCredentialTooOldLoginAgain": "The user's credential is no longer valid. The user must sign in again.",
   "firebaseFederatedUserIDAlreadyLinked": "This credential is already associated with a different user account.",
   "firebaseInvalidEmail": "The email address is badly formatted.",
-
+  "firebaseTooManyRequests": "We have blocked all requests from this device due to unusual activity. Try again later.",
   "feedbackAddedSuccessfully": "Added Successfully",
   "feedbackAddressesRefreshedSuccessfully": "Addresses have been updated successfully",
   "feedbackApproved": "approved",

@@ -1,8 +1,8 @@
 import 'dart:developer';
 
 import '../errors/error.model.dart';
-import '../errors/exceptions.enum.wings.dart';
 import '../errors/exceptions.dart';
+import '../errors/exceptions.enum.wings.dart';
 import '../errors/mapping_errors.helper.dart';
 import '../network/network.manager.dart';
 import 'local/local.dart';
@@ -57,14 +57,19 @@ class DataProvider {
   Future<dynamic> insert(
       {required Request request, required bool shouldCache}) async {
     try {
-      var response =
-          await remote.send(method: HttpMethod.post, request: request);
+      if (remoteConnection) {
+        var response =
+            await remote.send(method: HttpMethod.post, request: request);
 
-      if (response.toString().isEmpty) {
-        throw Exceptions.fromEnumeration(ExceptionTypes.process);
+        if (response.toString().isEmpty) {
+          throw Exceptions.fromEnumeration(ExceptionTypes.process);
+        }
+        if (shouldCache) {
+          local.save(key: request.urlQuery, value: response);
+        }
+
+        return response;
       }
-
-      return response;
     } catch (exception) {
       log('insert has exception of type $exception');
       throw mapExceptionToMessage(exception);

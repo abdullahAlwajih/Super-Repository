@@ -9,7 +9,7 @@ ErrorModel mapExceptionToMessage(Object exception) {
   switch (exception.runtimeType) {
     case ServerException:
       return ErrorModel(
-        message: 'Error:ServerException'.tr,
+        message: (exception as ServerException).message!,
         image: ErrorAssets.serverExceptionImage,
         icon: ErrorAssets.serverExceptionIcon,
         exception: ServerException(),
@@ -23,77 +23,77 @@ ErrorModel mapExceptionToMessage(Object exception) {
       );
     case CacheException:
       return ErrorModel(
-        message: 'Error:CacheException'.tr,
+        message: (exception as CacheException).message!,
         image: ErrorAssets.cacheExceptionImage,
         icon: ErrorAssets.cacheExceptionIcon,
         exception: CacheException(),
       );
     case NoContentException:
       return ErrorModel(
-        message: 'Error:NoContentException'.tr,
+        message: (exception as NoContentException).message!,
         image: ErrorAssets.noContentExceptionImage,
         icon: ErrorAssets.noContentExceptionIcon,
         exception: NoContentException(),
       );
     case ConnectionException:
       return ErrorModel(
-        message: 'Error:ConnectionException'.tr,
+        message: (exception as ConnectionException).message!,
         image: ErrorAssets.connectionExceptionImage,
         icon: ErrorAssets.connectionExceptionIcon,
         exception: ConnectionException(),
       );
     case NotFoundException:
       return ErrorModel(
-        message: 'Error:NotFoundException'.tr,
+        message: (exception as NotFoundException).message!,
         image: ErrorAssets.notFoundExceptionImage,
         icon: ErrorAssets.notFoundExceptionIcon,
         exception: NotFoundException(),
       );
     case InvalidException:
       return ErrorModel(
-        message: 'Error:InvalidException'.tr,
+        message: (exception as InvalidException).message!,
         image: ErrorAssets.invalidExceptionImage,
         icon: ErrorAssets.invalidExceptionIcon,
         exception: InvalidException(),
       );
     case ExpireException:
       return ErrorModel(
-        message: 'Error:ExpireException'.tr,
+        message: (exception as ExpireException).message!,
         image: ErrorAssets.expireExceptionImage,
         icon: ErrorAssets.expireExceptionIcon,
         exception: ExpireException(),
       );
     case UserExistsException:
       return ErrorModel(
-        message: 'Error:UserExistsException'.tr,
+        message: (exception as UserExistsException).message!,
         image: ErrorAssets.expireExceptionImage,
         icon: ErrorAssets.expireExceptionIcon,
         exception: UserExistsException(),
       );
     case PasswordException:
       return ErrorModel(
-        message: 'Error:PasswordException'.tr,
+        message: (exception as PasswordException).message!,
         image: ErrorAssets.passwordExceptionImage,
         icon: ErrorAssets.passwordExceptionIcon,
         exception: PasswordException(),
       );
     case UnauthenticatedException:
       return ErrorModel(
-        message: 'Error:UnauthenticatedException'.tr,
+        message: (exception as UnauthenticatedException).message!,
         image: ErrorAssets.unauthenticatedExceptionImage,
         icon: ErrorAssets.unauthenticatedExceptionIcon,
         exception: UnauthenticatedException(),
       );
     case BlockedException:
       return ErrorModel(
-        message: 'Error:BlockedException'.tr,
+        message: (exception as BlockedException).message!,
         image: ErrorAssets.blockedExceptionImage,
         icon: ErrorAssets.blockedExceptionIcon,
         exception: BlockedException(),
       );
     case EmptyException:
       return ErrorModel(
-        message: 'Error:EmptyException'.tr,
+        message: (exception as EmptyException).message!,
         image: ErrorAssets.emptyExceptionImage,
         icon: ErrorAssets.emptyExceptionIcon,
         exception: EmptyException(),
@@ -107,7 +107,7 @@ ErrorModel mapExceptionToMessage(Object exception) {
       );
     default:
       return ErrorModel(
-        message: 'Error:UnexpectedException'.tr,
+        message: (exception as UnexpectedException).message!,
         image: ErrorAssets.unexpectedErrorImage,
         icon: ErrorAssets.unexpectedErrorIcon,
         exception: UnexpectedException(),

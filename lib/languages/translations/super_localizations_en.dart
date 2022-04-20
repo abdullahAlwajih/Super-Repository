@@ -32,7 +32,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get appDarkMode => 'dark theme';
 
   @override
-  String get appHome => 'Main';
+  String get appHome => 'Home';
 
   @override
   String get appLightMode => 'light theme';
@@ -1533,6 +1533,9 @@ class SuperLocalizationsEn extends SuperLocalizations {
 
   @override
   String get firebaseInvalidEmail => 'The email address is badly formatted.';
+
+  @override
+  String get firebaseTooManyRequests => 'We have blocked all requests from this device due to unusual activity. Try again later.';
 
   @override
   String get feedbackAddedSuccessfully => 'Added Successfully';

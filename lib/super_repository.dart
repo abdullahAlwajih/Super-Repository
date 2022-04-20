@@ -19,6 +19,7 @@ class SuperRepository {
   static SuperRepository? _instance;
 
   late Map<String, dynamic> headers;
+  static bool isDarkMode = false;
   static GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
   static SuperRepository get instance {
     if (_instance == null) init();

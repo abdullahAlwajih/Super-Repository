@@ -508,6 +508,7 @@
   "firebaseCredentialTooOldLoginAgain": "لم تعد بيانات اعتماد المستخدم صالحة. يجب على المستخدم تسجيل الدخول مرة أخرى.",
   "firebaseFederatedUserIDAlreadyLinked": "بيانات الاعتماد هذه مرتبطة بالفعل بحساب مستخدم مختلف.",
   "firebaseInvalidEmail": "عنوان البريد الإلكتروني منسق بشكل سيئ.",
+  "firebaseTooManyRequests": "لقد حظرنا جميع الطلبات الواردة من هذا الجهاز بسبب نشاط غير عادي. حاول مرة أخرى في وقت لاحق.",
 
   "feedbackAddedSuccessfully": "تمت الإضافة بنجاح",
   "feedbackAddressesRefreshedSuccessfully": "تم تحديث العناوين بنجاح",

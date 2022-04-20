@@ -1,6 +1,10 @@
 import 'package:super_repository/super_repository.dart';
 
 abstract class FirebaseErrors {
+  static const kInvalidVerificationCode = "invalid-verification-code";
+  static const kSessionExpired = "session-expired";
+  static const kMissingClientIdentifier = "missing-client-identifier";
+  static const kTooManyRequests = "too-many-requests";
   static const kInvalidCustomToken = "INVALID_CUSTOM_TOKEN";
   static const kCredentialMismatch = "CREDENTIAL_MISMATCH";
   static const kTokenExpired = "TOKEN_EXPIRED";
@@ -23,9 +27,41 @@ abstract class FirebaseErrors {
   static const kCredentialTooOldLoginAgain = "CREDENTIAL_TOO_OLD_LOGIN_AGAIN";
   static const kFederatedUserIDAlreadyLinked =
       "FEDERATED_USER_ID_ALREADY_LINKED";
+  // s(){
+  //   switch (error.code) {
+  //     case 'invalid-verification-code':
+  //       showToastBar(
+  //           message:
+  //           AppLocalizations.of(Get.context!)!.wrongVerificationCode, success: false);
+  //       break;
+  //     case 'session-expired':
+  //       showToastBar(
+  //           message:
+  //           AppLocalizations.of(Get.context!)!.firebaseSmsExpireMessage, success: false);
+  //       break;
+  //     case 'missing-client-identifier':
+  //       showToastBar(
+  //           message: AppLocalizations.of(Get.context!)!
+  //               .pleaseVerifyYouAreNotARobot, success: false);
+  //       break;
+  //     case 'too-many-requests':
+  //       showToastBar(
+  //           message: AppLocalizations.of(Get.context!)!
+  //               .tooManyRequests, success: false);
+  //       break;
+  //
+  //     default:
+  //       showToastBar(
+  //           message: AppLocalizations.of(Get.context!)!
+  //               .errorOccurredTryAgainLater, success: false);
+  // }
 
   static String? getMessage(message) {
-    if (message.toString().contains(kInvalidCustomToken)) {
+      if (message.toString().contains(kTooManyRequests)) {
+        return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
+            .firebaseInvalidCustomToken;
+      }
+      else if (message.toString().contains(kInvalidCustomToken)) {
       return SuperLocalizations.of(SuperRepository.navigatorKey.currentState!.context)!
           .firebaseInvalidCustomToken;
     }

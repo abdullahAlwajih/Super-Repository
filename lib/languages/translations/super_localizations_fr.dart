@@ -1535,6 +1535,9 @@ class SuperLocalizationsFr extends SuperLocalizations {
   String get firebaseInvalidEmail => 'L\'adresse e-mail est mal formatée.';
 
   @override
+  String get firebaseTooManyRequests => 'Nous avons bloqué toutes les demandes de cet appareil en raison d\'une activité inhabituelle. Réessayez plus tard.';
+
+  @override
   String get feedbackAddedSuccessfully => 'Ajouté avec succès';
 
   @override

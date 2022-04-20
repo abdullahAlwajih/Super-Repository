@@ -1535,6 +1535,9 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get firebaseInvalidEmail => 'عنوان البريد الإلكتروني منسق بشكل سيئ.';
 
   @override
+  String get firebaseTooManyRequests => 'لقد حظرنا جميع الطلبات الواردة من هذا الجهاز بسبب نشاط غير عادي. حاول مرة أخرى في وقت لاحق.';
+
+  @override
   String get feedbackAddedSuccessfully => 'تمت الإضافة بنجاح';
 
   @override

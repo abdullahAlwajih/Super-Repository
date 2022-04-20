@@ -1,3 +1,5 @@
+import 'package:super_repository/super_repository.dart';
+
 import 'exceptions.enum.wings.dart';
 
 class Exceptions implements Exception {
@@ -13,7 +15,7 @@ class Exceptions implements Exception {
         return ConflictException(message: message);
 
       case 401:
-        return UnauthenticatedException();
+        return UnauthenticatedException(message: message);
       case 404:
         return NotFoundException();
       case 406:
@@ -50,44 +52,177 @@ class Exceptions implements Exception {
   }
 }
 
-class ServerException extends Exceptions {}
+class ServerException extends Exceptions {
+  String? message;
 
-class CacheException extends Exceptions {}
+  ServerException({this.message}) {
+    message ??= SuperLocalizations.of(
+        SuperRepository.navigatorKey.currentState!.context)!
+        .errorServerException;
+  }
+}
 
-class EmptyException extends Exceptions {}
+class CacheException extends Exceptions {
+  String? message;
 
-class NoContentException extends Exceptions {}
+  CacheException({this.message}) {
+    message ??= SuperLocalizations.of(
+        SuperRepository.navigatorKey.currentState!.context)!
+        .errorCacheException;
+  }
+}
 
-class InvalidException extends Exceptions {}
+class EmptyException extends Exceptions {
+  String? message;
 
-class NotFoundException extends Exceptions {}
+  EmptyException({this.message}) {
+    message ??= SuperLocalizations.of(
+        SuperRepository.navigatorKey.currentState!.context)!
+        .errorCacheException;
+  }
+}
 
-class ExpireException extends Exceptions {}
+class NoContentException extends Exceptions {
+  String? message;
 
-class UserExistsException extends Exceptions {}
+  NoContentException({this.message}) {
+    message ??= SuperLocalizations.of(
+        SuperRepository.navigatorKey.currentState!.context)!
+        .errorEmptyException;
+  }
+}
 
-class PasswordException extends Exceptions {}
+class InvalidException extends Exceptions {
+  String? message;
 
-class UnexpectedException extends Exceptions {}
+  InvalidException({this.message}) {
+    message ??= SuperLocalizations.of(
+        SuperRepository.navigatorKey.currentState!.context)!
+        .errorInvalidException;
+  }
+}
 
-class UnauthenticatedException extends Exceptions {}
+class NotFoundException extends Exceptions {
+  String? message;
 
-class BlockedException extends Exceptions {}
+  NotFoundException({this.message}) {
+    message ??= SuperLocalizations.of(
+        SuperRepository.navigatorKey.currentState!.context)!
+        .errorNotFoundException;
+  }
+}
 
-class ConnectionException extends Exceptions {}
+class ExpireException extends Exceptions {
+  String? message;
 
-class ProcessException extends Exceptions {}
+  ExpireException({this.message}) {
+    message ??= SuperLocalizations.of(
+        SuperRepository.navigatorKey.currentState!.context)!
+        .errorExpireException;
+  }
+}
 
-class TimeoutException extends Exceptions {}
+class UserExistsException extends Exceptions {
+  String? message;
+
+  UserExistsException({this.message}) {
+    message ??= SuperLocalizations.of(
+        SuperRepository.navigatorKey.currentState!.context)!
+        .errorUserExistsException;
+  }
+}
+
+class PasswordException extends Exceptions {
+  String? message;
+
+  PasswordException({this.message}) {
+    message ??= SuperLocalizations.of(
+        SuperRepository.navigatorKey.currentState!.context)!
+        .errorPasswordException;
+  }
+}
+
+class UnexpectedException extends Exceptions {
+  String? message;
+
+  UnexpectedException({this.message}) {
+    message ??= SuperLocalizations.of(
+        SuperRepository.navigatorKey.currentState!.context)!
+        .errorUnexpectedException;
+  }
+}
+
+class UnauthenticatedException extends Exceptions {
+  String? message;
+
+  UnauthenticatedException({this.message}) {
+    message ??= SuperLocalizations.of(
+            SuperRepository.navigatorKey.currentState!.context)!
+        .errorUnauthenticatedException;
+  }
+}
+
+class BlockedException extends Exceptions {
+  String? message;
+
+  BlockedException({this.message}) {
+    message ??= SuperLocalizations.of(
+        SuperRepository.navigatorKey.currentState!.context)!
+        .errorBlockedException;
+  }
+}
+
+class ConnectionException extends Exceptions {
+  String? message;
+
+  ConnectionException({this.message}) {
+    message ??= SuperLocalizations.of(
+        SuperRepository.navigatorKey.currentState!.context)!
+        .errorConflictException;
+  }
+}
+
+class ProcessException extends Exceptions {
+
+}
+
+class TimeoutException extends Exceptions {
+  String? message;
+
+  TimeoutException({this.message}) {
+    message ??= SuperLocalizations.of(
+        SuperRepository.navigatorKey.currentState!.context)!
+        .errorNotFoundException;
+
+    message ??= '';
+  }
+}
 
 class ConflictException extends Exceptions {
   final String? message;
 
   ConflictException({this.message});
 }
-class ReceiveException implements Exception {}
 
-class UnknownException implements Exception {}
+class ReceiveException implements Exception {
+  String? message;
+
+  ReceiveException({this.message}) {
+    message ??= SuperLocalizations.of(
+        SuperRepository.navigatorKey.currentState!.context)!
+        .errorReceiveFailure;
+  }
+}
+
+class UnknownException implements Exception {
+  String? message;
+
+  UnknownException({this.message}) {
+    message ??= SuperLocalizations.of(
+        SuperRepository.navigatorKey.currentState!.context)!
+        .errorUnexpectedException;
+  }
+}
 
 class CustomException implements Exceptions {
   final String message;
