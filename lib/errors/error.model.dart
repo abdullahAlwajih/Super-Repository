@@ -22,6 +22,6 @@ class ErrorModel {
   }) {
     if (icon.isEmpty) icon = ErrorAssets.defaultIcon;
     if (image.isEmpty) image = ErrorAssets.defaultImage;
-    exception ??= Exceptions.fromEnumeration(ExceptionTypes.unexpected);
+    // exception ??= Exceptions.fromEnumeration(ExceptionTypes.unexpected);
   }
 }
