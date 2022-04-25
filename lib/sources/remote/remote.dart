@@ -64,14 +64,15 @@ class Remote {
           receiveRemaining.value = (total - received) / total * 100;
         },
 
-      ).timeout(
-
-        Duration(milliseconds: dio!.options.sendTimeout),
-        onTimeout: () {
-          log(' dio!.options.sendTimeout');
-          throw Exceptions.fromEnumeration(ExceptionTypes.timeout);
-        },
       );
+      // .timeout(
+      //
+      //   Duration(milliseconds: dio!.options.sendTimeout),
+      //   onTimeout: () {
+      //     log(' dio!.options.sendTimeout');
+      //     throw Exceptions.fromEnumeration(ExceptionTypes.timeout);
+      //   },
+      // );
 
       statusCode = response.statusCode!;
 
