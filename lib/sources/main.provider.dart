@@ -1,8 +1,8 @@
 import 'dart:developer';
 
-import '../errors/error.model.dart';
+import '../errors/error_model.dart';
 import '../errors/exceptions.dart';
-import '../errors/exceptions.enum.wings.dart';
+import '../errors/exceptions_enum.dart';
 import '../errors/mapping_errors.helper.dart';
 import '../network/network.manager.dart';
 import 'local/local.dart';

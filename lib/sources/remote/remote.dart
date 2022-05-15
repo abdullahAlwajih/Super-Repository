@@ -5,7 +5,6 @@ import 'package:get/get.dart';
 // import 'package:super_repository/sources/remote/response_format.dart';
 import 'package:super_repository/super_repository.dart';
 
-import '../../errors/exceptions.enum.wings.dart';
 import '../../errors/exceptions.dart';
 import '../../errors/mapping_errors.helper.dart';
 import 'methods.enums.dart';

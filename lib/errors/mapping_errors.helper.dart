@@ -1,8 +1,7 @@
-import 'package:get/get_utils/src/extensions/internacionalization.dart';
 import 'package:super_repository/errors/firebase_error.dart';
+import 'package:super_repository/super_repository.dart';
 
-import 'error_asset.static.dart';
-import 'error.model.dart';
+import 'error_asset_static.dart';
 import 'exceptions.dart';
 
 ErrorModel mapExceptionToMessage(Object exception) {
@@ -16,7 +15,7 @@ ErrorModel mapExceptionToMessage(Object exception) {
       );
     case ConflictException:
       return ErrorModel(
-        message:FirebaseErrors.getMessage((exception as ConflictException).message) ?? '',
+        message:FirebaseErrors.getMessage((exception as ConflictException).message),
         image: ErrorAssets.connectionExceptionImage,
         icon: ErrorAssets.connectionExceptionIcon,
         exception: ConnectionException(),
@@ -107,10 +106,11 @@ ErrorModel mapExceptionToMessage(Object exception) {
       );
     default:
       return ErrorModel(
-        message: (exception as UnexpectedException).message!,
+        message: (exception as UnexpectedException).message ??  SuperLocalizations.of(
+            SuperRepository.navigatorKey.currentState!.context)!
+            .errorUnexpectedException,
         image: ErrorAssets.unexpectedErrorImage,
         icon: ErrorAssets.unexpectedErrorIcon,
-        exception: UnexpectedException(),
       );
   }
 }

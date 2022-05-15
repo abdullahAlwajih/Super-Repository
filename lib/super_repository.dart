@@ -2,13 +2,13 @@ library super_repository;
 import 'package:flutter/cupertino.dart';
 
 import 'app/models/base_model.dart';
-import 'errors/error.model.dart';
-import 'errors/exceptions.enum.wings.dart';
+import 'errors/error_model.dart';
+import 'errors/exceptions_enum.dart';
 import 'errors/exceptions.dart';
 import 'sources/main.provider.dart';
 import 'sources/remote/request.dart';
 
-export 'errors/error.model.dart';
+export 'errors/error_model.dart';
 export 'sources/remote/request.dart';
 export 'sources/main.provider.dart';
 export 'sources/remote/remote.dart';

@@ -1,6 +1,6 @@
 import 'package:super_repository/super_repository.dart';
 
-import 'exceptions.enum.wings.dart';
+import 'exceptions_enum.dart';
 
 class Exceptions implements Exception {
   Exceptions();

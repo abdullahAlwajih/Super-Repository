@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'error_asset.static.dart';
-import 'exceptions.enum.wings.dart';
+import 'error_asset_static.dart';
 import 'exceptions.dart';
 
 class ErrorModel {
