@@ -1,7 +1,6 @@
 import 'dart:developer';
 
 import 'package:dio/dio.dart';
-import 'package:get/get.dart';
 // import 'package:super_repository/sources/remote/response_format.dart';
 import 'package:super_repository/super_repository.dart';
 
@@ -36,9 +35,9 @@ class Remote {
 
 
 
-  int statusCode = 0;
-  RxDouble sendingRemaining = 0.0.obs;
-  RxDouble receiveRemaining = 0.0.obs;
+  dynamic statusCode = 0;
+  double sendingRemaining = 0.0;
+  double receiveRemaining = 0.0;
 
   bool get success =>
       statusCode == 200 || statusCode == 201 || statusCode == 202;
@@ -57,10 +56,10 @@ class Remote {
         data: request.body,
         options: Options(method: method.name, headers: request.header!),
         onSendProgress: (sent, total) {
-          sendingRemaining.value = (total - sent) / total * 100;
+          sendingRemaining = (total - sent) / total * 100;
         },
         onReceiveProgress: (received, total) {
-          receiveRemaining.value = (total - received) / total * 100;
+          receiveRemaining = (total - received) / total * 100;
         },
 
       );
