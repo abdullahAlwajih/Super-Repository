@@ -32,9 +32,9 @@ class DataProvider {
 
   ErrorModel error = ErrorModel(message: '');
 
-  double get sendingRemaining => remote.sendingRemaining.value;
+  double get sendingRemaining => remote.sendingRemaining;
 
-  double get receiveRemaining => remote.receiveRemaining.value;
+  double get receiveRemaining => remote.receiveRemaining;
 
   bool get remoteConnection => NetworkManager.instance.hasConnection;
 
