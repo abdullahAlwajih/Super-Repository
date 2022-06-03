@@ -176,9 +176,11 @@ class ConnectionException extends Exceptions {
   String? message;
 
   ConnectionException({this.message}) {
-    message ??= SuperLocalizations.of(
+    message ??= SuperRepository.navigatorKey.currentState?.context == null ?
+    "" :
+    SuperLocalizations.of(
         SuperRepository.navigatorKey.currentState!.context)!
-        .errorConflictException;
+        .errorConflictException ;
   }
 }
 
