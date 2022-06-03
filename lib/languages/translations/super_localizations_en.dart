@@ -17,7 +17,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authPleaseFillInTheField => 'Please fill in the field';
 
   @override
-  String get appChooseLanguageOfApplication => 'Choose the language of the application';
+  String get appChooseLanguageOfApplication => 'Choose the language';
 
   @override
   String get appAboutTheApp => 'about the app';
@@ -344,7 +344,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authPIN => 'personal identifier';
 
   @override
-  String get authPassword => 'The password';
+  String get authPassword => 'Password';
 
   @override
   String get authPasswordConfirmation => 'confirm password';
@@ -356,7 +356,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authPasswordsDoNotMatch => 'Password does not match';
 
   @override
-  String get authPhoneNumber => 'phone number';
+  String get authPhoneNumber => 'Phone number';
 
   @override
   String get authPhoneNumberIsRequired => 'Phone number is required';

@@ -17,7 +17,7 @@ class SuperLocalizationsFr extends SuperLocalizations {
   String get authPleaseFillInTheField => 'Veuillez remplir le champ';
 
   @override
-  String get appChooseLanguageOfApplication => 'Choisissez la langue de l\'application';
+  String get appChooseLanguageOfApplication => 'Choisissez la langue';
 
   @override
   String get appAboutTheApp => 'à propos de l\'application';

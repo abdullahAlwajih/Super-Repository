@@ -117,7 +117,7 @@ abstract class SuperLocalizations {
   /// No description provided for @appChooseLanguageOfApplication.
   ///
   /// In en, this message translates to:
-  /// **'Choose the language of the application'**
+  /// **'Choose the language'**
   String get appChooseLanguageOfApplication;
 
   /// No description provided for @appAboutTheApp.
@@ -771,7 +771,7 @@ abstract class SuperLocalizations {
   /// No description provided for @authPassword.
   ///
   /// In en, this message translates to:
-  /// **'The password'**
+  /// **'Password'**
   String get authPassword;
 
   /// No description provided for @authPasswordConfirmation.
@@ -795,7 +795,7 @@ abstract class SuperLocalizations {
   /// No description provided for @authPhoneNumber.
   ///
   /// In en, this message translates to:
-  /// **'phone number'**
+  /// **'Phone number'**
   String get authPhoneNumber;
 
   /// No description provided for @authPhoneNumberIsRequired.
