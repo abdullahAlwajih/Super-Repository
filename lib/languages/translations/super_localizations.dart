@@ -657,7 +657,7 @@ abstract class SuperLocalizations {
   /// No description provided for @authLogin.
   ///
   /// In en, this message translates to:
-  /// **'sign in'**
+  /// **'Login'**
   String get authLogin;
 
   /// No description provided for @authLoginTo.
@@ -861,7 +861,7 @@ abstract class SuperLocalizations {
   /// No description provided for @authRegister.
   ///
   /// In en, this message translates to:
-  /// **'Create an account'**
+  /// **'Register'**
   String get authRegister;
 
   /// No description provided for @authRegisterYourAccount.

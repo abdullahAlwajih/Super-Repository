@@ -287,7 +287,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authLocalReason => 'Please authenticate to access your account';
 
   @override
-  String get authLogin => 'sign in';
+  String get authLogin => 'Login';
 
   @override
   String get authLoginTo => 'sign in to';
@@ -389,7 +389,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authRegex => 'incorrect pattern';
 
   @override
-  String get authRegister => 'Create an account';
+  String get authRegister => 'Register';
 
   @override
   String get authRegisterYourAccount => 'Already registered?';

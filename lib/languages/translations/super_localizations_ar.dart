@@ -389,7 +389,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get authRegex => 'نمط غير صحيح';
 
   @override
-  String get authRegister => 'انشاء حساب';
+  String get authRegister => 'انشاء الحساب';
 
   @override
   String get authRegisterYourAccount => 'مسجل مسبقاً ؟';
