@@ -69,6 +69,8 @@ class DataProvider {
         }
 
         return response;
+      }else {
+        throw Exceptions.fromEnumeration(ExceptionTypes.connection);
       }
     } catch (exception) {
       log('insert has exception of type $exception');
