@@ -137,7 +137,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get authCanNotGetTheContactNumber => 'غير قادر على الحصول على الرقم';
 
   @override
-  String get authChangePassword => 'تغيير كلمة المرور';
+  String get authChangePassword => 'تغيير كلمة السر';
 
   @override
   String get authChooseAccount => 'اختر الحساب';
@@ -158,7 +158,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get authConfirmPIN => 'تأكيد الهوية الشخصية';
 
   @override
-  String get authConfirmPassword => 'تأكد كلمة المرور';
+  String get authConfirmPassword => 'أكد كلمة السر';
 
   @override
   String get authConfirmationCode => 'رمز التأكيد';
@@ -194,7 +194,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get authEmailAddress => 'عنوان بريد الكتروني';
 
   @override
-  String get authEmailToResetPassword => 'البريد الإلكتروني لإعادة تعيين كلمة المرور';
+  String get authEmailToResetPassword => 'البريد الإلكتروني لإعادة تعيين كلمة السر';
 
   @override
   String get authEnterAddress => 'ادخل العنوان';
@@ -209,7 +209,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get authEnterName => 'ادخل الإسم';
 
   @override
-  String get authEnterPassword => 'ادخل كلمة المرور';
+  String get authEnterPassword => 'ادخل كلمة السر';
 
   @override
   String get authEnterPhone => 'ادخل رقم الهاتف';
@@ -245,7 +245,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get authFirstName => 'الإسم الأول:';
 
   @override
-  String get authForgotPassword => 'هل نسيت كلمة المرور؟';
+  String get authForgotPassword => 'هل نسيت كلمة السر؟';
 
   @override
   String get authFourthName => 'الاسم الرابع';
@@ -347,13 +347,13 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get authPassword => 'كلمه السر';
 
   @override
-  String get authPasswordConfirmation => 'تأكيد كلمة المرور';
+  String get authPasswordConfirmation => 'أكد كلمة السر';
 
   @override
-  String get authPasswordMustContainAtLeastSixCharacters => 'يجب أن تحتوي كلمة المرور على ستة أحرف على الأقل.';
+  String get authPasswordMustContainAtLeastSixCharacters => 'يجب أن تحتوي كلمة السر على ستة أحرف على الأقل.';
 
   @override
-  String get authPasswordsDoNotMatch => 'كلمة المرور غير متطابقة';
+  String get authPasswordsDoNotMatch => 'كلمة االسر غير متطابقة';
 
   @override
   String get authPhoneNumber => 'رقم الهاتف';
@@ -383,7 +383,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get authPleaseFillInYourMobilePhoneNumber => 'الرجاء ادخال رقم هاتفك';
 
   @override
-  String get authPleaseFillInYourNewPassword => 'الرجاء ادخال كلمة المرور الجديدة';
+  String get authPleaseFillInYourNewPassword => 'الرجاء ادخال كلمة السر الجديدة';
 
   @override
   String get authPrivacyPolicy => 'سياسة الخصوصية';
@@ -410,7 +410,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get authResendTheCodeAgain => 'إعادة ارسال الرمز مجددا';
 
   @override
-  String get authResetPassword => 'تغيير كلمة المرور';
+  String get authResetPassword => 'تغيير كلمة السر';
 
   @override
   String get authSecondName => 'الاسم الثاني';
@@ -1427,7 +1427,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get errorOhOhYouAreLost => 'أوه أوه! أنت ضائع';
 
   @override
-  String get errorPasswordException => 'كلمة المرور غير صحيحة';
+  String get errorPasswordException => 'كلمة السر غير صحيحة';
 
   @override
   String get errorReceiveFailure => 'حدث خطأ اثناء استقبال البيانات';
@@ -1478,7 +1478,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get errorVerifyYourInternetConnection => 'تحقق من اتصالك بالإنترنت';
 
   @override
-  String get errorWrongEmailOrPassword => 'البريد الإلكتروني أو كلمة المرور خاطئة';
+  String get errorWrongEmailOrPassword => 'البريد الإلكتروني أو كلمة السر خاطئة';
 
   @override
   String get firebaseInvalidCustomToken => 'تنسيق الرمز المميز غير صحيح أو منتهي الصلاحية';
@@ -1508,7 +1508,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get firebaseEmailExists => 'عنوان البريد الإلكتروني قيد الاستخدام بالفعل من قبل حساب آخر.';
 
   @override
-  String get firebaseOperationNotAllowed => 'تم تعطيل تسجيل الدخول بكلمة المرور لهذا المشروع.';
+  String get firebaseOperationNotAllowed => 'تم تعطيل تسجيل الدخول بكلمة السر لهذا المشروع.';
 
   @override
   String get firebaseTooManyAttemptsTryLater => 'لقد حظرنا جميع الطلبات الواردة من هذا الجهاز بسبب نشاط غير عادي. حاول مرة أخرى في وقت لاحق.';
@@ -1517,7 +1517,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get firebaseEmailNotFound => 'لا يوجد سجل مستخدم مطابق لهذا المعرف. ربما تم حذف المستخدم.';
 
   @override
-  String get firebaseInvalidPassword => 'كلمة المرور غير صالحة أو ليس لدى المستخدم كلمة مرور.';
+  String get firebaseInvalidPassword => 'كلمة السر غير صالحة أو ليس لدى المستخدم كلمة مرور.';
 
   @override
   String get firebaseInvalidIDPResponse => 'بيانات اعتماد المصادقة المقدمة غير صحيحة أو منتهية الصلاحية.';
@@ -1532,7 +1532,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get firebaseInvalidIDToken => 'لم تعد بيانات اعتماد المستخدم صالحة. يجب على المستخدم تسجيل الدخول مرة أخرى.';
 
   @override
-  String get firebaseWeakPassword => 'يجب أن تتكون كلمة المرور من 6 أحرف أو أكثر.';
+  String get firebaseWeakPassword => 'يجب أن تتكون كلمة السر من 6 أحرف أو أكثر.';
 
   @override
   String get firebaseCredentialTooOldLoginAgain => 'لم تعد بيانات اعتماد المستخدم صالحة. يجب على المستخدم تسجيل الدخول مرة أخرى.';
