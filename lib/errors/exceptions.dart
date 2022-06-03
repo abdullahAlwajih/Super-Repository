@@ -180,7 +180,7 @@ class ConnectionException extends Exceptions {
     "" :
     SuperLocalizations.of(
         SuperRepository.navigatorKey.currentState!.context)!
-        .errorConflictException ;
+        .errorCheckYourInternetConnection ;
   }
 }
 
