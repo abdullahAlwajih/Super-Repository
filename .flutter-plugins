@@ -1,12 +1,12 @@
 # This is a generated file; do not edit or check into version control.
 connectivity_plus=/home/kaito/development/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus-2.3.2/
-connectivity_plus_linux=/home/kaito/development/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus_linux-1.3.0/
+connectivity_plus_linux=/home/kaito/development/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus_linux-1.3.1/
 connectivity_plus_macos=/home/kaito/development/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus_macos-1.2.2/
-connectivity_plus_web=/home/kaito/development/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus_web-1.2.0/
-connectivity_plus_windows=/home/kaito/development/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus_windows-1.2.0/
-path_provider=/home/kaito/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.9/
-path_provider_android=/home/kaito/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_android-2.0.12/
-path_provider_ios=/home/kaito/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_ios-2.0.8/
-path_provider_linux=/home/kaito/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.1.5/
-path_provider_macos=/home/kaito/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-2.0.5/
-path_provider_windows=/home/kaito/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.0.5/
+connectivity_plus_web=/home/kaito/development/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus_web-1.2.1/
+connectivity_plus_windows=/home/kaito/development/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus_windows-1.2.2/
+path_provider=/home/kaito/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.10/
+path_provider_android=/home/kaito/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_android-2.0.14/
+path_provider_ios=/home/kaito/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_ios-2.0.9/
+path_provider_linux=/home/kaito/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.1.7/
+path_provider_macos=/home/kaito/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-2.0.6/
+path_provider_windows=/home/kaito/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.1.0/
