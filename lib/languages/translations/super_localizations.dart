@@ -594,6 +594,12 @@ abstract class SuperLocalizations {
   /// **'Full name'**
   String get authFullName;
 
+  /// No description provided for @authName.
+  ///
+  /// In en, this message translates to:
+  /// **'Name'**
+  String get authName;
+
   /// No description provided for @authGender.
   ///
   /// In en, this message translates to:

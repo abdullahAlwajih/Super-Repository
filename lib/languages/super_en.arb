@@ -263,6 +263,7 @@
   "authFourthName": "fourth name",
   "authFullAddress": "the full address",
   "authFullName": "Full name",
+  "authName": "Name",
   "authGender": "sex",
   "authHelpAndPolicies": "Help and Privacy Policy",
   "authHomeAddress": "Home Address",

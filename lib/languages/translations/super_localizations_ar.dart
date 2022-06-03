@@ -257,6 +257,9 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get authFullName => 'الاسم الكامل';
 
   @override
+  String get authName => 'الاسم';
+
+  @override
   String get authGender => 'الجنس';
 
   @override

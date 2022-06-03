@@ -83,6 +83,7 @@
   "authFourthName": "quatrième nom",
   "authFullAddress": "l'adresse complète",
   "authFullName": "le nom complet",
+  "authName": "le nom",
   "authGender": "sexe",
   "authHelpAndPolicies": "Aide et politique de confidentialité",
   "authHomeAddress": "l'adresse de la maison",

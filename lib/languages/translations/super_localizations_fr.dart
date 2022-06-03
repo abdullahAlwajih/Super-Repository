@@ -257,6 +257,9 @@ class SuperLocalizationsFr extends SuperLocalizations {
   String get authFullName => 'le nom complet';
 
   @override
+  String get authName => 'le nom';
+
+  @override
   String get authGender => 'sexe';
 
   @override
