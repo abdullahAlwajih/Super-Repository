@@ -106,7 +106,7 @@ ErrorModel mapExceptionToMessage(Object exception) {
       );
     default:
       return ErrorModel(
-        message: (exception as UnexpectedException).message ??  SuperLocalizations.of(
+        message: SuperLocalizations.of(
             SuperRepository.navigatorKey.currentState!.context)!
             .errorUnexpectedException,
         image: ErrorAssets.unexpectedErrorImage,
