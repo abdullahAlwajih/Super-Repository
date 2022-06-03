@@ -1,4 +1,8 @@
 {
+  "authSendOTP": "Envoyer OTP",
+  "authPleaseFillInTheField": "Veuillez remplir le champ",
+  "appChooseLanguageOfApplication": "Choisissez la langue de l'application",
+
   "appAbout": "Sur",
   "appAboutTheApp": "à propos de l'application",
   "appApp": "application",

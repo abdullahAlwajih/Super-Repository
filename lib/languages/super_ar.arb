@@ -1,4 +1,8 @@
 {
+  "authSendOTP": "ارسال رمز التحقق",
+  "authPleaseFillInTheField": "الرجاء ملء الحقل",
+  "appChooseLanguageOfApplication": "اختر لغة التطبيق",
+
   "appAbout": "حول",
   "appAboutTheApp": "عن التطبيق",
   "appApp": "التطبيق",

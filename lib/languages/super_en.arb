@@ -1,4 +1,12 @@
 {
+
+  "@sendOTP": {
+    "placeholders": {
+      "attribute": {
+        "type": "String"
+      }
+    }
+  },
   "@validAccepted": {
     "placeholders": {
       "attribute": {
@@ -173,6 +181,9 @@
     }
   },
   "appAbout": "About",
+  "authSendOTP": "Send OTP",
+  "authPleaseFillInTheField": "Please fill in the field",
+  "appChooseLanguageOfApplication": "Choose the language of the application",
   "appAboutTheApp": "about the app",
   "appApp": "application",
   "appAppLanguage": "application language",

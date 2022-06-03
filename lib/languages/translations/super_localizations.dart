@@ -102,6 +102,24 @@ abstract class SuperLocalizations {
   /// **'About'**
   String get appAbout;
 
+  /// No description provided for @authSendOTP.
+  ///
+  /// In en, this message translates to:
+  /// **'Send OTP'**
+  String get authSendOTP;
+
+  /// No description provided for @authPleaseFillInTheField.
+  ///
+  /// In en, this message translates to:
+  /// **'Please fill in the field'**
+  String get authPleaseFillInTheField;
+
+  /// No description provided for @appChooseLanguageOfApplication.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose the language of the application'**
+  String get appChooseLanguageOfApplication;
+
   /// No description provided for @appAboutTheApp.
   ///
   /// In en, this message translates to:

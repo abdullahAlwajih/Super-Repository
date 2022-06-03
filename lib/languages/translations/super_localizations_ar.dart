@@ -11,6 +11,15 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get appAbout => 'حول';
 
   @override
+  String get authSendOTP => 'ارسال رمز التحقق';
+
+  @override
+  String get authPleaseFillInTheField => 'الرجاء ملء الحقل';
+
+  @override
+  String get appChooseLanguageOfApplication => 'اختر لغة التطبيق';
+
+  @override
   String get appAboutTheApp => 'عن التطبيق';
 
   @override

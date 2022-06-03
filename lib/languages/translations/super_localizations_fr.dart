@@ -11,6 +11,15 @@ class SuperLocalizationsFr extends SuperLocalizations {
   String get appAbout => 'Sur';
 
   @override
+  String get authSendOTP => 'Envoyer OTP';
+
+  @override
+  String get authPleaseFillInTheField => 'Veuillez remplir le champ';
+
+  @override
+  String get appChooseLanguageOfApplication => 'Choisissez la langue de l\'application';
+
+  @override
   String get appAboutTheApp => 'à propos de l\'application';
 
   @override
