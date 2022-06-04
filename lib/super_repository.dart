@@ -1,20 +1,21 @@
 library super_repository;
+
 import 'package:flutter/cupertino.dart';
 
 import 'app/models/base_model.dart';
 import 'errors/error_model.dart';
-import 'errors/exceptions_enum.dart';
 import 'errors/exceptions.dart';
+import 'errors/exceptions_enum.dart';
 import 'sources/main.provider.dart';
 import 'sources/remote/request.dart';
 
+export 'app_store.dart';
 export 'errors/error_model.dart';
-export 'sources/remote/request.dart';
+export 'languages/translations/super_localizations.dart';
+export 'sources/local/local.dart';
 export 'sources/main.provider.dart';
 export 'sources/remote/remote.dart';
-export 'sources/local/local.dart';
-export 'languages/translations/super_localizations.dart';
-export 'app_store.dart';
+export 'sources/remote/request.dart';
 
 class SuperRepository {
   static SuperRepository? _instance;
@@ -22,6 +23,7 @@ class SuperRepository {
   late Map<String, dynamic> headers;
   static bool isDarkMode = false;
   static GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
+
   static SuperRepository get instance {
     if (_instance == null) init();
     return _instance!;
@@ -89,21 +91,31 @@ class SuperRepository {
           await provider.insert(request: request, shouldCache: shouldCache);
       dynamic temp;
 
-      if (model != null) {
-        if (response is Map<String, dynamic>) {
-          temp = model.fromJson(response);
+      if (response['data'] == null) {
+        if (response['status'] ?? true) {
+          return response["message"];
+        } else {
+          throw response["message"];
+        }
+      } else {
+        if (model != null) {
+          if (response is List) {
+            return model.fromJsonList(response);
+          } else if (response is Map<String, dynamic>) {
+            temp = model.fromJson(response);
 
-          if (toList != null) {
-            toList.add(temp);
+            if (toList != null) {
+              toList.add(temp);
+            }
+          } else {
+            temp = response;
           }
         } else {
           temp = response;
         }
-      } else {
-        temp = response;
-      }
 
-      return temp;
+        return temp;
+      }
     } catch (e) {
       rethrow;
     }
@@ -118,9 +130,8 @@ class SuperRepository {
 
   Future<dynamic> updateData(
       {required Request request,
-        BaseModel? model,
-        bool shouldCache = false}) async {
-
+      BaseModel? model,
+      bool shouldCache = false}) async {
     return await provider.update(request: request, shouldCache: shouldCache);
 
     // var response =
