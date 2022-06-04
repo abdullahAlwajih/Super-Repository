@@ -3567,7 +3567,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopCart.
   ///
   /// In en, this message translates to:
-  /// **'shopping cart'**
+  /// **'Cart'**
   String get shopCart;
 
   /// No description provided for @shopCartIsEmpty.

@@ -1742,7 +1742,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get shopCardNumber => 'رقم البطاقة';
 
   @override
-  String get shopCart => 'عربة التسوق';
+  String get shopCart => 'السلة';
 
   @override
   String get shopCartIsEmpty => 'السلة فارغة';

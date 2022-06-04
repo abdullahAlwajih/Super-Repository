@@ -758,7 +758,7 @@
   "shopCantCalculateDeliveryFee": "Unable to calculate delivery charges",
   "shopCar": "car",
   "shopCardNumber": "card number",
-  "shopCart": "shopping cart",
+  "shopCart": "Cart",
   "shopCartIsEmpty": "Cart is empty",
   "shopCashOnDelivery": "Paiement when recieving",
   "shopChangeCoupon": "coupon change",

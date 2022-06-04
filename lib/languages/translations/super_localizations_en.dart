@@ -1742,7 +1742,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopCardNumber => 'card number';
 
   @override
-  String get shopCart => 'shopping cart';
+  String get shopCart => 'Cart';
 
   @override
   String get shopCartIsEmpty => 'Cart is empty';
