@@ -123,19 +123,19 @@ abstract class SuperLocalizations {
   /// No description provided for @appAboutTheApp.
   ///
   /// In en, this message translates to:
-  /// **'about the app'**
+  /// **'About the app'**
   String get appAboutTheApp;
 
   /// No description provided for @appApp.
   ///
   /// In en, this message translates to:
-  /// **'application'**
+  /// **'Application'**
   String get appApp;
 
   /// No description provided for @appAppLanguage.
   ///
   /// In en, this message translates to:
-  /// **'application language'**
+  /// **'Application language'**
   String get appAppLanguage;
 
   /// No description provided for @appAppSettings.
@@ -147,7 +147,7 @@ abstract class SuperLocalizations {
   /// No description provided for @appAppVersion.
   ///
   /// In en, this message translates to:
-  /// **'app version'**
+  /// **'App version'**
   String get appAppVersion;
 
   /// No description provided for @appApplicationPreferences.
@@ -159,7 +159,7 @@ abstract class SuperLocalizations {
   /// No description provided for @appDarkMode.
   ///
   /// In en, this message translates to:
-  /// **'dark theme'**
+  /// **'Dark theme'**
   String get appDarkMode;
 
   /// No description provided for @appHome.
@@ -171,7 +171,7 @@ abstract class SuperLocalizations {
   /// No description provided for @appLightMode.
   ///
   /// In en, this message translates to:
-  /// **'light theme'**
+  /// **'Light theme'**
   String get appLightMode;
 
   /// No description provided for @appNeedsToBeUpdated.
@@ -183,7 +183,7 @@ abstract class SuperLocalizations {
   /// No description provided for @appNewUpdate.
   ///
   /// In en, this message translates to:
-  /// **'new update'**
+  /// **'New update'**
   String get appNewUpdate;
 
   /// No description provided for @appNewUpdateWithFace.
@@ -195,7 +195,7 @@ abstract class SuperLocalizations {
   /// No description provided for @appShareApplication.
   ///
   /// In en, this message translates to:
-  /// **'share app'**
+  /// **'Share app'**
   String get appShareApplication;
 
   /// No description provided for @appSoPleaseUpdateToTheNewVersion.
@@ -225,7 +225,7 @@ abstract class SuperLocalizations {
   /// No description provided for @appUpdateNow.
   ///
   /// In en, this message translates to:
-  /// **'update now'**
+  /// **'Update now'**
   String get appUpdateNow;
 
   /// No description provided for @appVersion.
@@ -255,7 +255,7 @@ abstract class SuperLocalizations {
   /// No description provided for @authAccount.
   ///
   /// In en, this message translates to:
-  /// **'the account'**
+  /// **'The account'**
   String get authAccount;
 
   /// No description provided for @authAccountApproveAlert.
@@ -267,31 +267,31 @@ abstract class SuperLocalizations {
   /// No description provided for @authAccountDetails.
   ///
   /// In en, this message translates to:
-  /// **'account details'**
+  /// **'Account details'**
   String get authAccountDetails;
 
   /// No description provided for @authAccountNumber.
   ///
   /// In en, this message translates to:
-  /// **'account number'**
+  /// **'Account number'**
   String get authAccountNumber;
 
   /// No description provided for @authAccounts.
   ///
   /// In en, this message translates to:
-  /// **'the accounts'**
+  /// **'The accounts'**
   String get authAccounts;
 
   /// No description provided for @authAddImage.
   ///
   /// In en, this message translates to:
-  /// **'add a picture'**
+  /// **'Add a picture'**
   String get authAddImage;
 
   /// No description provided for @authAddNewAddress.
   ///
   /// In en, this message translates to:
-  /// **'add a new address,'**
+  /// **'Add a new address,'**
   String get authAddNewAddress;
 
   /// No description provided for @authAddress.
@@ -309,7 +309,7 @@ abstract class SuperLocalizations {
   /// No description provided for @authAge.
   ///
   /// In en, this message translates to:
-  /// **'the age'**
+  /// **'The age'**
   String get authAge;
 
   /// No description provided for @authAlreadyHaveAnAccount.
@@ -321,7 +321,7 @@ abstract class SuperLocalizations {
   /// No description provided for @authAlternativePhone.
   ///
   /// In en, this message translates to:
-  /// **'alternate phone number'**
+  /// **'Alternate phone number'**
   String get authAlternativePhone;
 
   /// No description provided for @authAnErrorOccurredPleaseTryAgain.
@@ -357,13 +357,13 @@ abstract class SuperLocalizations {
   /// No description provided for @authChangePassword.
   ///
   /// In en, this message translates to:
-  /// **'change Password'**
+  /// **'Change Password'**
   String get authChangePassword;
 
   /// No description provided for @authChooseAccount.
   ///
   /// In en, this message translates to:
-  /// **'select account'**
+  /// **'Select account'**
   String get authChooseAccount;
 
   /// No description provided for @authChooseUserType.
@@ -399,13 +399,13 @@ abstract class SuperLocalizations {
   /// No description provided for @authConfirmPassword.
   ///
   /// In en, this message translates to:
-  /// **'confirm password'**
+  /// **'Confirm password'**
   String get authConfirmPassword;
 
   /// No description provided for @authConfirmationCode.
   ///
   /// In en, this message translates to:
-  /// **'confirmation code'**
+  /// **'Confirmation code'**
   String get authConfirmationCode;
 
   /// No description provided for @authContinueWithTheSameData.
@@ -417,19 +417,19 @@ abstract class SuperLocalizations {
   /// No description provided for @authCreateANewAccount.
   ///
   /// In en, this message translates to:
-  /// **'create a new account'**
+  /// **'Create a new account'**
   String get authCreateANewAccount;
 
   /// No description provided for @authCustomerID.
   ///
   /// In en, this message translates to:
-  /// **'user id'**
+  /// **'User id'**
   String get authCustomerID;
 
   /// No description provided for @authDataCompletion.
   ///
   /// In en, this message translates to:
-  /// **'data completion'**
+  /// **'Data completion'**
   String get authDataCompletion;
 
   /// No description provided for @authDonatHaveAccountQuestion.
@@ -447,49 +447,49 @@ abstract class SuperLocalizations {
   /// No description provided for @authEditAddress.
   ///
   /// In en, this message translates to:
-  /// **'address modification'**
+  /// **'Address modification'**
   String get authEditAddress;
 
   /// No description provided for @authEditMyData.
   ///
   /// In en, this message translates to:
-  /// **'modify my data'**
+  /// **'Modify my data'**
   String get authEditMyData;
 
   /// No description provided for @authEditProfile.
   ///
   /// In en, this message translates to:
-  /// **'account modification'**
+  /// **'Account modification'**
   String get authEditProfile;
 
   /// No description provided for @authEmailAddress.
   ///
   /// In en, this message translates to:
-  /// **'email address'**
+  /// **'Email address'**
   String get authEmailAddress;
 
   /// No description provided for @authEmailToResetPassword.
   ///
   /// In en, this message translates to:
-  /// **'password reset email'**
+  /// **'Password reset email'**
   String get authEmailToResetPassword;
 
   /// No description provided for @authEnterAddress.
   ///
   /// In en, this message translates to:
-  /// **'enter address'**
+  /// **'Enter address'**
   String get authEnterAddress;
 
   /// No description provided for @authEnterCode.
   ///
   /// In en, this message translates to:
-  /// **'enter code'**
+  /// **'Enter code'**
   String get authEnterCode;
 
   /// No description provided for @authEnterEmail.
   ///
   /// In en, this message translates to:
-  /// **'enter email'**
+  /// **'Enter email'**
   String get authEnterEmail;
 
   /// No description provided for @authEnterName.
@@ -555,7 +555,7 @@ abstract class SuperLocalizations {
   /// No description provided for @authFemale.
   ///
   /// In en, this message translates to:
-  /// **'feminine'**
+  /// **'Feminine'**
   String get authFemale;
 
   /// No description provided for @authFirebaseSmsExpireMessage.
@@ -573,19 +573,19 @@ abstract class SuperLocalizations {
   /// No description provided for @authForgotPassword.
   ///
   /// In en, this message translates to:
-  /// **'did you forget your password?'**
+  /// **'Did you forget your password?'**
   String get authForgotPassword;
 
   /// No description provided for @authFourthName.
   ///
   /// In en, this message translates to:
-  /// **'fourth name'**
+  /// **'Fourth name'**
   String get authFourthName;
 
   /// No description provided for @authFullAddress.
   ///
   /// In en, this message translates to:
-  /// **'the full address'**
+  /// **'The full address'**
   String get authFullAddress;
 
   /// No description provided for @authFullName.
@@ -603,7 +603,7 @@ abstract class SuperLocalizations {
   /// No description provided for @authGender.
   ///
   /// In en, this message translates to:
-  /// **'sex'**
+  /// **'Sex'**
   String get authGender;
 
   /// No description provided for @authHelpAndPolicies.
@@ -627,13 +627,13 @@ abstract class SuperLocalizations {
   /// No description provided for @authIDNumber.
   ///
   /// In en, this message translates to:
-  /// **'card number'**
+  /// **'Card number'**
   String get authIDNumber;
 
   /// No description provided for @authIDonatHaveAnAccount.
   ///
   /// In en, this message translates to:
-  /// **'I dont have an account?'**
+  /// **'I don\'t have an account?'**
   String get authIDonatHaveAnAccount;
 
   /// No description provided for @authIHaveAccountBackToLogin.
@@ -657,7 +657,7 @@ abstract class SuperLocalizations {
   /// No description provided for @authLastName.
   ///
   /// In en, this message translates to:
-  /// **'last name'**
+  /// **'Last name'**
   String get authLastName;
 
   /// No description provided for @authLetsStartWithLogin.
@@ -687,19 +687,19 @@ abstract class SuperLocalizations {
   /// No description provided for @authLoginTo.
   ///
   /// In en, this message translates to:
-  /// **'sign in to'**
+  /// **'Sign in to'**
   String get authLoginTo;
 
   /// No description provided for @authLoginToTheApplication.
   ///
   /// In en, this message translates to:
-  /// **'login to the application'**
+  /// **'Login to the application'**
   String get authLoginToTheApplication;
 
   /// No description provided for @authLogout.
   ///
   /// In en, this message translates to:
-  /// **'sign out'**
+  /// **'Sign out'**
   String get authLogout;
 
   /// No description provided for @authMale.
@@ -711,19 +711,19 @@ abstract class SuperLocalizations {
   /// No description provided for @authMobileNumberVerification.
   ///
   /// In en, this message translates to:
-  /// **'confirm phone number'**
+  /// **'Confirm phone number'**
   String get authMobileNumberVerification;
 
   /// No description provided for @authNewPassword.
   ///
   /// In en, this message translates to:
-  /// **'new password'**
+  /// **'New password'**
   String get authNewPassword;
 
   /// No description provided for @authOrCreateNewAccount.
   ///
   /// In en, this message translates to:
-  /// **'or create an account'**
+  /// **'Or create an account'**
   String get authOrCreateNewAccount;
 
   /// No description provided for @authOrLoginWithAPhoneNumber.
@@ -735,19 +735,19 @@ abstract class SuperLocalizations {
   /// No description provided for @authOrLoginWithAnEmail.
   ///
   /// In en, this message translates to:
-  /// **'or log in via e-mail'**
+  /// **'Or log in via e-mail'**
   String get authOrLoginWithAnEmail;
 
   /// No description provided for @authOrRegisterWithAPhone.
   ///
   /// In en, this message translates to:
-  /// **'or use the phone number'**
+  /// **'Or use the phone number'**
   String get authOrRegisterWithAPhone;
 
   /// No description provided for @authOrRegisterWithAnEmail.
   ///
   /// In en, this message translates to:
-  /// **'or use e-mail'**
+  /// **'Or use e-mail'**
   String get authOrRegisterWithAnEmail;
 
   /// No description provided for @authOrSendCodeViaEmail.
@@ -771,7 +771,7 @@ abstract class SuperLocalizations {
   /// No description provided for @authPIN.
   ///
   /// In en, this message translates to:
-  /// **'personal identifier'**
+  /// **'Personal identifier'**
   String get authPIN;
 
   /// No description provided for @authPassword.
@@ -783,7 +783,7 @@ abstract class SuperLocalizations {
   /// No description provided for @authPasswordConfirmation.
   ///
   /// In en, this message translates to:
-  /// **'confirm password'**
+  /// **'Confirm password'**
   String get authPasswordConfirmation;
 
   /// No description provided for @authPasswordMustContainAtLeastSixCharacters.
@@ -873,13 +873,13 @@ abstract class SuperLocalizations {
   /// No description provided for @authProfileSettings.
   ///
   /// In en, this message translates to:
-  /// **'profile settings'**
+  /// **'Profile settings'**
   String get authProfileSettings;
 
   /// No description provided for @authRegex.
   ///
   /// In en, this message translates to:
-  /// **'incorrect pattern'**
+  /// **'Incorrect pattern'**
   String get authRegex;
 
   /// No description provided for @authRegister.
@@ -909,37 +909,37 @@ abstract class SuperLocalizations {
   /// No description provided for @authResetPassword.
   ///
   /// In en, this message translates to:
-  /// **'change Password'**
+  /// **'Change Password'**
   String get authResetPassword;
 
   /// No description provided for @authSecondName.
   ///
   /// In en, this message translates to:
-  /// **'the second name'**
+  /// **'The second name'**
   String get authSecondName;
 
   /// No description provided for @authSendCode.
   ///
   /// In en, this message translates to:
-  /// **'send code'**
+  /// **'Send code'**
   String get authSendCode;
 
   /// No description provided for @authSentToYourDevice.
   ///
   /// In en, this message translates to:
-  /// **'sent to your device'**
+  /// **'Sent to your device'**
   String get authSentToYourDevice;
 
   /// No description provided for @authSignIn.
   ///
   /// In en, this message translates to:
-  /// **'sign in'**
+  /// **'Sign in'**
   String get authSignIn;
 
   /// No description provided for @authSignOut.
   ///
   /// In en, this message translates to:
-  /// **'sign out'**
+  /// **'Sign out'**
   String get authSignOut;
 
   /// No description provided for @authSignOutOfTheApp.
@@ -951,13 +951,13 @@ abstract class SuperLocalizations {
   /// No description provided for @authSignUp.
   ///
   /// In en, this message translates to:
-  /// **'account registration'**
+  /// **'Account registration'**
   String get authSignUp;
 
   /// No description provided for @authSupportPolicy.
   ///
   /// In en, this message translates to:
-  /// **'support policy'**
+  /// **'Support policy'**
   String get authSupportPolicy;
 
   /// No description provided for @authTheCodeHasBeenSentTo.
@@ -981,7 +981,7 @@ abstract class SuperLocalizations {
   /// No description provided for @authThirdName.
   ///
   /// In en, this message translates to:
-  /// **'third name'**
+  /// **'Third name'**
   String get authThirdName;
 
   /// No description provided for @authToYourMobileNumber.
@@ -993,7 +993,7 @@ abstract class SuperLocalizations {
   /// No description provided for @authUploadDocuments.
   ///
   /// In en, this message translates to:
-  /// **'attach documents'**
+  /// **'Attach documents'**
   String get authUploadDocuments;
 
   /// No description provided for @authUploadID.
@@ -1005,7 +1005,7 @@ abstract class SuperLocalizations {
   /// No description provided for @authUploadIdentity.
   ///
   /// In en, this message translates to:
-  /// **'personal ID'**
+  /// **'Personal ID'**
   String get authUploadIdentity;
 
   /// No description provided for @authUploadIdentityInfo.
@@ -1023,25 +1023,25 @@ abstract class SuperLocalizations {
   /// No description provided for @authUsername.
   ///
   /// In en, this message translates to:
-  /// **'user name'**
+  /// **'User name'**
   String get authUsername;
 
   /// No description provided for @authVerification.
   ///
   /// In en, this message translates to:
-  /// **'verification'**
+  /// **'Verification'**
   String get authVerification;
 
   /// No description provided for @authVerificationCode.
   ///
   /// In en, this message translates to:
-  /// **'confirmation code'**
+  /// **'Confirmation code'**
   String get authVerificationCode;
 
   /// No description provided for @authVerifyIdentity.
   ///
   /// In en, this message translates to:
-  /// **'verification'**
+  /// **'Verification'**
   String get authVerifyIdentity;
 
   /// No description provided for @authVerifyIdentityInfo.
@@ -1113,7 +1113,7 @@ abstract class SuperLocalizations {
   /// No description provided for @authYourAddress.
   ///
   /// In en, this message translates to:
-  /// **'your address'**
+  /// **'Your address'**
   String get authYourAddress;
 
   /// No description provided for @authYourAddressIsNotSupportedChooseAAddressWithinYourRegion.
@@ -1125,7 +1125,7 @@ abstract class SuperLocalizations {
   /// No description provided for @authYourBalance.
   ///
   /// In en, this message translates to:
-  /// **'your balance'**
+  /// **'Your balance'**
   String get authYourBalance;
 
   /// No description provided for @authYourCreditCardNotValid.
@@ -1149,19 +1149,19 @@ abstract class SuperLocalizations {
   /// No description provided for @commonAdditionalInformation.
   ///
   /// In en, this message translates to:
-  /// **'additional information'**
+  /// **'Additional information'**
   String get commonAdditionalInformation;
 
   /// No description provided for @commonAll.
   ///
   /// In en, this message translates to:
-  /// **'everyone'**
+  /// **'Everyone'**
   String get commonAll;
 
   /// No description provided for @commonAmount.
   ///
   /// In en, this message translates to:
-  /// **'the amount'**
+  /// **'The amount'**
   String get commonAmount;
 
   /// No description provided for @commonApply.
@@ -1173,13 +1173,13 @@ abstract class SuperLocalizations {
   /// No description provided for @commonApplyFilters.
   ///
   /// In en, this message translates to:
-  /// **'apply filters'**
+  /// **'Apply filters'**
   String get commonApplyFilters;
 
   /// No description provided for @commonApprovalStatus.
   ///
   /// In en, this message translates to:
-  /// **'admission status'**
+  /// **'Admission status'**
   String get commonApprovalStatus;
 
   /// No description provided for @commonAreYouSureWithYourOperationAndOrder.
@@ -1191,13 +1191,13 @@ abstract class SuperLocalizations {
   /// No description provided for @commonAvailable.
   ///
   /// In en, this message translates to:
-  /// **'available'**
+  /// **'Available'**
   String get commonAvailable;
 
   /// No description provided for @commonBalance.
   ///
   /// In en, this message translates to:
-  /// **'balance'**
+  /// **'Balance'**
   String get commonBalance;
 
   /// No description provided for @commonBrowse.
@@ -1209,13 +1209,13 @@ abstract class SuperLocalizations {
   /// No description provided for @commonCallUs.
   ///
   /// In en, this message translates to:
-  /// **'call us'**
+  /// **'Call us'**
   String get commonCallUs;
 
   /// No description provided for @commonCamera.
   ///
   /// In en, this message translates to:
-  /// **'camera'**
+  /// **'Camera'**
   String get commonCamera;
 
   /// No description provided for @commonCancel.
@@ -1227,7 +1227,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonCanceled.
   ///
   /// In en, this message translates to:
-  /// **'canceled'**
+  /// **'Canceled'**
   String get commonCanceled;
 
   /// No description provided for @commonCarActivationMessage.
@@ -1239,13 +1239,13 @@ abstract class SuperLocalizations {
   /// No description provided for @commonCategories.
   ///
   /// In en, this message translates to:
-  /// **'categories'**
+  /// **'Categories'**
   String get commonCategories;
 
   /// No description provided for @commonCategory.
   ///
   /// In en, this message translates to:
-  /// **'category'**
+  /// **'Category'**
   String get commonCategory;
 
   /// No description provided for @commonChange.
@@ -1257,13 +1257,13 @@ abstract class SuperLocalizations {
   /// No description provided for @commonChat.
   ///
   /// In en, this message translates to:
-  /// **'conversation'**
+  /// **'Conversation'**
   String get commonChat;
 
   /// No description provided for @commonChooseCountry.
   ///
   /// In en, this message translates to:
-  /// **'select country'**
+  /// **'Select country'**
   String get commonChooseCountry;
 
   /// No description provided for @commonChoosePurpose.
@@ -1287,13 +1287,13 @@ abstract class SuperLocalizations {
   /// No description provided for @commonClosed.
   ///
   /// In en, this message translates to:
-  /// **'closed'**
+  /// **'Closed'**
   String get commonClosed;
 
   /// No description provided for @commonColor.
   ///
   /// In en, this message translates to:
-  /// **'the color'**
+  /// **'The color'**
   String get commonColor;
 
   /// No description provided for @commonComingSoon.
@@ -1305,19 +1305,19 @@ abstract class SuperLocalizations {
   /// No description provided for @commonComments.
   ///
   /// In en, this message translates to:
-  /// **'comments'**
+  /// **'Comments'**
   String get commonComments;
 
   /// No description provided for @commonCommonQuestions.
   ///
   /// In en, this message translates to:
-  /// **'common questions'**
+  /// **'Common questions'**
   String get commonCommonQuestions;
 
   /// No description provided for @commonCompetitions.
   ///
   /// In en, this message translates to:
-  /// **'competitions'**
+  /// **'Competitions'**
   String get commonCompetitions;
 
   /// No description provided for @commonConfirm.
@@ -1329,7 +1329,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonConfirmed.
   ///
   /// In en, this message translates to:
-  /// **'confirmed'**
+  /// **'Confirmed'**
   String get commonConfirmed;
 
   /// No description provided for @commonContactUs.
@@ -1347,19 +1347,19 @@ abstract class SuperLocalizations {
   /// No description provided for @commonContinueToHome.
   ///
   /// In en, this message translates to:
-  /// **'continue'**
+  /// **'Continue'**
   String get commonContinueToHome;
 
   /// No description provided for @commonCost.
   ///
   /// In en, this message translates to:
-  /// **'the value'**
+  /// **'The value'**
   String get commonCost;
 
   /// No description provided for @commonCount.
   ///
   /// In en, this message translates to:
-  /// **'the number'**
+  /// **'The number'**
   String get commonCount;
 
   /// No description provided for @commonCountry.
@@ -1371,31 +1371,31 @@ abstract class SuperLocalizations {
   /// No description provided for @commonCurrency.
   ///
   /// In en, this message translates to:
-  /// **'the currency'**
+  /// **'The currency'**
   String get commonCurrency;
 
   /// No description provided for @commonCurrentLocation.
   ///
   /// In en, this message translates to:
-  /// **'current location'**
+  /// **'Current location'**
   String get commonCurrentLocation;
 
   /// No description provided for @commonDeclined.
   ///
   /// In en, this message translates to:
-  /// **'rejected'**
+  /// **'Rejected'**
   String get commonDeclined;
 
   /// No description provided for @commonDefaultValue.
   ///
   /// In en, this message translates to:
-  /// **'default'**
+  /// **'Default'**
   String get commonDefaultValue;
 
   /// No description provided for @commonDelete.
   ///
   /// In en, this message translates to:
-  /// **'delete'**
+  /// **'Delete'**
   String get commonDelete;
 
   /// No description provided for @commonDeny.
@@ -1419,13 +1419,13 @@ abstract class SuperLocalizations {
   /// No description provided for @commonDetails.
   ///
   /// In en, this message translates to:
-  /// **'details'**
+  /// **'Details'**
   String get commonDetails;
 
   /// No description provided for @commonDiscount.
   ///
   /// In en, this message translates to:
-  /// **'discount'**
+  /// **'Discount'**
   String get commonDiscount;
 
   /// No description provided for @commonDoYouWantToUpdate.
@@ -1455,7 +1455,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonDragToInteract.
   ///
   /// In en, this message translates to:
-  /// **'swipe to the person'**
+  /// **'Swipe to the person'**
   String get commonDragToInteract;
 
   /// No description provided for @commonDue.
@@ -1467,7 +1467,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonDueAmount.
   ///
   /// In en, this message translates to:
-  /// **'deserving'**
+  /// **'Deserving'**
   String get commonDueAmount;
 
   /// No description provided for @commonDueDate.
@@ -1479,7 +1479,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonEdit.
   ///
   /// In en, this message translates to:
-  /// **'amendment'**
+  /// **'Amendment'**
   String get commonEdit;
 
   /// No description provided for @commonEnded.
@@ -1493,6 +1493,18 @@ abstract class SuperLocalizations {
   /// In en, this message translates to:
   /// **'English'**
   String get commonEnglish;
+
+  /// No description provided for @commonArabic.
+  ///
+  /// In en, this message translates to:
+  /// **'Arabic'**
+  String get commonArabic;
+
+  /// No description provided for @commonFrench.
+  ///
+  /// In en, this message translates to:
+  /// **'French'**
+  String get commonFrench;
 
   /// No description provided for @commonExcerpt.
   ///
@@ -1521,19 +1533,19 @@ abstract class SuperLocalizations {
   /// No description provided for @commonFee.
   ///
   /// In en, this message translates to:
-  /// **'commission'**
+  /// **'Commission'**
   String get commonFee;
 
   /// No description provided for @commonFees.
   ///
   /// In en, this message translates to:
-  /// **'fees'**
+  /// **'Fees'**
   String get commonFees;
 
   /// No description provided for @commonFields.
   ///
   /// In en, this message translates to:
-  /// **'fields'**
+  /// **'Fields'**
   String get commonFields;
 
   /// No description provided for @commonFilters.
@@ -1575,7 +1587,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonGallery.
   ///
   /// In en, this message translates to:
-  /// **'studio'**
+  /// **'Studio'**
   String get commonGallery;
 
   /// No description provided for @commonGettingDeliveryFee.
@@ -1593,13 +1605,13 @@ abstract class SuperLocalizations {
   /// No description provided for @commonGuest.
   ///
   /// In en, this message translates to:
-  /// **'visitor'**
+  /// **'Visitor'**
   String get commonGuest;
 
   /// No description provided for @commonHello.
   ///
   /// In en, this message translates to:
-  /// **'welcome'**
+  /// **'Welcome'**
   String get commonHello;
 
   /// No description provided for @commonHelloINeedHelp.
@@ -1629,13 +1641,13 @@ abstract class SuperLocalizations {
   /// No description provided for @commonInformation.
   ///
   /// In en, this message translates to:
-  /// **'informations'**
+  /// **'Informations'**
   String get commonInformation;
 
   /// No description provided for @commonInterest.
   ///
   /// In en, this message translates to:
-  /// **'benefit'**
+  /// **'Benefit'**
   String get commonInterest;
 
   /// No description provided for @commonIsOnlineNow.
@@ -1647,7 +1659,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonItem.
   ///
   /// In en, this message translates to:
-  /// **'item'**
+  /// **'Item'**
   String get commonItem;
 
   /// No description provided for @commonItems.
@@ -1665,13 +1677,13 @@ abstract class SuperLocalizations {
   /// No description provided for @commonKM.
   ///
   /// In en, this message translates to:
-  /// **'how much'**
+  /// **'How much'**
   String get commonKM;
 
   /// No description provided for @commonLanguage.
   ///
   /// In en, this message translates to:
-  /// **'the language'**
+  /// **'The language'**
   String get commonLanguage;
 
   /// No description provided for @commonLanguages.
@@ -1701,13 +1713,13 @@ abstract class SuperLocalizations {
   /// No description provided for @commonLocationDescription.
   ///
   /// In en, this message translates to:
-  /// **'site description'**
+  /// **'Site description'**
   String get commonLocationDescription;
 
   /// No description provided for @commonLocationIsNotSpecified.
   ///
   /// In en, this message translates to:
-  /// **'location not specified'**
+  /// **'Location not specified'**
   String get commonLocationIsNotSpecified;
 
   /// No description provided for @commonLocationPermission.
@@ -1731,7 +1743,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonMapsExplorer.
   ///
   /// In en, this message translates to:
-  /// **'map explorer'**
+  /// **'Map explorer'**
   String get commonMapsExplorer;
 
   /// No description provided for @commonMasterCard.
@@ -1743,7 +1755,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonMaximum.
   ///
   /// In en, this message translates to:
-  /// **'maximum'**
+  /// **'Maximum'**
   String get commonMaximum;
 
   /// No description provided for @commonMaximumPrincipal.
@@ -1755,7 +1767,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonMe.
   ///
   /// In en, this message translates to:
-  /// **'me'**
+  /// **'Me'**
   String get commonMe;
 
   /// No description provided for @commonMessage.
@@ -1773,25 +1785,25 @@ abstract class SuperLocalizations {
   /// No description provided for @commonMinimum.
   ///
   /// In en, this message translates to:
-  /// **'minimum'**
+  /// **'Minimum'**
   String get commonMinimum;
 
   /// No description provided for @commonMinimumPrincipal.
   ///
   /// In en, this message translates to:
-  /// **'minimum amount'**
+  /// **'Minimum amount'**
   String get commonMinimumPrincipal;
 
   /// No description provided for @commonMore.
   ///
   /// In en, this message translates to:
-  /// **'more'**
+  /// **'More'**
   String get commonMore;
 
   /// No description provided for @commonMoreOptions.
   ///
   /// In en, this message translates to:
-  /// **'additional options'**
+  /// **'Additional options'**
   String get commonMoreOptions;
 
   /// No description provided for @commonNearTo.
@@ -1803,37 +1815,37 @@ abstract class SuperLocalizations {
   /// No description provided for @commonNearToYourCurrentLocation.
   ///
   /// In en, this message translates to:
-  /// **'near your current location'**
+  /// **'Near your current location'**
   String get commonNearToYourCurrentLocation;
 
   /// No description provided for @commonNet.
   ///
   /// In en, this message translates to:
-  /// **'net'**
+  /// **'Net'**
   String get commonNet;
 
   /// No description provided for @commonNewArrival.
   ///
   /// In en, this message translates to:
-  /// **'recently arrived'**
+  /// **'Recently arrived'**
   String get commonNewArrival;
 
   /// No description provided for @commonNewOrderFromClient.
   ///
   /// In en, this message translates to:
-  /// **'new request from client'**
+  /// **'New request from client'**
   String get commonNewOrderFromClient;
 
   /// No description provided for @commonNext.
   ///
   /// In en, this message translates to:
-  /// **'next one'**
+  /// **'Next one'**
   String get commonNext;
 
   /// No description provided for @commonNo.
   ///
   /// In en, this message translates to:
-  /// **'no'**
+  /// **'No'**
   String get commonNo;
 
   /// No description provided for @commonNoAccountChosen.
@@ -1863,7 +1875,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonNoFavorites.
   ///
   /// In en, this message translates to:
-  /// **'no favours'**
+  /// **'No favours'**
   String get commonNoFavorites;
 
   /// No description provided for @commonNoFileIsChosen.
@@ -1887,7 +1899,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonNoMoreHistory.
   ///
   /// In en, this message translates to:
-  /// **'there is no other'**
+  /// **'There is no other'**
   String get commonNoMoreHistory;
 
   /// No description provided for @commonNoPaymentMethodIsAdded.
@@ -1899,7 +1911,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonNoRechargesYet.
   ///
   /// In en, this message translates to:
-  /// **'no shipping'**
+  /// **'No shipping'**
   String get commonNoRechargesYet;
 
   /// No description provided for @commonNoResultFromSearch.
@@ -1929,13 +1941,13 @@ abstract class SuperLocalizations {
   /// No description provided for @commonNothingToPay.
   ///
   /// In en, this message translates to:
-  /// **'nothing to pay'**
+  /// **'Nothing to pay'**
   String get commonNothingToPay;
 
   /// No description provided for @commonNotifications.
   ///
   /// In en, this message translates to:
-  /// **'notifications'**
+  /// **'Notifications'**
   String get commonNotifications;
 
   /// No description provided for @commonOk.
@@ -1947,7 +1959,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonOpen.
   ///
   /// In en, this message translates to:
-  /// **'open'**
+  /// **'Open'**
   String get commonOpen;
 
   /// No description provided for @commonOptional.
@@ -1965,25 +1977,25 @@ abstract class SuperLocalizations {
   /// No description provided for @commonOr.
   ///
   /// In en, this message translates to:
-  /// **'or'**
+  /// **'Or'**
   String get commonOr;
 
   /// No description provided for @commonOrCheckoutWith.
   ///
   /// In en, this message translates to:
-  /// **'or go out with'**
+  /// **'Or go out with'**
   String get commonOrCheckoutWith;
 
   /// No description provided for @commonOrder.
   ///
   /// In en, this message translates to:
-  /// **'to request'**
+  /// **'To request'**
   String get commonOrder;
 
   /// No description provided for @commonOther.
   ///
   /// In en, this message translates to:
-  /// **'other'**
+  /// **'Other'**
   String get commonOther;
 
   /// No description provided for @commonOurDifferentBranches.
@@ -1995,7 +2007,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonOurNew.
   ///
   /// In en, this message translates to:
-  /// **'our new'**
+  /// **'Our new'**
   String get commonOurNew;
 
   /// No description provided for @commonOurVariousServices.
@@ -2007,7 +2019,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonPenalty.
   ///
   /// In en, this message translates to:
-  /// **'penalty'**
+  /// **'Penalty'**
   String get commonPenalty;
 
   /// No description provided for @commonPercent.
@@ -2025,25 +2037,25 @@ abstract class SuperLocalizations {
   /// No description provided for @commonPermissionRequired.
   ///
   /// In en, this message translates to:
-  /// **'requires access permission'**
+  /// **'Requires access permission'**
   String get commonPermissionRequired;
 
   /// No description provided for @commonPhoneBalanceInformation.
   ///
   /// In en, this message translates to:
-  /// **'balance information'**
+  /// **'Balance information'**
   String get commonPhoneBalanceInformation;
 
   /// No description provided for @commonPhotoPermission.
   ///
   /// In en, this message translates to:
-  /// **'image access permissions'**
+  /// **'Image access permissions'**
   String get commonPhotoPermission;
 
   /// No description provided for @commonPickup.
   ///
   /// In en, this message translates to:
-  /// **'book'**
+  /// **'Book'**
   String get commonPickup;
 
   /// No description provided for @commonPleaseEnterTheAddress.
@@ -2097,19 +2109,19 @@ abstract class SuperLocalizations {
   /// No description provided for @commonPleaseWait.
   ///
   /// In en, this message translates to:
-  /// **'please wait ...'**
+  /// **'Please wait ...'**
   String get commonPleaseWait;
 
   /// No description provided for @commonPrice.
   ///
   /// In en, this message translates to:
-  /// **'price'**
+  /// **'Price'**
   String get commonPrice;
 
   /// No description provided for @commonPriceHighToLow.
   ///
   /// In en, this message translates to:
-  /// **'high price low'**
+  /// **'High price low'**
   String get commonPriceHighToLow;
 
   /// No description provided for @commonPriceLowToHigh.
@@ -2121,13 +2133,13 @@ abstract class SuperLocalizations {
   /// No description provided for @commonPriceRange.
   ///
   /// In en, this message translates to:
-  /// **'price'**
+  /// **'Price'**
   String get commonPriceRange;
 
   /// No description provided for @commonPrincipalAmount.
   ///
   /// In en, this message translates to:
-  /// **'basic amount'**
+  /// **'Basic amount'**
   String get commonPrincipalAmount;
 
   /// No description provided for @commonProceed.
@@ -2139,37 +2151,37 @@ abstract class SuperLocalizations {
   /// No description provided for @commonPromotionalCodes.
   ///
   /// In en, this message translates to:
-  /// **'promotional codes'**
+  /// **'Promotional codes'**
   String get commonPromotionalCodes;
 
   /// No description provided for @commonPurpose.
   ///
   /// In en, this message translates to:
-  /// **'the purpose'**
+  /// **'The purpose'**
   String get commonPurpose;
 
   /// No description provided for @commonQ.
   ///
   /// In en, this message translates to:
-  /// **'search'**
+  /// **'Search'**
   String get commonQ;
 
   /// No description provided for @commonRecentReviews.
   ///
   /// In en, this message translates to:
-  /// **'recent reviews'**
+  /// **'Recent reviews'**
   String get commonRecentReviews;
 
   /// No description provided for @commonRecentSearch.
   ///
   /// In en, this message translates to:
-  /// **'last search'**
+  /// **'Last search'**
   String get commonRecentSearch;
 
   /// No description provided for @commonRecentTransactions.
   ///
   /// In en, this message translates to:
-  /// **'last operations'**
+  /// **'Last operations'**
   String get commonRecentTransactions;
 
   /// No description provided for @commonRegionMustBeSelected.
@@ -2181,7 +2193,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonRemove.
   ///
   /// In en, this message translates to:
-  /// **'delete'**
+  /// **'Delete'**
   String get commonRemove;
 
   /// No description provided for @commonRepeatTransactions.
@@ -2193,7 +2205,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonReports.
   ///
   /// In en, this message translates to:
-  /// **'reports'**
+  /// **'Reports'**
   String get commonReports;
 
   /// No description provided for @commonRequestConfirm.
@@ -2217,7 +2229,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonReturnPolicy.
   ///
   /// In en, this message translates to:
-  /// **'refund policy'**
+  /// **'Refund policy'**
   String get commonReturnPolicy;
 
   /// No description provided for @commonReviewCannotBeEmpty.
@@ -2229,13 +2241,13 @@ abstract class SuperLocalizations {
   /// No description provided for @commonReviews.
   ///
   /// In en, this message translates to:
-  /// **'reviews'**
+  /// **'Reviews'**
   String get commonReviews;
 
   /// No description provided for @commonSave.
   ///
   /// In en, this message translates to:
-  /// **'save'**
+  /// **'Save'**
   String get commonSave;
 
   /// No description provided for @commonSearch.
@@ -2259,13 +2271,13 @@ abstract class SuperLocalizations {
   /// No description provided for @commonSections.
   ///
   /// In en, this message translates to:
-  /// **'sections'**
+  /// **'Sections'**
   String get commonSections;
 
   /// No description provided for @commonSeeAll.
   ///
   /// In en, this message translates to:
-  /// **'show all'**
+  /// **'Show all'**
   String get commonSeeAll;
 
   /// No description provided for @commonSelectCity.
@@ -2319,19 +2331,19 @@ abstract class SuperLocalizations {
   /// No description provided for @commonSend.
   ///
   /// In en, this message translates to:
-  /// **'send'**
+  /// **'Send'**
   String get commonSend;
 
   /// No description provided for @commonSendPasswordResetLink.
   ///
   /// In en, this message translates to:
-  /// **'send the link'**
+  /// **'Send the link'**
   String get commonSendPasswordResetLink;
 
   /// No description provided for @commonServicePoints.
   ///
   /// In en, this message translates to:
-  /// **'service points'**
+  /// **'Service points'**
   String get commonServicePoints;
 
   /// No description provided for @commonServices.
@@ -2349,13 +2361,13 @@ abstract class SuperLocalizations {
   /// No description provided for @commonShowLess.
   ///
   /// In en, this message translates to:
-  /// **'show less'**
+  /// **'Show less'**
   String get commonShowLess;
 
   /// No description provided for @commonSize.
   ///
   /// In en, this message translates to:
-  /// **'the size'**
+  /// **'The size'**
   String get commonSize;
 
   /// No description provided for @commonSkip.
@@ -2391,19 +2403,19 @@ abstract class SuperLocalizations {
   /// No description provided for @commonSubmit.
   ///
   /// In en, this message translates to:
-  /// **'send'**
+  /// **'Send'**
   String get commonSubmit;
 
   /// No description provided for @commonSubscription.
   ///
   /// In en, this message translates to:
-  /// **'subscription'**
+  /// **'Subscription'**
   String get commonSubscription;
 
   /// No description provided for @commonSupport.
   ///
   /// In en, this message translates to:
-  /// **'the support'**
+  /// **'The support'**
   String get commonSupport;
 
   /// No description provided for @commonSwipeItemToDeleteIt.
@@ -2427,7 +2439,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonTax.
   ///
   /// In en, this message translates to:
-  /// **'tax'**
+  /// **'Tax'**
   String get commonTax;
 
   /// No description provided for @commonTaxesIncluded.
@@ -2475,7 +2487,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonTitle.
   ///
   /// In en, this message translates to:
-  /// **'the address'**
+  /// **'The address'**
   String get commonTitle;
 
   /// No description provided for @commonToWhere.
@@ -2499,25 +2511,25 @@ abstract class SuperLocalizations {
   /// No description provided for @commonTotal.
   ///
   /// In en, this message translates to:
-  /// **'sum'**
+  /// **'Sum'**
   String get commonTotal;
 
   /// No description provided for @commonTotalAmount.
   ///
   /// In en, this message translates to:
-  /// **'total summation'**
+  /// **'Total summation'**
   String get commonTotalAmount;
 
   /// No description provided for @commonTotalPrice.
   ///
   /// In en, this message translates to:
-  /// **'total price'**
+  /// **'Total price'**
   String get commonTotalPrice;
 
   /// No description provided for @commonTrackingOrder.
   ///
   /// In en, this message translates to:
-  /// **'order tracking'**
+  /// **'Order tracking'**
   String get commonTrackingOrder;
 
   /// No description provided for @commonTransactions.
@@ -2529,19 +2541,19 @@ abstract class SuperLocalizations {
   /// No description provided for @commonTrendingThisWeek.
   ///
   /// In en, this message translates to:
-  /// **'trending this week'**
+  /// **'Trending this week'**
   String get commonTrendingThisWeek;
 
   /// No description provided for @commonTryAgain.
   ///
   /// In en, this message translates to:
-  /// **'try again'**
+  /// **'Try again'**
   String get commonTryAgain;
 
   /// No description provided for @commonTypeYourMessageHere.
   ///
   /// In en, this message translates to:
-  /// **'write your message here'**
+  /// **'Write your message here'**
   String get commonTypeYourMessageHere;
 
   /// No description provided for @commonTypeYourReviewHere.
@@ -2559,7 +2571,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonUnnamedLocation.
   ///
   /// In en, this message translates to:
-  /// **'unnamed address'**
+  /// **'Unnamed address'**
   String get commonUnnamedLocation;
 
   /// No description provided for @commonUnpaid.
@@ -2571,19 +2583,19 @@ abstract class SuperLocalizations {
   /// No description provided for @commonUnspecified.
   ///
   /// In en, this message translates to:
-  /// **'undefined'**
+  /// **'Undefined'**
   String get commonUnspecified;
 
   /// No description provided for @commonVerify.
   ///
   /// In en, this message translates to:
-  /// **'verification'**
+  /// **'Verification'**
   String get commonVerify;
 
   /// No description provided for @commonVerifyYour.
   ///
   /// In en, this message translates to:
-  /// **'confirmed'**
+  /// **'Confirmed'**
   String get commonVerifyYour;
 
   /// No description provided for @commonView.
@@ -2595,19 +2607,19 @@ abstract class SuperLocalizations {
   /// No description provided for @commonViewAll.
   ///
   /// In en, this message translates to:
-  /// **'view all'**
+  /// **'View all'**
   String get commonViewAll;
 
   /// No description provided for @commonViewDetails.
   ///
   /// In en, this message translates to:
-  /// **'view details'**
+  /// **'View details'**
   String get commonViewDetails;
 
   /// No description provided for @commonViewLess.
   ///
   /// In en, this message translates to:
-  /// **'show less'**
+  /// **'Show less'**
   String get commonViewLess;
 
   /// No description provided for @commonViewMore.
@@ -2619,7 +2631,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonViewStatement.
   ///
   /// In en, this message translates to:
-  /// **'operations view'**
+  /// **'Operations view'**
   String get commonViewStatement;
 
   /// No description provided for @commonWeWishYouANiceDay.
@@ -2631,13 +2643,13 @@ abstract class SuperLocalizations {
   /// No description provided for @commonWelcome.
   ///
   /// In en, this message translates to:
-  /// **'welcome'**
+  /// **'Welcome'**
   String get commonWelcome;
 
   /// No description provided for @commonWelcomeBack.
   ///
   /// In en, this message translates to:
-  /// **'welcome back'**
+  /// **'Welcome back'**
   String get commonWelcomeBack;
 
   /// No description provided for @commonWelcomeBackWithFace.
@@ -2655,7 +2667,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonWhatTheySay.
   ///
   /// In en, this message translates to:
-  /// **'what are they saying ?'**
+  /// **'What are they saying ?'**
   String get commonWhatTheySay;
 
   /// No description provided for @commonWhoToInteractWith.
@@ -2685,7 +2697,7 @@ abstract class SuperLocalizations {
   /// No description provided for @dtDaily.
   ///
   /// In en, this message translates to:
-  /// **'daily'**
+  /// **'Daily'**
   String get dtDaily;
 
   /// No description provided for @dtDate.
@@ -2697,7 +2709,7 @@ abstract class SuperLocalizations {
   /// No description provided for @dtDateTime.
   ///
   /// In en, this message translates to:
-  /// **'date/time'**
+  /// **'Date/Time'**
   String get dtDateTime;
 
   /// No description provided for @dtDay.
@@ -2721,7 +2733,7 @@ abstract class SuperLocalizations {
   /// No description provided for @dtHour.
   ///
   /// In en, this message translates to:
-  /// **'hour'**
+  /// **'Hour'**
   String get dtHour;
 
   /// No description provided for @dtMinute.
@@ -2739,7 +2751,7 @@ abstract class SuperLocalizations {
   /// No description provided for @dtMonth.
   ///
   /// In en, this message translates to:
-  /// **'the month'**
+  /// **'The month'**
   String get dtMonth;
 
   /// No description provided for @dtMonthly.
@@ -2769,13 +2781,13 @@ abstract class SuperLocalizations {
   /// No description provided for @dtSecond.
   ///
   /// In en, this message translates to:
-  /// **'a second'**
+  /// **'A second'**
   String get dtSecond;
 
   /// No description provided for @dtStartingDate.
   ///
   /// In en, this message translates to:
-  /// **'starting date'**
+  /// **'Starting date'**
   String get dtStartingDate;
 
   /// No description provided for @dtSunday.
@@ -2793,7 +2805,7 @@ abstract class SuperLocalizations {
   /// No description provided for @dtTime.
   ///
   /// In en, this message translates to:
-  /// **'the time'**
+  /// **'The time'**
   String get dtTime;
 
   /// No description provided for @dtTuesday.
@@ -2805,7 +2817,7 @@ abstract class SuperLocalizations {
   /// No description provided for @dtUnspecifiedTime.
   ///
   /// In en, this message translates to:
-  /// **'time not specified'**
+  /// **'Time not specified'**
   String get dtUnspecifiedTime;
 
   /// No description provided for @dtWednesday.
@@ -2817,25 +2829,25 @@ abstract class SuperLocalizations {
   /// No description provided for @dtWeek.
   ///
   /// In en, this message translates to:
-  /// **'a week'**
+  /// **'A week'**
   String get dtWeek;
 
   /// No description provided for @dtWeekly.
   ///
   /// In en, this message translates to:
-  /// **'weekly'**
+  /// **'Weekly'**
   String get dtWeekly;
 
   /// No description provided for @dtYear.
   ///
   /// In en, this message translates to:
-  /// **'the year'**
+  /// **'The year'**
   String get dtYear;
 
   /// No description provided for @dtYearly.
   ///
   /// In en, this message translates to:
-  /// **'annual'**
+  /// **'Annual'**
   String get dtYearly;
 
   /// No description provided for @errorAnErrorOccurredPleaseTryAgain.
@@ -2901,7 +2913,7 @@ abstract class SuperLocalizations {
   /// No description provided for @errorExpireException.
   ///
   /// In en, this message translates to:
-  /// **'code has expired'**
+  /// **'Code has expired'**
   String get errorExpireException;
 
   /// No description provided for @errorInvalidException.
@@ -3093,7 +3105,7 @@ abstract class SuperLocalizations {
   /// No description provided for @firebaseMissingRefreshToken.
   ///
   /// In en, this message translates to:
-  /// **'no refresh token provided.'**
+  /// **'No refresh token provided.'**
   String get firebaseMissingRefreshToken;
 
   /// No description provided for @firebaseEmailExists.
@@ -3195,7 +3207,7 @@ abstract class SuperLocalizations {
   /// No description provided for @feedbackApproved.
   ///
   /// In en, this message translates to:
-  /// **'approved'**
+  /// **'Approved'**
   String get feedbackApproved;
 
   /// No description provided for @feedbackCartsRefreshedSuccessfully.
@@ -3207,13 +3219,13 @@ abstract class SuperLocalizations {
   /// No description provided for @feedbackCategoryRefreshedSuccessfully.
   ///
   /// In en, this message translates to:
-  /// **'category updated successfully'**
+  /// **'Category updated successfully'**
   String get feedbackCategoryRefreshedSuccessfully;
 
   /// No description provided for @feedbackDeliveryAddressRemovedSuccessfully.
   ///
   /// In en, this message translates to:
-  /// **'delivery address removed successfully'**
+  /// **'Delivery address removed successfully'**
   String get feedbackDeliveryAddressRemovedSuccessfully;
 
   /// No description provided for @feedbackFaqsRefreshedSuccessfully.
@@ -3303,7 +3315,7 @@ abstract class SuperLocalizations {
   /// No description provided for @feedbackSuccess.
   ///
   /// In en, this message translates to:
-  /// **'done successfully'**
+  /// **'Done successfully'**
   String get feedbackSuccess;
 
   /// No description provided for @feedbackTheAddressUpdatedSuccessfully.
@@ -3405,55 +3417,55 @@ abstract class SuperLocalizations {
   /// No description provided for @shopAddToCart.
   ///
   /// In en, this message translates to:
-  /// **'add to cart'**
+  /// **'Add to cart'**
   String get shopAddToCart;
 
   /// No description provided for @shopAddedToCart.
   ///
   /// In en, this message translates to:
-  /// **'added to cart'**
+  /// **'Added to cart'**
   String get shopAddedToCart;
 
   /// No description provided for @shopAllBrands.
   ///
   /// In en, this message translates to:
-  /// **'all brands'**
+  /// **'All brands'**
   String get shopAllBrands;
 
   /// No description provided for @shopAllDeliveries.
   ///
   /// In en, this message translates to:
-  /// **'all connections'**
+  /// **'All connections'**
   String get shopAllDeliveries;
 
   /// No description provided for @shopAllMarkets.
   ///
   /// In en, this message translates to:
-  /// **'all stores'**
+  /// **'All stores'**
   String get shopAllMarkets;
 
   /// No description provided for @shopAllPayments.
   ///
   /// In en, this message translates to:
-  /// **'all payments'**
+  /// **'All payments'**
   String get shopAllPayments;
 
   /// No description provided for @shopAllProduct.
   ///
   /// In en, this message translates to:
-  /// **'all products'**
+  /// **'All products'**
   String get shopAllProduct;
 
   /// No description provided for @shopAllProducts.
   ///
   /// In en, this message translates to:
-  /// **'all products '**
+  /// **'All products '**
   String get shopAllProducts;
 
   /// No description provided for @shopAllStatus.
   ///
   /// In en, this message translates to:
-  /// **'all cases'**
+  /// **'All cases'**
   String get shopAllStatus;
 
   /// No description provided for @shopAmountCannotBeEmpty.
@@ -3507,13 +3519,13 @@ abstract class SuperLocalizations {
   /// No description provided for @shopBranch.
   ///
   /// In en, this message translates to:
-  /// **'branch'**
+  /// **'Branch'**
   String get shopBranch;
 
   /// No description provided for @shopBrands.
   ///
   /// In en, this message translates to:
-  /// **'brands'**
+  /// **'Brands'**
   String get shopBrands;
 
   /// No description provided for @shopBuyNow.
@@ -3525,7 +3537,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopCVC.
   ///
   /// In en, this message translates to:
-  /// **'card verification code'**
+  /// **'Card verification code'**
   String get shopCVC;
 
   /// No description provided for @shopCancelOrder.
@@ -3555,7 +3567,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopCar.
   ///
   /// In en, this message translates to:
-  /// **'car'**
+  /// **'Car'**
   String get shopCar;
 
   /// No description provided for @shopCardNumber.
@@ -3585,31 +3597,31 @@ abstract class SuperLocalizations {
   /// No description provided for @shopChangeCoupon.
   ///
   /// In en, this message translates to:
-  /// **'coupon change'**
+  /// **'Coupon change'**
   String get shopChangeCoupon;
 
   /// No description provided for @shopChatWithSeller.
   ///
   /// In en, this message translates to:
-  /// **'seller chat'**
+  /// **'Seller chat'**
   String get shopChatWithSeller;
 
   /// No description provided for @shopCheckBalance.
   ///
   /// In en, this message translates to:
-  /// **'balance check'**
+  /// **'Balance check'**
   String get shopCheckBalance;
 
   /// No description provided for @shopCheckout.
   ///
   /// In en, this message translates to:
-  /// **'paying off'**
+  /// **'Paying off'**
   String get shopCheckout;
 
   /// No description provided for @shopChooseBranch.
   ///
   /// In en, this message translates to:
-  /// **'select branch'**
+  /// **'Select branch'**
   String get shopChooseBranch;
 
   /// No description provided for @shopChooseCurrency.
@@ -3621,7 +3633,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopChooseProduct.
   ///
   /// In en, this message translates to:
-  /// **'select product'**
+  /// **'Select product'**
   String get shopChooseProduct;
 
   /// No description provided for @shopChooseTheMarketsBranch.
@@ -3687,7 +3699,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopClubPoint.
   ///
   /// In en, this message translates to:
-  /// **'purchase points'**
+  /// **'Purchase points'**
   String get shopClubPoint;
 
   /// No description provided for @shopConfirmOrder.
@@ -3717,43 +3729,43 @@ abstract class SuperLocalizations {
   /// No description provided for @shopCoupon.
   ///
   /// In en, this message translates to:
-  /// **'coupon'**
+  /// **'Coupon'**
   String get shopCoupon;
 
   /// No description provided for @shopCouponCode.
   ///
   /// In en, this message translates to:
-  /// **'coupon code'**
+  /// **'Coupon code'**
   String get shopCouponCode;
 
   /// No description provided for @shopCreatingOrder.
   ///
   /// In en, this message translates to:
-  /// **'fulfill the request'**
+  /// **'Ful fill the request'**
   String get shopCreatingOrder;
 
   /// No description provided for @shopCustomOrder.
   ///
   /// In en, this message translates to:
-  /// **'custom request'**
+  /// **'Custom request'**
   String get shopCustomOrder;
 
   /// No description provided for @shopDefaultCreditCard.
   ///
   /// In en, this message translates to:
-  /// **'virtual credit card'**
+  /// **'Virtual credit card'**
   String get shopDefaultCreditCard;
 
   /// No description provided for @shopDeliverTo.
   ///
   /// In en, this message translates to:
-  /// **'delivery to'**
+  /// **'Delivery to'**
   String get shopDeliverTo;
 
   /// No description provided for @shopDeliverable.
   ///
   /// In en, this message translates to:
-  /// **'deliverable'**
+  /// **'Deliverable'**
   String get shopDeliverable;
 
   /// No description provided for @shopDelivered.
@@ -3771,7 +3783,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopDeliveryAddress.
   ///
   /// In en, this message translates to:
-  /// **'delivery address'**
+  /// **'Delivery address'**
   String get shopDeliveryAddress;
 
   /// No description provided for @shopDeliveryAddressOutsideTheDeliveryRangeOfThisMarkets.
@@ -3783,13 +3795,13 @@ abstract class SuperLocalizations {
   /// No description provided for @shopDeliveryAddresses.
   ///
   /// In en, this message translates to:
-  /// **'delivery addresses'**
+  /// **'Delivery addresses'**
   String get shopDeliveryAddresses;
 
   /// No description provided for @shopDeliveryFee.
   ///
   /// In en, this message translates to:
-  /// **'delivery fee'**
+  /// **'Delivery fee'**
   String get shopDeliveryFee;
 
   /// No description provided for @shopDeliveryFeeIsCalculated.
@@ -3801,13 +3813,13 @@ abstract class SuperLocalizations {
   /// No description provided for @shopDeliveryInformation.
   ///
   /// In en, this message translates to:
-  /// **'delivery information'**
+  /// **'Delivery information'**
   String get shopDeliveryInformation;
 
   /// No description provided for @shopDeliveryMethod.
   ///
   /// In en, this message translates to:
-  /// **'delivery options'**
+  /// **'Delivery options'**
   String get shopDeliveryMethod;
 
   /// No description provided for @shopDeliveryMethodNotAllowed.
@@ -3819,7 +3831,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopDeliveryOrPickup.
   ///
   /// In en, this message translates to:
-  /// **'delivery or receipt'**
+  /// **'Delivery or receipt'**
   String get shopDeliveryOrPickup;
 
   /// No description provided for @shopDeliveryService.
@@ -3885,7 +3897,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopFavoriteProducts.
   ///
   /// In en, this message translates to:
-  /// **'favorite products'**
+  /// **'Favorite products'**
   String get shopFavoriteProducts;
 
   /// No description provided for @shopFeaturedCategories.
@@ -3915,7 +3927,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopGross.
   ///
   /// In en, this message translates to:
-  /// **'full amount'**
+  /// **'Full amount'**
   String get shopGross;
 
   /// No description provided for @shopHaveCouponCode.
@@ -3933,13 +3945,13 @@ abstract class SuperLocalizations {
   /// No description provided for @shopInYourCart.
   ///
   /// In en, this message translates to:
-  /// **'in the basket'**
+  /// **'In the basket'**
   String get shopInYourCart;
 
   /// No description provided for @shopInvalidCouponCode.
   ///
   /// In en, this message translates to:
-  /// **'wrong coupon'**
+  /// **'Wrong coupon'**
   String get shopInvalidCouponCode;
 
   /// No description provided for @shopKeepYourOldMealsOfThisMarket.
@@ -3963,7 +3975,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopLoadingMoreProducts.
   ///
   /// In en, this message translates to:
-  /// **'download other products'**
+  /// **'Download other products'**
   String get shopLoadingMoreProducts;
 
   /// No description provided for @shopLoadingMoreReviews.
@@ -3981,7 +3993,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopMarket.
   ///
   /// In en, this message translates to:
-  /// **'the shop'**
+  /// **'The shop'**
   String get shopMarket;
 
   /// No description provided for @shopMarkets.
@@ -4005,7 +4017,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopMarketsResults.
   ///
   /// In en, this message translates to:
-  /// **'market results'**
+  /// **'Market results'**
   String get shopMarketsResults;
 
   /// No description provided for @shopMostPopular.
@@ -4029,7 +4041,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopNoBrandsAreAvailable.
   ///
   /// In en, this message translates to:
-  /// **'no brands'**
+  /// **'No brands'**
   String get shopNoBrandsAreAvailable;
 
   /// No description provided for @shopNoFeaturedProductsFromThisSeller.
@@ -4077,7 +4089,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopNoProductsAreAvailable.
   ///
   /// In en, this message translates to:
-  /// **'no products'**
+  /// **'No products'**
   String get shopNoProductsAreAvailable;
 
   /// No description provided for @shopNoRelatedProducts.
@@ -4089,13 +4101,13 @@ abstract class SuperLocalizations {
   /// No description provided for @shopNoReviews.
   ///
   /// In en, this message translates to:
-  /// **'no comments'**
+  /// **'No comments'**
   String get shopNoReviews;
 
   /// No description provided for @shopNoShopsAreAvailable.
   ///
   /// In en, this message translates to:
-  /// **'no stores'**
+  /// **'No stores'**
   String get shopNoShopsAreAvailable;
 
   /// No description provided for @shopNoTopSellingProductsFromThisSeller.
@@ -4107,13 +4119,13 @@ abstract class SuperLocalizations {
   /// No description provided for @shopNotDeliverable.
   ///
   /// In en, this message translates to:
-  /// **'undeliverable'**
+  /// **'Undeliverable'**
   String get shopNotDeliverable;
 
   /// No description provided for @shopOnTheWay.
   ///
   /// In en, this message translates to:
-  /// **'on my way'**
+  /// **'On my way'**
   String get shopOnTheWay;
 
   /// No description provided for @shopOneOrMoreProductsInYourCartNotDeliverable.
@@ -4125,19 +4137,19 @@ abstract class SuperLocalizations {
   /// No description provided for @shopOpenedMarkets.
   ///
   /// In en, this message translates to:
-  /// **'open markets'**
+  /// **'Open markets'**
   String get shopOpenedMarkets;
 
   /// No description provided for @shopOrderCode.
   ///
   /// In en, this message translates to:
-  /// **'order code'**
+  /// **'Order code'**
   String get shopOrderCode;
 
   /// No description provided for @shopOrderCost.
   ///
   /// In en, this message translates to:
-  /// **'order value'**
+  /// **'Order value'**
   String get shopOrderCost;
 
   /// No description provided for @shopOrderDate.
@@ -4149,7 +4161,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopOrderDetails.
   ///
   /// In en, this message translates to:
-  /// **'order details'**
+  /// **'Order details'**
   String get shopOrderDetails;
 
   /// No description provided for @shopOrderID.
@@ -4161,7 +4173,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopOrderInformation.
   ///
   /// In en, this message translates to:
-  /// **'order information'**
+  /// **'Order information'**
   String get shopOrderInformation;
 
   /// No description provided for @shopOrderIsReceived.
@@ -4173,7 +4185,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopOrderPlaced.
   ///
   /// In en, this message translates to:
-  /// **'request is done'**
+  /// **'Request is done'**
   String get shopOrderPlaced;
 
   /// No description provided for @shopOrderReceived.
@@ -4191,7 +4203,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopOrderThisOrderIdHasBeenCanceled.
   ///
   /// In en, this message translates to:
-  /// **'the request has been canceled'**
+  /// **'The request has been canceled'**
   String get shopOrderThisOrderIdHasBeenCanceled;
 
   /// No description provided for @shopOrderedByNearbyFirst.
@@ -4203,13 +4215,13 @@ abstract class SuperLocalizations {
   /// No description provided for @shopOrderedProducts.
   ///
   /// In en, this message translates to:
-  /// **'required products'**
+  /// **'Required products'**
   String get shopOrderedProducts;
 
   /// No description provided for @shopOrders.
   ///
   /// In en, this message translates to:
-  /// **'requests'**
+  /// **'Requests'**
   String get shopOrders;
 
   /// No description provided for @shopPaid.
@@ -4221,7 +4233,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopParcelDeliveryService.
   ///
   /// In en, this message translates to:
-  /// **'parcel delivery service'**
+  /// **'Parcel delivery service'**
   String get shopParcelDeliveryService;
 
   /// No description provided for @shopPayWithPaypal.
@@ -4257,7 +4269,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopPaymentOptions.
   ///
   /// In en, this message translates to:
-  /// **'payment options'**
+  /// **'Payment options'**
   String get shopPaymentOptions;
 
   /// No description provided for @shopPaymentSettings.
@@ -4287,13 +4299,13 @@ abstract class SuperLocalizations {
   /// No description provided for @shopPending.
   ///
   /// In en, this message translates to:
-  /// **'pending'**
+  /// **'Pending'**
   String get shopPending;
 
   /// No description provided for @shopPickupYourProductFromTheMarket.
   ///
   /// In en, this message translates to:
-  /// **'pick up your product from the store'**
+  /// **'Pick up your product from the store'**
   String get shopPickupYourProductFromTheMarket;
 
   /// No description provided for @shopPillPay.
@@ -4323,13 +4335,13 @@ abstract class SuperLocalizations {
   /// No description provided for @shopPreparing.
   ///
   /// In en, this message translates to:
-  /// **'order processing'**
+  /// **'Order processing'**
   String get shopPreparing;
 
   /// No description provided for @shopProceedToPayment.
   ///
   /// In en, this message translates to:
-  /// **'move to payment'**
+  /// **'Move to payment'**
   String get shopProceedToPayment;
 
   /// No description provided for @shopProceedToShipping.
@@ -4347,7 +4359,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopProductName.
   ///
   /// In en, this message translates to:
-  /// **'product name'**
+  /// **'Product name'**
   String get shopProductName;
 
   /// No description provided for @shopProductPricesDoNotMatchPleaseUpdateTheData.
@@ -4359,19 +4371,19 @@ abstract class SuperLocalizations {
   /// No description provided for @shopProducts.
   ///
   /// In en, this message translates to:
-  /// **'products'**
+  /// **'Products'**
   String get shopProducts;
 
   /// No description provided for @shopProductsResult.
   ///
   /// In en, this message translates to:
-  /// **'products result'**
+  /// **'Products result'**
   String get shopProductsResult;
 
   /// No description provided for @shopProductsResults.
   ///
   /// In en, this message translates to:
-  /// **'product results'**
+  /// **'Product results'**
   String get shopProductsResults;
 
   /// No description provided for @shopProductsYouMayLike.
@@ -4401,25 +4413,25 @@ abstract class SuperLocalizations {
   /// No description provided for @shopReceiver.
   ///
   /// In en, this message translates to:
-  /// **'the future'**
+  /// **'The future'**
   String get shopReceiver;
 
   /// No description provided for @shopReceiverAddress.
   ///
   /// In en, this message translates to:
-  /// **'recipient address'**
+  /// **'Recipient address'**
   String get shopReceiverAddress;
 
   /// No description provided for @shopReceiverInformation.
   ///
   /// In en, this message translates to:
-  /// **'future information'**
+  /// **'Future information'**
   String get shopReceiverInformation;
 
   /// No description provided for @shopReceiverLocation.
   ///
   /// In en, this message translates to:
-  /// **'recipient site'**
+  /// **'Recipient site'**
   String get shopReceiverLocation;
 
   /// No description provided for @shopReceiverName.
@@ -4431,19 +4443,19 @@ abstract class SuperLocalizations {
   /// No description provided for @shopReceiverPhone.
   ///
   /// In en, this message translates to:
-  /// **'recipient number'**
+  /// **'Recipient number'**
   String get shopReceiverPhone;
 
   /// No description provided for @shopRecentOrders.
   ///
   /// In en, this message translates to:
-  /// **'last orders'**
+  /// **'Last orders'**
   String get shopRecentOrders;
 
   /// No description provided for @shopRecipientAddress.
   ///
   /// In en, this message translates to:
-  /// **'recipient address'**
+  /// **'Recipient address'**
   String get shopRecipientAddress;
 
   /// No description provided for @shopRecipientInformation.
@@ -4485,7 +4497,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopSearchProductsOf.
   ///
   /// In en, this message translates to:
-  /// **'search for products'**
+  /// **'Search for products'**
   String get shopSearchProductsOf;
 
   /// No description provided for @shopSearchProductsOfBrand.
@@ -4509,7 +4521,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopSeller.
   ///
   /// In en, this message translates to:
-  /// **'the seller'**
+  /// **'The seller'**
   String get shopSeller;
 
   /// No description provided for @shopSellerPolicy.
@@ -4521,31 +4533,31 @@ abstract class SuperLocalizations {
   /// No description provided for @shopSellers.
   ///
   /// In en, this message translates to:
-  /// **'sellers'**
+  /// **'Sellers'**
   String get shopSellers;
 
   /// No description provided for @shopSenderAddress.
   ///
   /// In en, this message translates to:
-  /// **'sender\'s address'**
+  /// **'Sender\'s address'**
   String get shopSenderAddress;
 
   /// No description provided for @shopSenderInformation.
   ///
   /// In en, this message translates to:
-  /// **'sender information'**
+  /// **'Sender information'**
   String get shopSenderInformation;
 
   /// No description provided for @shopSenderLocation.
   ///
   /// In en, this message translates to:
-  /// **'sender site'**
+  /// **'Sender site'**
   String get shopSenderLocation;
 
   /// No description provided for @shopSenderPhone.
   ///
   /// In en, this message translates to:
-  /// **'sender number'**
+  /// **'Sender number'**
   String get shopSenderPhone;
 
   /// No description provided for @shopSetYourDeliveryAddress.
@@ -4563,7 +4575,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopShippingCost.
   ///
   /// In en, this message translates to:
-  /// **'freight value'**
+  /// **'Freight value'**
   String get shopShippingCost;
 
   /// No description provided for @shopShippingMethod.
@@ -4575,13 +4587,13 @@ abstract class SuperLocalizations {
   /// No description provided for @shopShopping.
   ///
   /// In en, this message translates to:
-  /// **'the shopping'**
+  /// **'The shopping'**
   String get shopShopping;
 
   /// No description provided for @shopShoppingCart.
   ///
   /// In en, this message translates to:
-  /// **'shopping cart'**
+  /// **'Shopping cart'**
   String get shopShoppingCart;
 
   /// No description provided for @shopShowCart.
@@ -4593,13 +4605,13 @@ abstract class SuperLocalizations {
   /// No description provided for @shopSortProductsBy.
   ///
   /// In en, this message translates to:
-  /// **'sort products by'**
+  /// **'Sort products by'**
   String get shopSortProductsBy;
 
   /// No description provided for @shopSubmitOrder.
   ///
   /// In en, this message translates to:
-  /// **'fulfill the request'**
+  /// **'Fulfill the request'**
   String get shopSubmitOrder;
 
   /// No description provided for @shopTellUsAboutThisMarket.
@@ -4665,7 +4677,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopTopCategories.
   ///
   /// In en, this message translates to:
-  /// **'best categories'**
+  /// **'Best categories'**
   String get shopTopCategories;
 
   /// No description provided for @shopTopMarkets.
@@ -4683,7 +4695,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopTopSellingProducts.
   ///
   /// In en, this message translates to:
-  /// **'top sales'**
+  /// **'Top sales'**
   String get shopTopSellingProducts;
 
   /// No description provided for @shopTopSellingProductsFromThisSeller.
@@ -4707,7 +4719,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopValidCouponCode.
   ///
   /// In en, this message translates to:
-  /// **'true coupon'**
+  /// **'True coupon'**
   String get shopValidCouponCode;
 
   /// No description provided for @shopViewAllProductsFromThisSeller.
@@ -4725,25 +4737,25 @@ abstract class SuperLocalizations {
   /// No description provided for @shopViewProducts.
   ///
   /// In en, this message translates to:
-  /// **'display products'**
+  /// **'Display products'**
   String get shopViewProducts;
 
   /// No description provided for @shopViewSubCategories.
   ///
   /// In en, this message translates to:
-  /// **'display subcategories'**
+  /// **'Display subcategories'**
   String get shopViewSubCategories;
 
   /// No description provided for @shopVisaCard.
   ///
   /// In en, this message translates to:
-  /// **'visa card'**
+  /// **'Visa card'**
   String get shopVisaCard;
 
   /// No description provided for @shopWishlist.
   ///
   /// In en, this message translates to:
-  /// **'wish list'**
+  /// **'Wish list'**
   String get shopWishlist;
 
   /// No description provided for @shopYouCanDiscoverMarkets.

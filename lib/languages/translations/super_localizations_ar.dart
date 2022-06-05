@@ -707,6 +707,12 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get commonEnglish => 'الإنجليزية';
 
   @override
+  String get commonArabic => 'العربية';
+
+  @override
+  String get commonFrench => 'الفرنسية';
+
+  @override
   String get commonExcerpt => 'المُلخص';
 
   @override

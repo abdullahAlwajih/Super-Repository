@@ -20,43 +20,43 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get appChooseLanguageOfApplication => 'Choose the language';
 
   @override
-  String get appAboutTheApp => 'about the app';
+  String get appAboutTheApp => 'About the app';
 
   @override
-  String get appApp => 'application';
+  String get appApp => 'Application';
 
   @override
-  String get appAppLanguage => 'application language';
+  String get appAppLanguage => 'Application language';
 
   @override
   String get appAppSettings => 'Application settings';
 
   @override
-  String get appAppVersion => 'app version';
+  String get appAppVersion => 'App version';
 
   @override
   String get appApplicationPreferences => 'Application Preferences';
 
   @override
-  String get appDarkMode => 'dark theme';
+  String get appDarkMode => 'Dark theme';
 
   @override
   String get appHome => 'Home';
 
   @override
-  String get appLightMode => 'light theme';
+  String get appLightMode => 'Light theme';
 
   @override
   String get appNeedsToBeUpdated => 'The app needs to be updated';
 
   @override
-  String get appNewUpdate => 'new update';
+  String get appNewUpdate => 'New update';
 
   @override
   String get appNewUpdateWithFace => 'New update 😍';
 
   @override
-  String get appShareApplication => 'share app';
+  String get appShareApplication => 'Share app';
 
   @override
   String get appSoPleaseUpdateToTheNewVersion => 'So please update to the new version.';
@@ -71,7 +71,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get appUpdate => 'Update';
 
   @override
-  String get appUpdateNow => 'update now';
+  String get appUpdateNow => 'Update now';
 
   @override
   String get appVersion => 'Version';
@@ -86,25 +86,25 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get appWeAreWorkingHardToComeUpWithNewServicesSoPleaseUpdateTheNewVersion => 'We are working hard to provide new services, so we hope that you will update to the new version';
 
   @override
-  String get authAccount => 'the account';
+  String get authAccount => 'The account';
 
   @override
   String get authAccountApproveAlert => 'Please wait for your account to be approved.';
 
   @override
-  String get authAccountDetails => 'account details';
+  String get authAccountDetails => 'Account details';
 
   @override
-  String get authAccountNumber => 'account number';
+  String get authAccountNumber => 'Account number';
 
   @override
-  String get authAccounts => 'the accounts';
+  String get authAccounts => 'The accounts';
 
   @override
-  String get authAddImage => 'add a picture';
+  String get authAddImage => 'Add a picture';
 
   @override
-  String get authAddNewAddress => 'add a new address,';
+  String get authAddNewAddress => 'Add a new address,';
 
   @override
   String get authAddress => 'Title';
@@ -113,13 +113,13 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authAddressesOfUser => 'User Addresses';
 
   @override
-  String get authAge => 'the age';
+  String get authAge => 'The age';
 
   @override
   String get authAlreadyHaveAnAccount => 'Do you already have an account?';
 
   @override
-  String get authAlternativePhone => 'alternate phone number';
+  String get authAlternativePhone => 'Alternate phone number';
 
   @override
   String get authAnErrorOccurredPleaseTryAgain => 'Something went wrong, please try again';
@@ -137,10 +137,10 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authCanNotGetTheContactNumber => 'Unable to get the number';
 
   @override
-  String get authChangePassword => 'change Password';
+  String get authChangePassword => 'Change Password';
 
   @override
-  String get authChooseAccount => 'select account';
+  String get authChooseAccount => 'Select account';
 
   @override
   String get authChooseUserType => 'Choose an account type';
@@ -158,22 +158,22 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authConfirmPIN => 'Personal ID Confirmation';
 
   @override
-  String get authConfirmPassword => 'confirm password';
+  String get authConfirmPassword => 'Confirm password';
 
   @override
-  String get authConfirmationCode => 'confirmation code';
+  String get authConfirmationCode => 'Confirmation code';
 
   @override
   String get authContinueWithTheSameData => 'Continue with the same data';
 
   @override
-  String get authCreateANewAccount => 'create a new account';
+  String get authCreateANewAccount => 'Create a new account';
 
   @override
-  String get authCustomerID => 'user id';
+  String get authCustomerID => 'User id';
 
   @override
-  String get authDataCompletion => 'data completion';
+  String get authDataCompletion => 'Data completion';
 
   @override
   String get authDonatHaveAccountQuestion => 'First time account registration';
@@ -182,28 +182,28 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authEMail => 'E-mail';
 
   @override
-  String get authEditAddress => 'address modification';
+  String get authEditAddress => 'Address modification';
 
   @override
-  String get authEditMyData => 'modify my data';
+  String get authEditMyData => 'Modify my data';
 
   @override
-  String get authEditProfile => 'account modification';
+  String get authEditProfile => 'Account modification';
 
   @override
-  String get authEmailAddress => 'email address';
+  String get authEmailAddress => 'Email address';
 
   @override
-  String get authEmailToResetPassword => 'password reset email';
+  String get authEmailToResetPassword => 'Password reset email';
 
   @override
-  String get authEnterAddress => 'enter address';
+  String get authEnterAddress => 'Enter address';
 
   @override
-  String get authEnterCode => 'enter code';
+  String get authEnterCode => 'Enter code';
 
   @override
-  String get authEnterEmail => 'enter email';
+  String get authEnterEmail => 'Enter email';
 
   @override
   String get authEnterName => 'Enter the name';
@@ -236,7 +236,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authExit => 'Exit';
 
   @override
-  String get authFemale => 'feminine';
+  String get authFemale => 'Feminine';
 
   @override
   String get authFirebaseSmsExpireMessage => 'The code has expired, please enter the new code or re-register';
@@ -245,13 +245,13 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authFirstName => 'First Name:';
 
   @override
-  String get authForgotPassword => 'did you forget your password?';
+  String get authForgotPassword => 'Did you forget your password?';
 
   @override
-  String get authFourthName => 'fourth name';
+  String get authFourthName => 'Fourth name';
 
   @override
-  String get authFullAddress => 'the full address';
+  String get authFullAddress => 'The full address';
 
   @override
   String get authFullName => 'Full name';
@@ -260,7 +260,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authName => 'Name';
 
   @override
-  String get authGender => 'sex';
+  String get authGender => 'Sex';
 
   @override
   String get authHelpAndPolicies => 'Help and Privacy Policy';
@@ -272,10 +272,10 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authIAccept => 'I agree to';
 
   @override
-  String get authIDNumber => 'card number';
+  String get authIDNumber => 'Card number';
 
   @override
-  String get authIDonatHaveAnAccount => 'I dont have an account?';
+  String get authIDonatHaveAnAccount => 'I don\'t have an account?';
 
   @override
   String get authIHaveAccountBackToLogin => 'Have an account? Back to login';
@@ -287,7 +287,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authInvalidNumberFormat => 'incorrect number format';
 
   @override
-  String get authLastName => 'last name';
+  String get authLastName => 'Last name';
 
   @override
   String get authLetsStartWithLogin => 'Let\'s start logging in.';
@@ -302,37 +302,37 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authLogin => 'Login';
 
   @override
-  String get authLoginTo => 'sign in to';
+  String get authLoginTo => 'Sign in to';
 
   @override
-  String get authLoginToTheApplication => 'login to the application';
+  String get authLoginToTheApplication => 'Login to the application';
 
   @override
-  String get authLogout => 'sign out';
+  String get authLogout => 'Sign out';
 
   @override
   String get authMale => 'Male';
 
   @override
-  String get authMobileNumberVerification => 'confirm phone number';
+  String get authMobileNumberVerification => 'Confirm phone number';
 
   @override
-  String get authNewPassword => 'new password';
+  String get authNewPassword => 'New password';
 
   @override
-  String get authOrCreateNewAccount => 'or create an account';
+  String get authOrCreateNewAccount => 'Or create an account';
 
   @override
   String get authOrLoginWithAPhoneNumber => 'Or log in with your phone number.';
 
   @override
-  String get authOrLoginWithAnEmail => 'or log in via e-mail';
+  String get authOrLoginWithAnEmail => 'Or log in via e-mail';
 
   @override
-  String get authOrRegisterWithAPhone => 'or use the phone number';
+  String get authOrRegisterWithAPhone => 'Or use the phone number';
 
   @override
-  String get authOrRegisterWithAnEmail => 'or use e-mail';
+  String get authOrRegisterWithAnEmail => 'Or use e-mail';
 
   @override
   String get authOrSendCodeViaEmail => 'Or send the code via e-mail.';
@@ -344,13 +344,13 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authOtpReSent => 'The code has been sent successfully';
 
   @override
-  String get authPIN => 'personal identifier';
+  String get authPIN => 'Personal identifier';
 
   @override
   String get authPassword => 'Password';
 
   @override
-  String get authPasswordConfirmation => 'confirm password';
+  String get authPasswordConfirmation => 'Confirm password';
 
   @override
   String get authPasswordMustContainAtLeastSixCharacters => 'The password must contain at least six characters.';
@@ -395,10 +395,10 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authProfile => 'Profile personly';
 
   @override
-  String get authProfileSettings => 'profile settings';
+  String get authProfileSettings => 'Profile settings';
 
   @override
-  String get authRegex => 'incorrect pattern';
+  String get authRegex => 'Incorrect pattern';
 
   @override
   String get authRegister => 'Register';
@@ -413,31 +413,31 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authResendTheCodeAgain => 'Send the code again';
 
   @override
-  String get authResetPassword => 'change Password';
+  String get authResetPassword => 'Change Password';
 
   @override
-  String get authSecondName => 'the second name';
+  String get authSecondName => 'The second name';
 
   @override
-  String get authSendCode => 'send code';
+  String get authSendCode => 'Send code';
 
   @override
-  String get authSentToYourDevice => 'sent to your device';
+  String get authSentToYourDevice => 'Sent to your device';
 
   @override
-  String get authSignIn => 'sign in';
+  String get authSignIn => 'Sign in';
 
   @override
-  String get authSignOut => 'sign out';
+  String get authSignOut => 'Sign out';
 
   @override
   String get authSignOutOfTheApp => 'Log out of the application';
 
   @override
-  String get authSignUp => 'account registration';
+  String get authSignUp => 'Account registration';
 
   @override
-  String get authSupportPolicy => 'support policy';
+  String get authSupportPolicy => 'Support policy';
 
   @override
   String get authTheCodeHasBeenSentTo => 'The code has been sent to';
@@ -449,19 +449,19 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authTheVerificationCodeWillArriveWithin => 'Verification code will arrive within';
 
   @override
-  String get authThirdName => 'third name';
+  String get authThirdName => 'Third name';
 
   @override
   String get authToYourMobileNumber => 'To your phone number:';
 
   @override
-  String get authUploadDocuments => 'attach documents';
+  String get authUploadDocuments => 'Attach documents';
 
   @override
   String get authUploadID => 'Identity Card Lift';
 
   @override
-  String get authUploadIdentity => 'personal ID';
+  String get authUploadIdentity => 'Personal ID';
 
   @override
   String get authUploadIdentityInfo => 'Attach your ID/ID';
@@ -470,16 +470,16 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authUserAlreadyExists => 'This number already exists.';
 
   @override
-  String get authUsername => 'user name';
+  String get authUsername => 'User name';
 
   @override
-  String get authVerification => 'verification';
+  String get authVerification => 'Verification';
 
   @override
-  String get authVerificationCode => 'confirmation code';
+  String get authVerificationCode => 'Confirmation code';
 
   @override
-  String get authVerifyIdentity => 'verification';
+  String get authVerifyIdentity => 'Verification';
 
   @override
   String get authVerifyIdentityInfo => 'Verify your personal data';
@@ -515,13 +515,13 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authYouNeedToBeLoggedIn => 'Requires you to be logged in';
 
   @override
-  String get authYourAddress => 'your address';
+  String get authYourAddress => 'Your address';
 
   @override
   String get authYourAddressIsNotSupportedChooseAAddressWithinYourRegion => 'Your address is not supported, choose an address within your region';
 
   @override
-  String get authYourBalance => 'your balance';
+  String get authYourBalance => 'Your balance';
 
   @override
   String get authYourCreditCardNotValid => 'Your credit card is invalid';
@@ -533,64 +533,64 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonAdd => 'Add';
 
   @override
-  String get commonAdditionalInformation => 'additional information';
+  String get commonAdditionalInformation => 'Additional information';
 
   @override
-  String get commonAll => 'everyone';
+  String get commonAll => 'Everyone';
 
   @override
-  String get commonAmount => 'the amount';
+  String get commonAmount => 'The amount';
 
   @override
   String get commonApply => 'Implementation of';
 
   @override
-  String get commonApplyFilters => 'apply filters';
+  String get commonApplyFilters => 'Apply filters';
 
   @override
-  String get commonApprovalStatus => 'admission status';
+  String get commonApprovalStatus => 'Admission status';
 
   @override
   String get commonAreYouSureWithYourOperationAndOrder => 'Are you sure about this process?';
 
   @override
-  String get commonAvailable => 'available';
+  String get commonAvailable => 'Available';
 
   @override
-  String get commonBalance => 'balance';
+  String get commonBalance => 'Balance';
 
   @override
   String get commonBrowse => 'Choose';
 
   @override
-  String get commonCallUs => 'call us';
+  String get commonCallUs => 'Call us';
 
   @override
-  String get commonCamera => 'camera';
+  String get commonCamera => 'Camera';
 
   @override
   String get commonCancel => 'Cancellation';
 
   @override
-  String get commonCanceled => 'canceled';
+  String get commonCanceled => 'Canceled';
 
   @override
   String get commonCarActivationMessage => 'Soon, this option will be activated';
 
   @override
-  String get commonCategories => 'categories';
+  String get commonCategories => 'Categories';
 
   @override
-  String get commonCategory => 'category';
+  String get commonCategory => 'Category';
 
   @override
   String get commonChange => 'A change';
 
   @override
-  String get commonChat => 'conversation';
+  String get commonChat => 'Conversation';
 
   @override
-  String get commonChooseCountry => 'select country';
+  String get commonChooseCountry => 'Select country';
 
   @override
   String get commonChoosePurpose => 'Choose Purpose';
@@ -602,28 +602,28 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonClickToViewDetails => 'Click to view details';
 
   @override
-  String get commonClosed => 'closed';
+  String get commonClosed => 'Closed';
 
   @override
-  String get commonColor => 'the color';
+  String get commonColor => 'The color';
 
   @override
   String get commonComingSoon => 'Soon';
 
   @override
-  String get commonComments => 'comments';
+  String get commonComments => 'Comments';
 
   @override
-  String get commonCommonQuestions => 'common questions';
+  String get commonCommonQuestions => 'Common questions';
 
   @override
-  String get commonCompetitions => 'competitions';
+  String get commonCompetitions => 'Competitions';
 
   @override
   String get commonConfirm => 'Confirm';
 
   @override
-  String get commonConfirmed => 'confirmed';
+  String get commonConfirmed => 'Confirmed';
 
   @override
   String get commonContactUs => 'Connect with us';
@@ -632,31 +632,31 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonContent => 'Content';
 
   @override
-  String get commonContinueToHome => 'continue';
+  String get commonContinueToHome => 'Continue';
 
   @override
-  String get commonCost => 'the value';
+  String get commonCost => 'The value';
 
   @override
-  String get commonCount => 'the number';
+  String get commonCount => 'The number';
 
   @override
   String get commonCountry => 'Country';
 
   @override
-  String get commonCurrency => 'the currency';
+  String get commonCurrency => 'The currency';
 
   @override
-  String get commonCurrentLocation => 'current location';
+  String get commonCurrentLocation => 'Current location';
 
   @override
-  String get commonDeclined => 'rejected';
+  String get commonDeclined => 'Rejected';
 
   @override
-  String get commonDefaultValue => 'default';
+  String get commonDefaultValue => 'Default';
 
   @override
-  String get commonDelete => 'delete';
+  String get commonDelete => 'Delete';
 
   @override
   String get commonDeny => 'Refusal';
@@ -668,10 +668,10 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonDescription => 'He described';
 
   @override
-  String get commonDetails => 'details';
+  String get commonDetails => 'Details';
 
   @override
-  String get commonDiscount => 'discount';
+  String get commonDiscount => 'Discount';
 
   @override
   String get commonDoYouWantToUpdate => 'Do you want to update?';
@@ -686,25 +686,31 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonDoubleTapOnAnAddressToMakeItDefault => 'Double click on a title to make it the default';
 
   @override
-  String get commonDragToInteract => 'swipe to the person';
+  String get commonDragToInteract => 'Swipe to the person';
 
   @override
   String get commonDue => 'Worthy';
 
   @override
-  String get commonDueAmount => 'deserving';
+  String get commonDueAmount => 'Deserving';
 
   @override
   String get commonDueDate => 'History';
 
   @override
-  String get commonEdit => 'amendment';
+  String get commonEdit => 'Amendment';
 
   @override
   String get commonEnded => 'I finish';
 
   @override
   String get commonEnglish => 'English';
+
+  @override
+  String get commonArabic => 'Arabic';
+
+  @override
+  String get commonFrench => 'French';
 
   @override
   String get commonExcerpt => 'Summary';
@@ -719,13 +725,13 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonFavorites => 'Favorite';
 
   @override
-  String get commonFee => 'commission';
+  String get commonFee => 'Commission';
 
   @override
-  String get commonFees => 'fees';
+  String get commonFees => 'Fees';
 
   @override
-  String get commonFields => 'fields';
+  String get commonFields => 'Fields';
 
   @override
   String get commonFilters => 'Filter';
@@ -746,7 +752,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonFullAddressHint => 'Street name, neighborhood, city';
 
   @override
-  String get commonGallery => 'studio';
+  String get commonGallery => 'Studio';
 
   @override
   String get commonGettingDeliveryFee => 'Delivery price is being determined, please wait...';
@@ -755,10 +761,10 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonGoToYourApplicationSettingsAndEnableThePermission => 'Go to the settings of the applications on your device and activate the permissions.';
 
   @override
-  String get commonGuest => 'visitor';
+  String get commonGuest => 'Visitor';
 
   @override
-  String get commonHello => 'welcome';
+  String get commonHello => 'Welcome';
 
   @override
   String get commonHelloINeedHelp => 'Hello, I need help.. ';
@@ -773,16 +779,16 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonIAccept => 'I agree to';
 
   @override
-  String get commonInformation => 'informations';
+  String get commonInformation => 'Informations';
 
   @override
-  String get commonInterest => 'benefit';
+  String get commonInterest => 'Benefit';
 
   @override
   String get commonIsOnlineNow => 'Is online now';
 
   @override
-  String get commonItem => 'item';
+  String get commonItem => 'Item';
 
   @override
   String get commonItems => 'Elements';
@@ -791,10 +797,10 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonJoin => 'Joined';
 
   @override
-  String get commonKM => 'how much';
+  String get commonKM => 'How much';
 
   @override
-  String get commonLanguage => 'the language';
+  String get commonLanguage => 'The language';
 
   @override
   String get commonLanguages => 'Languages';
@@ -809,10 +815,10 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonLoadingMoreHistory => 'Download';
 
   @override
-  String get commonLocationDescription => 'site description';
+  String get commonLocationDescription => 'Site description';
 
   @override
-  String get commonLocationIsNotSpecified => 'location not specified';
+  String get commonLocationIsNotSpecified => 'Location not specified';
 
   @override
   String get commonLocationPermission => 'Site Access Permissions';
@@ -824,19 +830,19 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonLongPressToEditItemSwipeItemToDeleteIt => 'Press and hold to edit the item, and drag the item to delete';
 
   @override
-  String get commonMapsExplorer => 'map explorer';
+  String get commonMapsExplorer => 'Map explorer';
 
   @override
   String get commonMasterCard => 'Master Card Credit Card';
 
   @override
-  String get commonMaximum => 'maximum';
+  String get commonMaximum => 'Maximum';
 
   @override
   String get commonMaximumPrincipal => 'Maximum Amount';
 
   @override
-  String get commonMe => 'me';
+  String get commonMe => 'Me';
 
   @override
   String get commonMessage => 'Message';
@@ -845,37 +851,37 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonMinPriceCannotBeLargerThanMaxPrice => 'The minimum price cannot be higher than the maximum.';
 
   @override
-  String get commonMinimum => 'minimum';
+  String get commonMinimum => 'Minimum';
 
   @override
-  String get commonMinimumPrincipal => 'minimum amount';
+  String get commonMinimumPrincipal => 'Minimum amount';
 
   @override
-  String get commonMore => 'more';
+  String get commonMore => 'More';
 
   @override
-  String get commonMoreOptions => 'additional options';
+  String get commonMoreOptions => 'Additional options';
 
   @override
   String get commonNearTo => 'Close';
 
   @override
-  String get commonNearToYourCurrentLocation => 'near your current location';
+  String get commonNearToYourCurrentLocation => 'Near your current location';
 
   @override
-  String get commonNet => 'net';
+  String get commonNet => 'Net';
 
   @override
-  String get commonNewArrival => 'recently arrived';
+  String get commonNewArrival => 'Recently arrived';
 
   @override
-  String get commonNewOrderFromClient => 'new request from client';
+  String get commonNewOrderFromClient => 'New request from client';
 
   @override
-  String get commonNext => 'next one';
+  String get commonNext => 'Next one';
 
   @override
-  String get commonNo => 'no';
+  String get commonNo => 'No';
 
   @override
   String get commonNoAccountChosen => 'No account selected';
@@ -890,7 +896,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonNoDataIsAvailable => 'No data';
 
   @override
-  String get commonNoFavorites => 'no favours';
+  String get commonNoFavorites => 'No favours';
 
   @override
   String get commonNoFileIsChosen => 'Not selected';
@@ -902,13 +908,13 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonNoItemsAreOrdered => 'No items required';
 
   @override
-  String get commonNoMoreHistory => 'there is no other';
+  String get commonNoMoreHistory => 'There is no other';
 
   @override
   String get commonNoPaymentMethodIsAdded => 'Payment method not added.';
 
   @override
-  String get commonNoRechargesYet => 'no shipping';
+  String get commonNoRechargesYet => 'No shipping';
 
   @override
   String get commonNoResultFromSearch => 'No results from the search';
@@ -923,16 +929,16 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonNote => 'Note';
 
   @override
-  String get commonNothingToPay => 'nothing to pay';
+  String get commonNothingToPay => 'Nothing to pay';
 
   @override
-  String get commonNotifications => 'notifications';
+  String get commonNotifications => 'Notifications';
 
   @override
   String get commonOk => 'OK';
 
   @override
-  String get commonOpen => 'open';
+  String get commonOpen => 'Open';
 
   @override
   String get commonOptional => '(my choice)';
@@ -941,28 +947,28 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonOptions => 'Options';
 
   @override
-  String get commonOr => 'or';
+  String get commonOr => 'Or';
 
   @override
-  String get commonOrCheckoutWith => 'or go out with';
+  String get commonOrCheckoutWith => 'Or go out with';
 
   @override
-  String get commonOrder => 'to request';
+  String get commonOrder => 'To request';
 
   @override
-  String get commonOther => 'other';
+  String get commonOther => 'Other';
 
   @override
   String get commonOurDifferentBranches => 'Our Various Branches';
 
   @override
-  String get commonOurNew => 'our new';
+  String get commonOurNew => 'Our new';
 
   @override
   String get commonOurVariousServices => 'Our various services';
 
   @override
-  String get commonPenalty => 'penalty';
+  String get commonPenalty => 'Penalty';
 
   @override
   String get commonPercent => 'Rate';
@@ -971,16 +977,16 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonPermissionIsRequired => 'Access Permission Required';
 
   @override
-  String get commonPermissionRequired => 'requires access permission';
+  String get commonPermissionRequired => 'Requires access permission';
 
   @override
-  String get commonPhoneBalanceInformation => 'balance information';
+  String get commonPhoneBalanceInformation => 'Balance information';
 
   @override
-  String get commonPhotoPermission => 'image access permissions';
+  String get commonPhotoPermission => 'Image access permissions';
 
   @override
-  String get commonPickup => 'book';
+  String get commonPickup => 'Book';
 
   @override
   String get commonPleaseEnterTheAddress => 'Please enter the address';
@@ -1007,55 +1013,55 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonPleaseVerifyYouAreNotARobot => 'Please complete the verification process.';
 
   @override
-  String get commonPleaseWait => 'please wait ...';
+  String get commonPleaseWait => 'Please wait ...';
 
   @override
-  String get commonPrice => 'price';
+  String get commonPrice => 'Price';
 
   @override
-  String get commonPriceHighToLow => 'high price low';
+  String get commonPriceHighToLow => 'High price low';
 
   @override
   String get commonPriceLowToHigh => 'Lowest Price';
 
   @override
-  String get commonPriceRange => 'price';
+  String get commonPriceRange => 'Price';
 
   @override
-  String get commonPrincipalAmount => 'basic amount';
+  String get commonPrincipalAmount => 'Basic amount';
 
   @override
   String get commonProceed => 'Continuation';
 
   @override
-  String get commonPromotionalCodes => 'promotional codes';
+  String get commonPromotionalCodes => 'Promotional codes';
 
   @override
-  String get commonPurpose => 'the purpose';
+  String get commonPurpose => 'The purpose';
 
   @override
-  String get commonQ => 'search';
+  String get commonQ => 'Search';
 
   @override
-  String get commonRecentReviews => 'recent reviews';
+  String get commonRecentReviews => 'Recent reviews';
 
   @override
-  String get commonRecentSearch => 'last search';
+  String get commonRecentSearch => 'Last search';
 
   @override
-  String get commonRecentTransactions => 'last operations';
+  String get commonRecentTransactions => 'Last operations';
 
   @override
   String get commonRegionMustBeSelected => 'Area must be specified';
 
   @override
-  String get commonRemove => 'delete';
+  String get commonRemove => 'Delete';
 
   @override
   String get commonRepeatTransactions => 'Repeat a previous operation';
 
   @override
-  String get commonReports => 'reports';
+  String get commonReports => 'Reports';
 
   @override
   String get commonRequestConfirm => 'Are you sure you want to continue?';
@@ -1067,16 +1073,16 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonReset => 'Reset';
 
   @override
-  String get commonReturnPolicy => 'refund policy';
+  String get commonReturnPolicy => 'Refund policy';
 
   @override
   String get commonReviewCannotBeEmpty => 'Review cannot be empty';
 
   @override
-  String get commonReviews => 'reviews';
+  String get commonReviews => 'Reviews';
 
   @override
-  String get commonSave => 'save';
+  String get commonSave => 'Save';
 
   @override
   String get commonSearch => 'Search';
@@ -1088,10 +1094,10 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonSearchYourInterests => 'Find Your Interest';
 
   @override
-  String get commonSections => 'sections';
+  String get commonSections => 'Sections';
 
   @override
-  String get commonSeeAll => 'show all';
+  String get commonSeeAll => 'Show all';
 
   @override
   String get commonSelectCity => 'Choose the city';
@@ -1118,13 +1124,13 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonSelectYourPreferredPaymentMode => 'Select your preferred payment mode';
 
   @override
-  String get commonSend => 'send';
+  String get commonSend => 'Send';
 
   @override
-  String get commonSendPasswordResetLink => 'send the link';
+  String get commonSendPasswordResetLink => 'Send the link';
 
   @override
-  String get commonServicePoints => 'service points';
+  String get commonServicePoints => 'Service points';
 
   @override
   String get commonServices => 'Services';
@@ -1133,10 +1139,10 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonSettings => 'Settings';
 
   @override
-  String get commonShowLess => 'show less';
+  String get commonShowLess => 'Show less';
 
   @override
-  String get commonSize => 'the size';
+  String get commonSize => 'The size';
 
   @override
   String get commonSkip => 'Skip';
@@ -1154,13 +1160,13 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonSubTotal => 'Subtotal';
 
   @override
-  String get commonSubmit => 'send';
+  String get commonSubmit => 'Send';
 
   @override
-  String get commonSubscription => 'subscription';
+  String get commonSubscription => 'Subscription';
 
   @override
-  String get commonSupport => 'the support';
+  String get commonSupport => 'The support';
 
   @override
   String get commonSwipeItemToDeleteIt => 'Drag the item to delete';
@@ -1172,7 +1178,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonTapToViewMoreDetails => 'Click to show details';
 
   @override
-  String get commonTax => 'tax';
+  String get commonTax => 'Tax';
 
   @override
   String get commonTaxesIncluded => 'Taxes included';
@@ -1196,7 +1202,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonTill => 'Even';
 
   @override
-  String get commonTitle => 'the address';
+  String get commonTitle => 'The address';
 
   @override
   String get commonToWhere => 'To where';
@@ -1208,28 +1214,28 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonTopRated => 'highest rating';
 
   @override
-  String get commonTotal => 'sum';
+  String get commonTotal => 'Sum';
 
   @override
-  String get commonTotalAmount => 'total summation';
+  String get commonTotalAmount => 'Total summation';
 
   @override
-  String get commonTotalPrice => 'total price';
+  String get commonTotalPrice => 'Total price';
 
   @override
-  String get commonTrackingOrder => 'order tracking';
+  String get commonTrackingOrder => 'Order tracking';
 
   @override
   String get commonTransactions => 'Processes';
 
   @override
-  String get commonTrendingThisWeek => 'trending this week';
+  String get commonTrendingThisWeek => 'Trending this week';
 
   @override
-  String get commonTryAgain => 'try again';
+  String get commonTryAgain => 'Try again';
 
   @override
-  String get commonTypeYourMessageHere => 'write your message here';
+  String get commonTypeYourMessageHere => 'Write your message here';
 
   @override
   String get commonTypeYourReviewHere => 'Write your review here';
@@ -1238,46 +1244,46 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonUnknown => 'Unknown';
 
   @override
-  String get commonUnnamedLocation => 'unnamed address';
+  String get commonUnnamedLocation => 'Unnamed address';
 
   @override
   String get commonUnpaid => 'Unpaid';
 
   @override
-  String get commonUnspecified => 'undefined';
+  String get commonUnspecified => 'Undefined';
 
   @override
-  String get commonVerify => 'verification';
+  String get commonVerify => 'Verification';
 
   @override
-  String get commonVerifyYour => 'confirmed';
+  String get commonVerifyYour => 'Confirmed';
 
   @override
   String get commonView => 'Show';
 
   @override
-  String get commonViewAll => 'view all';
+  String get commonViewAll => 'View all';
 
   @override
-  String get commonViewDetails => 'view details';
+  String get commonViewDetails => 'View details';
 
   @override
-  String get commonViewLess => 'show less';
+  String get commonViewLess => 'Show less';
 
   @override
   String get commonViewMore => 'Show more';
 
   @override
-  String get commonViewStatement => 'operations view';
+  String get commonViewStatement => 'Operations view';
 
   @override
   String get commonWeWishYouANiceDay => 'We wish you a nice day';
 
   @override
-  String get commonWelcome => 'welcome';
+  String get commonWelcome => 'Welcome';
 
   @override
-  String get commonWelcomeBack => 'welcome back';
+  String get commonWelcomeBack => 'Welcome back';
 
   @override
   String get commonWelcomeBackWithFace => 'Welcome back 👋';
@@ -1286,7 +1292,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonWelcomeWithFace => 'Welcome 👋';
 
   @override
-  String get commonWhatTheySay => 'what are they saying ?';
+  String get commonWhatTheySay => 'What are they saying ?';
 
   @override
   String get commonWhoToInteractWith => 'Who do you want to interact with?';
@@ -1301,13 +1307,13 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get dtBirthDate => 'Date of Birth';
 
   @override
-  String get dtDaily => 'daily';
+  String get dtDaily => 'Daily';
 
   @override
   String get dtDate => 'Date';
 
   @override
-  String get dtDateTime => 'date/time';
+  String get dtDateTime => 'Date/Time';
 
   @override
   String get dtDay => 'Today';
@@ -1319,7 +1325,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get dtFriday => 'Friday';
 
   @override
-  String get dtHour => 'hour';
+  String get dtHour => 'Hour';
 
   @override
   String get dtMinute => 'Minute';
@@ -1328,7 +1334,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get dtMonday => 'Monday';
 
   @override
-  String get dtMonth => 'the month';
+  String get dtMonth => 'The month';
 
   @override
   String get dtMonthly => 'Monthly';
@@ -1343,10 +1349,10 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get dtSaturday => 'Saturday';
 
   @override
-  String get dtSecond => 'a second';
+  String get dtSecond => 'A second';
 
   @override
-  String get dtStartingDate => 'starting date';
+  String get dtStartingDate => 'Starting date';
 
   @override
   String get dtSunday => 'Sunday';
@@ -1355,28 +1361,28 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get dtThursday => 'Thursday';
 
   @override
-  String get dtTime => 'the time';
+  String get dtTime => 'The time';
 
   @override
   String get dtTuesday => 'Tuesday';
 
   @override
-  String get dtUnspecifiedTime => 'time not specified';
+  String get dtUnspecifiedTime => 'Time not specified';
 
   @override
   String get dtWednesday => 'Wednesday';
 
   @override
-  String get dtWeek => 'a week';
+  String get dtWeek => 'A week';
 
   @override
-  String get dtWeekly => 'weekly';
+  String get dtWeekly => 'Weekly';
 
   @override
-  String get dtYear => 'the year';
+  String get dtYear => 'The year';
 
   @override
-  String get dtYearly => 'annual';
+  String get dtYearly => 'Annual';
 
   @override
   String get errorAnErrorOccurredPleaseTryAgain => 'Something went wrong, please try again';
@@ -1409,7 +1415,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get errorEmptyFailure => 'There is no data at the moment';
 
   @override
-  String get errorExpireException => 'code has expired';
+  String get errorExpireException => 'Code has expired';
 
   @override
   String get errorInvalidException => 'Make sure the data entered is correct.';
@@ -1505,7 +1511,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get firebaseInvalidGrantType => 'The grant type specified is invalid.';
 
   @override
-  String get firebaseMissingRefreshToken => 'no refresh token provided.';
+  String get firebaseMissingRefreshToken => 'No refresh token provided.';
 
   @override
   String get firebaseEmailExists => 'The email address is already in use by another account.';
@@ -1556,16 +1562,16 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get feedbackAddressesRefreshedSuccessfully => 'Addresses have been updated successfully';
 
   @override
-  String get feedbackApproved => 'approved';
+  String get feedbackApproved => 'Approved';
 
   @override
   String get feedbackCartsRefreshedSuccessfully => 'Shopping carts have been updated successfully';
 
   @override
-  String get feedbackCategoryRefreshedSuccessfully => 'category updated successfully';
+  String get feedbackCategoryRefreshedSuccessfully => 'Category updated successfully';
 
   @override
-  String get feedbackDeliveryAddressRemovedSuccessfully => 'delivery address removed successfully';
+  String get feedbackDeliveryAddressRemovedSuccessfully => 'Delivery address removed successfully';
 
   @override
   String get feedbackFaqsRefreshedSuccessfully => 'Questions have been updated successfully.';
@@ -1610,7 +1616,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get feedbackReviewsRefreshedSuccessfully => 'Reviews updated successfully!';
 
   @override
-  String get feedbackSuccess => 'done successfully';
+  String get feedbackSuccess => 'Done successfully';
 
   @override
   String get feedbackTheAddressUpdatedSuccessfully => 'Address has been updated successfully';
@@ -1661,31 +1667,31 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopAddOrderToFavorites => 'Add the request to the favourites';
 
   @override
-  String get shopAddToCart => 'add to cart';
+  String get shopAddToCart => 'Add to cart';
 
   @override
-  String get shopAddedToCart => 'added to cart';
+  String get shopAddedToCart => 'Added to cart';
 
   @override
-  String get shopAllBrands => 'all brands';
+  String get shopAllBrands => 'All brands';
 
   @override
-  String get shopAllDeliveries => 'all connections';
+  String get shopAllDeliveries => 'All connections';
 
   @override
-  String get shopAllMarkets => 'all stores';
+  String get shopAllMarkets => 'All stores';
 
   @override
-  String get shopAllPayments => 'all payments';
+  String get shopAllPayments => 'All payments';
 
   @override
-  String get shopAllProduct => 'all products';
+  String get shopAllProduct => 'All products';
 
   @override
-  String get shopAllProducts => 'all products ';
+  String get shopAllProducts => 'All products ';
 
   @override
-  String get shopAllStatus => 'all cases';
+  String get shopAllStatus => 'All cases';
 
   @override
   String get shopAmountCannotBeEmpty => 'The amount cannot be empty.';
@@ -1712,16 +1718,16 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopAtLeastOnStarMustBeGiven => 'At least one star';
 
   @override
-  String get shopBranch => 'branch';
+  String get shopBranch => 'Branch';
 
   @override
-  String get shopBrands => 'brands';
+  String get shopBrands => 'Brands';
 
   @override
   String get shopBuyNow => 'Buy Now';
 
   @override
-  String get shopCVC => 'card verification code';
+  String get shopCVC => 'Card verification code';
 
   @override
   String get shopCancelOrder => 'Cancelling order';
@@ -1736,7 +1742,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopCantCalculateDeliveryFee => 'Unable to calculate delivery charges';
 
   @override
-  String get shopCar => 'car';
+  String get shopCar => 'Car';
 
   @override
   String get shopCardNumber => 'card number';
@@ -1751,25 +1757,25 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopCashOnDelivery => 'Paiement when recieving';
 
   @override
-  String get shopChangeCoupon => 'coupon change';
+  String get shopChangeCoupon => 'Coupon change';
 
   @override
-  String get shopChatWithSeller => 'seller chat';
+  String get shopChatWithSeller => 'Seller chat';
 
   @override
-  String get shopCheckBalance => 'balance check';
+  String get shopCheckBalance => 'Balance check';
 
   @override
-  String get shopCheckout => 'paying off';
+  String get shopCheckout => 'Paying off';
 
   @override
-  String get shopChooseBranch => 'select branch';
+  String get shopChooseBranch => 'Select branch';
 
   @override
   String get shopChooseCurrency => 'Choose Currency';
 
   @override
-  String get shopChooseProduct => 'select product';
+  String get shopChooseProduct => 'Select product';
 
   @override
   String get shopChooseTheMarketsBranch => 'Choose a branch of stores';
@@ -1802,7 +1808,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopClickToPayWithYourVisaCard => 'Click to pay with your Visa Card';
 
   @override
-  String get shopClubPoint => 'purchase points';
+  String get shopClubPoint => 'Purchase points';
 
   @override
   String get shopConfirmOrder => 'Confirm your order';
@@ -1817,25 +1823,25 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopContactSeller => 'Contact Seller';
 
   @override
-  String get shopCoupon => 'coupon';
+  String get shopCoupon => 'Coupon';
 
   @override
-  String get shopCouponCode => 'coupon code';
+  String get shopCouponCode => 'Coupon code';
 
   @override
-  String get shopCreatingOrder => 'fulfill the request';
+  String get shopCreatingOrder => 'Ful fill the request';
 
   @override
-  String get shopCustomOrder => 'custom request';
+  String get shopCustomOrder => 'Custom request';
 
   @override
-  String get shopDefaultCreditCard => 'virtual credit card';
+  String get shopDefaultCreditCard => 'Virtual credit card';
 
   @override
-  String get shopDeliverTo => 'delivery to';
+  String get shopDeliverTo => 'Delivery to';
 
   @override
-  String get shopDeliverable => 'deliverable';
+  String get shopDeliverable => 'Deliverable';
 
   @override
   String get shopDelivered => 'Delivered';
@@ -1844,31 +1850,31 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopDelivery => 'Connecting';
 
   @override
-  String get shopDeliveryAddress => 'delivery address';
+  String get shopDeliveryAddress => 'Delivery address';
 
   @override
   String get shopDeliveryAddressOutsideTheDeliveryRangeOfThisMarkets => 'The delivery address is outside the scope of delivery for these markets.';
 
   @override
-  String get shopDeliveryAddresses => 'delivery addresses';
+  String get shopDeliveryAddresses => 'Delivery addresses';
 
   @override
-  String get shopDeliveryFee => 'delivery fee';
+  String get shopDeliveryFee => 'Delivery fee';
 
   @override
   String get shopDeliveryFeeIsCalculated => 'Delivery fee charged.';
 
   @override
-  String get shopDeliveryInformation => 'delivery information';
+  String get shopDeliveryInformation => 'Delivery information';
 
   @override
-  String get shopDeliveryMethod => 'delivery options';
+  String get shopDeliveryMethod => 'Delivery options';
 
   @override
   String get shopDeliveryMethodNotAllowed => 'Delivery method is not allowed!';
 
   @override
-  String get shopDeliveryOrPickup => 'delivery or receipt';
+  String get shopDeliveryOrPickup => 'Delivery or receipt';
 
   @override
   String get shopDeliveryService => 'Delivery Service';
@@ -1901,7 +1907,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopFavoriteOrders => 'Favorite Orders';
 
   @override
-  String get shopFavoriteProducts => 'favorite products';
+  String get shopFavoriteProducts => 'Favorite products';
 
   @override
   String get shopFeaturedCategories => 'Featured Categories';
@@ -1916,7 +1922,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopGettingCoupon => 'Coupon is being requested, please wait...';
 
   @override
-  String get shopGross => 'full amount';
+  String get shopGross => 'Full amount';
 
   @override
   String get shopHaveCouponCode => 'Do you have a coupon?';
@@ -1925,10 +1931,10 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopHowWouldYouRateThisMarket => 'How do you rate this store?';
 
   @override
-  String get shopInYourCart => 'in the basket';
+  String get shopInYourCart => 'In the basket';
 
   @override
-  String get shopInvalidCouponCode => 'wrong coupon';
+  String get shopInvalidCouponCode => 'Wrong coupon';
 
   @override
   String get shopKeepYourOldMealsOfThisMarket => 'Keep your old meals in this store';
@@ -1940,7 +1946,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopLoadingMoreOrders => 'Download other requests';
 
   @override
-  String get shopLoadingMoreProducts => 'download other products';
+  String get shopLoadingMoreProducts => 'Download other products';
 
   @override
   String get shopLoadingMoreReviews => 'Download other reviews';
@@ -1949,7 +1955,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopLoadingMoreShops => 'Download other stores';
 
   @override
-  String get shopMarket => 'the shop';
+  String get shopMarket => 'The shop';
 
   @override
   String get shopMarkets => 'Shops';
@@ -1961,7 +1967,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopMarketsNearToYourCurrentLocation => 'Markets near your current location';
 
   @override
-  String get shopMarketsResults => 'market results';
+  String get shopMarketsResults => 'Market results';
 
   @override
   String get shopMostPopular => 'The most popular';
@@ -1973,7 +1979,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopMyOrders => 'My requests';
 
   @override
-  String get shopNoBrandsAreAvailable => 'no brands';
+  String get shopNoBrandsAreAvailable => 'No brands';
 
   @override
   String get shopNoFeaturedProductsFromThisSeller => 'There are no featured products for this seller';
@@ -1997,55 +2003,55 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopNoNewArrivals => 'There are no newly arrived products.';
 
   @override
-  String get shopNoProductsAreAvailable => 'no products';
+  String get shopNoProductsAreAvailable => 'No products';
 
   @override
   String get shopNoRelatedProducts => 'There are no similar products';
 
   @override
-  String get shopNoReviews => 'no comments';
+  String get shopNoReviews => 'No comments';
 
   @override
-  String get shopNoShopsAreAvailable => 'no stores';
+  String get shopNoShopsAreAvailable => 'No stores';
 
   @override
   String get shopNoTopSellingProductsFromThisSeller => 'There are no preferred products for this merchant';
 
   @override
-  String get shopNotDeliverable => 'undeliverable';
+  String get shopNotDeliverable => 'Undeliverable';
 
   @override
-  String get shopOnTheWay => 'on my way';
+  String get shopOnTheWay => 'On my way';
 
   @override
   String get shopOneOrMoreProductsInYourCartNotDeliverable => 'One or more products in your cart are not deliverable.';
 
   @override
-  String get shopOpenedMarkets => 'open markets';
+  String get shopOpenedMarkets => 'Open markets';
 
   @override
-  String get shopOrderCode => 'order code';
+  String get shopOrderCode => 'Order code';
 
   @override
-  String get shopOrderCost => 'order value';
+  String get shopOrderCost => 'Order value';
 
   @override
   String get shopOrderDate => 'The date of application';
 
   @override
-  String get shopOrderDetails => 'order details';
+  String get shopOrderDetails => 'Order details';
 
   @override
   String get shopOrderID => 'Private demand identification number';
 
   @override
-  String get shopOrderInformation => 'order information';
+  String get shopOrderInformation => 'Order information';
 
   @override
   String get shopOrderIsReceived => 'Your request has been received.';
 
   @override
-  String get shopOrderPlaced => 'request is done';
+  String get shopOrderPlaced => 'Request is done';
 
   @override
   String get shopOrderReceived => 'Request received';
@@ -2054,22 +2060,22 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopOrderStatusChanged => 'Request status changed';
 
   @override
-  String get shopOrderThisOrderIdHasBeenCanceled => 'the request has been canceled';
+  String get shopOrderThisOrderIdHasBeenCanceled => 'The request has been canceled';
 
   @override
   String get shopOrderedByNearbyFirst => 'Pre-ordered First';
 
   @override
-  String get shopOrderedProducts => 'required products';
+  String get shopOrderedProducts => 'Required products';
 
   @override
-  String get shopOrders => 'requests';
+  String get shopOrders => 'Requests';
 
   @override
   String get shopPaid => 'The payment was made';
 
   @override
-  String get shopParcelDeliveryService => 'parcel delivery service';
+  String get shopParcelDeliveryService => 'Parcel delivery service';
 
   @override
   String get shopPayWithPaypal => 'Pay Via Paypal';
@@ -2087,7 +2093,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopPaymentMethod => 'Payment method';
 
   @override
-  String get shopPaymentOptions => 'payment options';
+  String get shopPaymentOptions => 'Payment options';
 
   @override
   String get shopPaymentSettings => 'Payment Settings';
@@ -2102,10 +2108,10 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopPaypal => 'PayPal';
 
   @override
-  String get shopPending => 'pending';
+  String get shopPending => 'Pending';
 
   @override
-  String get shopPickupYourProductFromTheMarket => 'pick up your product from the store';
+  String get shopPickupYourProductFromTheMarket => 'Pick up your product from the store';
 
   @override
   String get shopPillPay => 'Pay';
@@ -2120,10 +2126,10 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopPleaseLoginToViewTheCartItems => 'Please login to view cart.';
 
   @override
-  String get shopPreparing => 'order processing';
+  String get shopPreparing => 'Order processing';
 
   @override
-  String get shopProceedToPayment => 'move to payment';
+  String get shopProceedToPayment => 'Move to payment';
 
   @override
   String get shopProceedToShipping => 'Go to Shipping';
@@ -2132,19 +2138,19 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopProductCategories => 'product categories';
 
   @override
-  String get shopProductName => 'product name';
+  String get shopProductName => 'Product name';
 
   @override
   String get shopProductPricesDoNotMatchPleaseUpdateTheData => 'Product prices do not match, please update the data';
 
   @override
-  String get shopProducts => 'products';
+  String get shopProducts => 'Products';
 
   @override
-  String get shopProductsResult => 'products result';
+  String get shopProductsResult => 'Products result';
 
   @override
-  String get shopProductsResults => 'product results';
+  String get shopProductsResults => 'Product results';
 
   @override
   String get shopProductsYouMayLike => 'Products You Might Like';
@@ -2159,28 +2165,28 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopReady => 'Ready';
 
   @override
-  String get shopReceiver => 'the future';
+  String get shopReceiver => 'The future';
 
   @override
-  String get shopReceiverAddress => 'recipient address';
+  String get shopReceiverAddress => 'Recipient address';
 
   @override
-  String get shopReceiverInformation => 'future information';
+  String get shopReceiverInformation => 'Future information';
 
   @override
-  String get shopReceiverLocation => 'recipient site';
+  String get shopReceiverLocation => 'Recipient site';
 
   @override
   String get shopReceiverName => 'The recipient\'s name';
 
   @override
-  String get shopReceiverPhone => 'recipient number';
+  String get shopReceiverPhone => 'Recipient number';
 
   @override
-  String get shopRecentOrders => 'last orders';
+  String get shopRecentOrders => 'Last orders';
 
   @override
-  String get shopRecipientAddress => 'recipient address';
+  String get shopRecipientAddress => 'Recipient address';
 
   @override
   String get shopRecipientInformation => 'Recipient Information';
@@ -2201,7 +2207,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopSearchForMarketsOrProducts => 'Find markets or products';
 
   @override
-  String get shopSearchProductsOf => 'search for products';
+  String get shopSearchProductsOf => 'Search for products';
 
   @override
   String get shopSearchProductsOfBrand => 'Brand Product Search';
@@ -2213,25 +2219,25 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopSearchProductsTheMarket => 'Search for Items';
 
   @override
-  String get shopSeller => 'the seller';
+  String get shopSeller => 'The seller';
 
   @override
   String get shopSellerPolicy => 'Seller Policy';
 
   @override
-  String get shopSellers => 'sellers';
+  String get shopSellers => 'Sellers';
 
   @override
-  String get shopSenderAddress => 'sender\'s address';
+  String get shopSenderAddress => 'Sender\'s address';
 
   @override
-  String get shopSenderInformation => 'sender information';
+  String get shopSenderInformation => 'Sender information';
 
   @override
-  String get shopSenderLocation => 'sender site';
+  String get shopSenderLocation => 'Sender site';
 
   @override
-  String get shopSenderPhone => 'sender number';
+  String get shopSenderPhone => 'Sender number';
 
   @override
   String get shopSetYourDeliveryAddress => 'Select the delivery address';
@@ -2240,25 +2246,25 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopShippingAddress => 'Shipping Address';
 
   @override
-  String get shopShippingCost => 'freight value';
+  String get shopShippingCost => 'Freight value';
 
   @override
   String get shopShippingMethod => 'Shipping Method';
 
   @override
-  String get shopShopping => 'the shopping';
+  String get shopShopping => 'The shopping';
 
   @override
-  String get shopShoppingCart => 'shopping cart';
+  String get shopShoppingCart => 'Shopping cart';
 
   @override
   String get shopShowCart => 'View Cart';
 
   @override
-  String get shopSortProductsBy => 'sort products by';
+  String get shopSortProductsBy => 'Sort products by';
 
   @override
-  String get shopSubmitOrder => 'fulfill the request';
+  String get shopSubmitOrder => 'Fulfill the request';
 
   @override
   String get shopTellUsAboutThisMarket => 'Tell us about this store.';
@@ -2291,7 +2297,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopThisProductWasRemovedFromFavorites => 'Product has been removed from favourites';
 
   @override
-  String get shopTopCategories => 'best categories';
+  String get shopTopCategories => 'Best categories';
 
   @override
   String get shopTopMarkets => 'Major Markets';
@@ -2300,7 +2306,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopTopSellers => 'Best sellers';
 
   @override
-  String get shopTopSellingProducts => 'top sales';
+  String get shopTopSellingProducts => 'Top sales';
 
   @override
   String get shopTopSellingProductsFromThisSeller => 'Best Sales For This Dealer';
@@ -2312,7 +2318,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopUpdateCart => 'Update Cart';
 
   @override
-  String get shopValidCouponCode => 'true coupon';
+  String get shopValidCouponCode => 'True coupon';
 
   @override
   String get shopViewAllProductsFromThisSeller => 'View all products from this seller';
@@ -2321,16 +2327,16 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopViewCart => 'View Cart';
 
   @override
-  String get shopViewProducts => 'display products';
+  String get shopViewProducts => 'Display products';
 
   @override
-  String get shopViewSubCategories => 'display subcategories';
+  String get shopViewSubCategories => 'Display subcategories';
 
   @override
-  String get shopVisaCard => 'visa card';
+  String get shopVisaCard => 'Visa card';
 
   @override
-  String get shopWishlist => 'wish list';
+  String get shopWishlist => 'Wish list';
 
   @override
   String get shopYouCanDiscoverMarkets => 'You can discover the markets and stores around you and choose the best meal for you after a few minutes we prepare and serve it to you';
