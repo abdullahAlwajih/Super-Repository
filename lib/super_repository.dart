@@ -91,7 +91,7 @@ class SuperRepository {
           await provider.insert(request: request, shouldCache: shouldCache);
       dynamic temp;
 
-      if (response['data'] == null) {
+      if (response['data'] == null || response['data'].isEmpty) {
         if (response['status'] ?? true) {
           return response["message"];
         } else {
