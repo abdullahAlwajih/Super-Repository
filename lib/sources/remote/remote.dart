@@ -83,8 +83,9 @@ class Remote {
       _checkInvalidResponse(response.data);
 
 
-      if (response.data['data'] == null || response.data['data'].isEmpty) return response.data;
-      return response.data['data'];
+      return response.data;
+      // if (response.data['data'] == null || response.data['data'].isEmpty) return response.data;
+      // return response.data['data'];
 
 
     } on DioError catch(error){

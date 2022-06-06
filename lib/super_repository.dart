@@ -63,7 +63,16 @@ class SuperRepository {
           : provider.error;
     }
 
-    if (model != null) {
+    if (response['data'] == null || response['data'].isEmpty) {
+      if (response['status'] ?? true) {
+        return response["message"];
+      } else {
+        throw response["message"];
+      }
+    } else {
+      response = response['data'];
+
+      if (model != null) {
       if (response is List) {
         return model.fromJsonList(response);
       } else if (response is Map<String, dynamic>) {
@@ -73,6 +82,7 @@ class SuperRepository {
       }
     } else {
       return response;
+    }
     }
 
     // Future.delayed(const Duration(milliseconds: 1000),
@@ -98,6 +108,7 @@ class SuperRepository {
           throw response["message"];
         }
       } else {
+        response = response['data'];
         if (model != null) {
           if (response is List) {
             return model.fromJsonList(response);
