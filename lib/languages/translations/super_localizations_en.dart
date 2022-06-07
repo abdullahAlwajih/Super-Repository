@@ -107,7 +107,10 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authAddNewAddress => 'Add a new address,';
 
   @override
-  String get authAddress => 'Title';
+  String get authAddress => 'Address';
+
+  @override
+  String get authArea => 'Area';
 
   @override
   String get authAddressesOfUser => 'User Addresses';

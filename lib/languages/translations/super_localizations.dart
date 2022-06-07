@@ -297,8 +297,14 @@ abstract class SuperLocalizations {
   /// No description provided for @authAddress.
   ///
   /// In en, this message translates to:
-  /// **'Title'**
+  /// **'Address'**
   String get authAddress;
+
+  /// No description provided for @authArea.
+  ///
+  /// In en, this message translates to:
+  /// **'Area'**
+  String get authArea;
 
   /// No description provided for @authAddressesOfUser.
   ///

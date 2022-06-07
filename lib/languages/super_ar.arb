@@ -33,7 +33,9 @@
   "authAccounts": "الحسابات",
   "authAddImage": "إضافة صورة",
   "authAddNewAddress": "إضافة عنوان جديد",
-  "authAddress": "عنوان",
+  "authAddress": "العنوان",
+  "authArea": "المنطقة",
+
   "authAddressesOfUser": "عناوين المستخدم",
   "authAge": "العمر",
   "authAlreadyHaveAnAccount": "هل تملك حساب مسبقا؟",

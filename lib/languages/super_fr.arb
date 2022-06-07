@@ -32,7 +32,9 @@
   "authAccounts": "les comptes",
   "authAddImage": "ajouter une image",
   "authAddNewAddress": "ajouter une nouvelle adresse",
-  "authAddress": "Titre",
+  "authAddress": "Adresse",
+  "authArea": "Zone",
+
   "authAddressesOfUser": "Adresses des utilisateurs",
   "authAge": "l'âge",
   "authAlreadyHaveAnAccount": "Avez-vous déjà un compte?",
