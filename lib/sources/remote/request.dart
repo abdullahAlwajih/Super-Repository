@@ -5,7 +5,7 @@ class Request {
   String url;
   Map<String, dynamic>? header;
   Map<String, dynamic> query;
-  Map<String, dynamic> body;
+  dynamic body;
   bool nullable;
 
   Request({
