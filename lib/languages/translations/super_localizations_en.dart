@@ -1289,7 +1289,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonWelcome => 'Welcome';
 
   @override
-  String get commonWelcomeBack => 'Welcome back';
+  String get commonWelcomeBack => 'Welcome Back';
 
   @override
   String get commonWelcomeBackWithFace => 'Welcome back 👋';

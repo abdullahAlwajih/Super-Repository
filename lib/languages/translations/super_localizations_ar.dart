@@ -1289,7 +1289,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get commonWelcome => 'أهلا بك';
 
   @override
-  String get commonWelcomeBack => 'أهلا بعودتك';
+  String get commonWelcomeBack => 'مرحبًا بعودتك';
 
   @override
   String get commonWelcomeBackWithFace => 'أهلا بعودتك 👋';

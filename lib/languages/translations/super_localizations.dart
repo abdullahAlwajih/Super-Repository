@@ -2661,7 +2661,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonWelcomeBack.
   ///
   /// In en, this message translates to:
-  /// **'Welcome back'**
+  /// **'Welcome Back'**
   String get commonWelcomeBack;
 
   /// No description provided for @commonWelcomeBackWithFace.
