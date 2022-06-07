@@ -51,28 +51,29 @@ class SuperRepository {
 
   Future<dynamic> getData(
       {required Request request,
-      BaseModel? model,
-      bool shouldCache = true}) async {
+        BaseModel? model,
+        bool shouldCache = true}) async {
     var response =
-        await provider.get(request: request, shouldCache: shouldCache);
+    await provider.get(request: request, shouldCache: shouldCache);
 
     if (provider.error.message.isNotEmpty) {
       throw provider.error.exception.runtimeType ==
-              Exceptions.fromEnumeration(ExceptionTypes.empty).runtimeType
+          Exceptions.fromEnumeration(ExceptionTypes.empty).runtimeType
           ? (emptyException ?? provider.error)
           : provider.error;
     }
 
-    if (response['data'] == null || response['data'].isEmpty) {
-      if (response['status'] ?? true) {
-        return response["message"];
-      } else {
-        throw response["message"];
-      }
-    } else {
-      response = response['data'];
+    // if (response['data'] == null || response['data'].isEmpty) {
+    //   if (response['status'] ?? true) {
+    //     return response["message"];
+    //   } else {
+    //     throw response["message"];
+    //   }
+    // } else {
 
-      if (model != null) {
+    response = response['data'];
+
+    if (model != null) {
       if (response is List) {
         return model.fromJsonList(response);
       } else if (response is Map<String, dynamic>) {
@@ -83,7 +84,7 @@ class SuperRepository {
     } else {
       return response;
     }
-    }
+    // }
 
     // Future.delayed(const Duration(milliseconds: 1000),
     //     () => currentState.value = WingsState.success());
@@ -91,14 +92,14 @@ class SuperRepository {
 
   Future<dynamic> sendData(
       {required Request request,
-      required BaseModel? model,
-      List? toList,
-      bool shouldCache = false,
-      bool showFlushBar = false,
-      String? flushBarMessage}) async {
+        required BaseModel? model,
+        List? toList,
+        bool shouldCache = false,
+        bool showFlushBar = false,
+        String? flushBarMessage}) async {
     try {
       var response =
-          await provider.insert(request: request, shouldCache: shouldCache);
+      await provider.insert(request: request, shouldCache: shouldCache);
       dynamic temp;
 
       if (response['data'] == null || response['data'].isEmpty) {
@@ -141,8 +142,8 @@ class SuperRepository {
 
   Future<dynamic> updateData(
       {required Request request,
-      BaseModel? model,
-      bool shouldCache = false}) async {
+        BaseModel? model,
+        bool shouldCache = false}) async {
     return await provider.update(request: request, shouldCache: shouldCache);
 
     // var response =
