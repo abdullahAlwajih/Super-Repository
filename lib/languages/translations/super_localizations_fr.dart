@@ -50,6 +50,9 @@ class SuperLocalizationsFr extends SuperLocalizations {
   String get appNeedsToBeUpdated => 'L\'application doit être mise à jour';
 
   @override
+  String get authChooseProfilePhoto => 'Choisissez la photo de profil';
+
+  @override
   String get appNewUpdate => 'nouvelle mise à jour';
 
   @override

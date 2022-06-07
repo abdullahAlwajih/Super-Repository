@@ -180,6 +180,12 @@ abstract class SuperLocalizations {
   /// **'The app needs to be updated'**
   String get appNeedsToBeUpdated;
 
+  /// No description provided for @authChooseProfilePhoto.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose Profile Photo'**
+  String get authChooseProfilePhoto;
+
   /// No description provided for @appNewUpdate.
   ///
   /// In en, this message translates to:

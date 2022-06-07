@@ -50,6 +50,9 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get appNeedsToBeUpdated => 'التطبيق يحتاج إلى تحديث';
 
   @override
+  String get authChooseProfilePhoto => 'اختر صورة الملف الشخصي';
+
+  @override
   String get appNewUpdate => 'تحديث جديد';
 
   @override
