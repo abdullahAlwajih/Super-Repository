@@ -969,8 +969,14 @@ abstract class SuperLocalizations {
   /// No description provided for @authSignUp.
   ///
   /// In en, this message translates to:
-  /// **'Account registration'**
+  /// **'Sign Up'**
   String get authSignUp;
+
+  /// No description provided for @authWeWillSendAVerificationCodeToThisNumber.
+  ///
+  /// In en, this message translates to:
+  /// **'We will send a Verification Code to this number'**
+  String get authWeWillSendAVerificationCodeToThisNumber;
 
   /// No description provided for @authSupportPolicy.
   ///

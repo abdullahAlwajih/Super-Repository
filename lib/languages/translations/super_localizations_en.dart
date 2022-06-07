@@ -443,7 +443,10 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authSignOutOfTheApp => 'Log out of the application';
 
   @override
-  String get authSignUp => 'Account registration';
+  String get authSignUp => 'Sign Up';
+
+  @override
+  String get authWeWillSendAVerificationCodeToThisNumber => 'We will send a Verification Code to this number';
 
   @override
   String get authSupportPolicy => 'Support policy';

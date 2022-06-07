@@ -446,6 +446,9 @@ class SuperLocalizationsFr extends SuperLocalizations {
   String get authSignUp => 'Enregistrement du Compte';
 
   @override
+  String get authWeWillSendAVerificationCodeToThisNumber => 'We will send a Verification Code to this number';
+
+  @override
   String get authSupportPolicy => 'politique de soutien';
 
   @override

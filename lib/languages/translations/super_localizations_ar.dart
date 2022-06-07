@@ -446,6 +446,9 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get authSignUp => 'تسجيل الحساب';
 
   @override
+  String get authWeWillSendAVerificationCodeToThisNumber => 'سوف نرسل رمز التحقق إلى هذا الرقم';
+
+  @override
   String get authSupportPolicy => 'سياسة الدعم';
 
   @override
