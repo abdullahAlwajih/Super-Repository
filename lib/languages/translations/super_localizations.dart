@@ -1587,7 +1587,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonGallery.
   ///
   /// In en, this message translates to:
-  /// **'Studio'**
+  /// **'Gallery'**
   String get commonGallery;
 
   /// No description provided for @commonGettingDeliveryFee.

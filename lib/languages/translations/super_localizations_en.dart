@@ -752,7 +752,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonFullAddressHint => 'Street name, neighborhood, city';
 
   @override
-  String get commonGallery => 'Studio';
+  String get commonGallery => 'Gallery';
 
   @override
   String get commonGettingDeliveryFee => 'Delivery price is being determined, please wait...';
