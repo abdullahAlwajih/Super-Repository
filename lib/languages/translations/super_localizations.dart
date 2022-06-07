@@ -339,7 +339,7 @@ abstract class SuperLocalizations {
   /// No description provided for @authAreYouSureYouWantToLogout.
   ///
   /// In en, this message translates to:
-  /// **'Are you sure you want to log out?'**
+  /// **'Are you sure you want to Logout?'**
   String get authAreYouSureYouWantToLogout;
 
   /// No description provided for @authByUsingTheApplicationAndLoggingInYouAgreeTo.
@@ -699,7 +699,7 @@ abstract class SuperLocalizations {
   /// No description provided for @authLogout.
   ///
   /// In en, this message translates to:
-  /// **'Sign out'**
+  /// **'Logout'**
   String get authLogout;
 
   /// No description provided for @authMale.

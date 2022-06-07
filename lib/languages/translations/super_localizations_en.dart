@@ -128,7 +128,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authAreYouSureToRemoveThisAddress => 'Are you sure you want to delete the address?';
 
   @override
-  String get authAreYouSureYouWantToLogout => 'Are you sure you want to log out?';
+  String get authAreYouSureYouWantToLogout => 'Are you sure you want to Logout?';
 
   @override
   String get authByUsingTheApplicationAndLoggingInYouAgreeTo => 'By using the application and logging in, you agree to';
@@ -308,7 +308,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authLoginToTheApplication => 'Login to the application';
 
   @override
-  String get authLogout => 'Sign out';
+  String get authLogout => 'Logout';
 
   @override
   String get authMale => 'Male';
