@@ -282,6 +282,7 @@
   "authLogin": "Login",
   "authLoginTo": "Sign in to",
   "authLoginToTheApplication": "Login to the application",
+  "authLoginToYourExistingAccount": "Login to your existing account",
   "authLogout": "Logout",
   "authMale": "Male",
   "authMobileNumberVerification": "Confirm phone number",

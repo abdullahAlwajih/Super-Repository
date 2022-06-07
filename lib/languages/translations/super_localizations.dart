@@ -708,6 +708,12 @@ abstract class SuperLocalizations {
   /// **'Login to the application'**
   String get authLoginToTheApplication;
 
+  /// No description provided for @authLoginToYourExistingAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Login to your existing account'**
+  String get authLoginToYourExistingAccount;
+
   /// No description provided for @authLogout.
   ///
   /// In en, this message translates to:

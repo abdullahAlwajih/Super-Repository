@@ -314,6 +314,9 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get authLoginToTheApplication => 'الدخول للتطبيق';
 
   @override
+  String get authLoginToYourExistingAccount => 'تسجيل الدخول إلى حسابك الحالي';
+
+  @override
   String get authLogout => 'تسجيل الخروج';
 
   @override

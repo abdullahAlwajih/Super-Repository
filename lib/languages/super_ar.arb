@@ -103,6 +103,8 @@
   "authLogin": "تسجيل الدخول",
   "authLoginTo": "تسجيل الدخول إلى",
   "authLoginToTheApplication": "الدخول للتطبيق",
+  "authLoginToYourExistingAccount": "تسجيل الدخول إلى حسابك الحالي",
+
   "authLogout": "تسجيل الخروج",
   "authMale": "ذكر",
   "authMobileNumberVerification": "تأكيد رقم الهاتف",

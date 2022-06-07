@@ -102,6 +102,8 @@
   "authLogin": "Se connecter",
   "authLoginTo": "se connecter à",
   "authLoginToTheApplication": "connectez-vous à l'application",
+  "authLoginToYourExistingAccount": "Connectez-vous à votre compte existant",
+
   "authLogout": "Se déconnecter",
   "authMale": "Homme",
   "authMobileNumberVerification": "confirmer le numéro de téléphone",
