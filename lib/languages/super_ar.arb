@@ -148,6 +148,8 @@
   "authSignOut": "تسجيل الخروج",
   "authSignOutOfTheApp": "تسجيل الخروج من التطبيق",
   "authSignUp": "تسجيل الحساب",
+  "authWeWillSendAVerificationCodeToThisNumber": "سوف نرسل رمز التحقق إلى هذا الرقم",
+
   "authSupportPolicy": "سياسة الدعم",
   "authTheCodeHasBeenSentTo": "تم إرسال الكود إلى: ",
   "authTheNumberYouEnteredIsIncorrectPleaseTryAgain": "الرقم الذي أدخلته غير صحيح، يرجى المحاولة مرة أخرى",

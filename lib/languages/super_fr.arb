@@ -147,6 +147,8 @@
   "authSignOut": "Se déconnecter",
   "authSignOutOfTheApp": "Se déconnecter de l'application",
   "authSignUp": "Enregistrement du Compte",
+  "authWeWillSendAVerificationCodeToThisNumber": "We will send a Verification Code to this number",
+
   "authSupportPolicy": "politique de soutien",
   "authTheCodeHasBeenSentTo": "Le code a été envoyé à :",
   "authTheNumberYouEnteredIsIncorrectPleaseTryAgain": "Le numéro que vous avez entré est incorrect, veuillez réessayer",
