@@ -387,6 +387,8 @@
   "commonSize": "la taille",
   "commonLength": "longueur",
 
+  "commonCompare": "comparer",
+
   "commonSkip": "Sauter",
   "commonSort": "Sorte",
   "commonStart": "Démarrer",

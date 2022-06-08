@@ -2400,6 +2400,12 @@ abstract class SuperLocalizations {
   /// **'Length'**
   String get commonLength;
 
+  /// No description provided for @commonCompare.
+  ///
+  /// In en, this message translates to:
+  /// **'Compare'**
+  String get commonCompare;
+
   /// No description provided for @commonSkip.
   ///
   /// In en, this message translates to:

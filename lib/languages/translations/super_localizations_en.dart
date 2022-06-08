@@ -1160,6 +1160,9 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonLength => 'Length';
 
   @override
+  String get commonCompare => 'Compare';
+
+  @override
   String get commonSkip => 'Skip';
 
   @override
