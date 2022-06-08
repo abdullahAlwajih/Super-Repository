@@ -1157,6 +1157,9 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get commonSize => 'الحجم';
 
   @override
+  String get commonLength => 'الطول';
+
+  @override
   String get commonSkip => 'تخطى';
 
   @override

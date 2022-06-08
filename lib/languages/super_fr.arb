@@ -385,6 +385,8 @@
   "commonSettings": "Réglages",
   "commonShowLess": "Montrer moins",
   "commonSize": "la taille",
+  "commonLength": "longueur",
+
   "commonSkip": "Sauter",
   "commonSort": "Sorte",
   "commonStart": "Démarrer",

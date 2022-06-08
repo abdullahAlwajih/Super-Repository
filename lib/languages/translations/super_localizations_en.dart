@@ -617,7 +617,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonClosed => 'Closed';
 
   @override
-  String get commonColor => 'The color';
+  String get commonColor => 'Color';
 
   @override
   String get commonComingSoon => 'Soon';
@@ -1154,7 +1154,10 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonShowLess => 'Show less';
 
   @override
-  String get commonSize => 'The size';
+  String get commonSize => 'Size';
+
+  @override
+  String get commonLength => 'Length';
 
   @override
   String get commonSkip => 'Skip';

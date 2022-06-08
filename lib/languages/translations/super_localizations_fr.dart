@@ -1157,6 +1157,9 @@ class SuperLocalizationsFr extends SuperLocalizations {
   String get commonSize => 'la taille';
 
   @override
+  String get commonLength => 'longueur';
+
+  @override
   String get commonSkip => 'Sauter';
 
   @override

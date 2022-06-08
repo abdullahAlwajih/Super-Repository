@@ -1317,7 +1317,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonColor.
   ///
   /// In en, this message translates to:
-  /// **'The color'**
+  /// **'Color'**
   String get commonColor;
 
   /// No description provided for @commonComingSoon.
@@ -2391,8 +2391,14 @@ abstract class SuperLocalizations {
   /// No description provided for @commonSize.
   ///
   /// In en, this message translates to:
-  /// **'The size'**
+  /// **'Size'**
   String get commonSize;
+
+  /// No description provided for @commonLength.
+  ///
+  /// In en, this message translates to:
+  /// **'Length'**
+  String get commonLength;
 
   /// No description provided for @commonSkip.
   ///
