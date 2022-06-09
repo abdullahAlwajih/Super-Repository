@@ -4815,7 +4815,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopYouDonatHaveAnyOrder.
   ///
   /// In en, this message translates to:
-  /// **'You have no request'**
+  /// **'You Don\'t Have Any Order'**
   String get shopYouDonatHaveAnyOrder;
 
   /// No description provided for @shopYouHaveNoWishlist.

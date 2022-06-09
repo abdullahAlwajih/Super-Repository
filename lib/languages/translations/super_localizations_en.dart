@@ -2366,7 +2366,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopYouCanUseFiltersWhileSearchingForProducts => 'You can use the filter when searching for products.';
 
   @override
-  String get shopYouDonatHaveAnyOrder => 'You have no request';
+  String get shopYouDonatHaveAnyOrder => 'You Don\'t Have Any Order';
 
   @override
   String get shopYouHaveNoWishlist => 'You don\'t have a wish list';
