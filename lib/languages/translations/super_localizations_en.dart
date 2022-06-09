@@ -2087,7 +2087,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopOrderedProducts => 'Required products';
 
   @override
-  String get shopOrders => 'Requests';
+  String get shopOrders => 'Orders';
 
   @override
   String get shopPaid => 'The payment was made';
