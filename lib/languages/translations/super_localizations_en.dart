@@ -2378,6 +2378,12 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopYouMustSignInToAccessToThisSection => 'You must be logged in to access this section';
 
   @override
+  String get shopYouMustSignInToAccessToOrders => 'You must be logged in to access Orders';
+
+  @override
+  String get shopYouMustSignInToAccessToCart => 'You must be logged in to access Cart';
+
+  @override
   String validAccepted(String attribute) {
     return '$attribute must be accepted';
   }

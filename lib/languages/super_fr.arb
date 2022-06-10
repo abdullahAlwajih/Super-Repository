@@ -794,6 +794,8 @@
   "shopYouHaveNoWishlist": "Vous n'avez pas de liste de souhaits",
   "shopYouMustAddProductsOfTheSameMarketsChooseOne": "Vous devez ajouter des produits des mêmes marchés, choisissez un seul marché !",
   "shopYouMustSignInToAccessToThisSection": "Vous devez être connecté pour accéder à cette section",
+  "shopYouMustSignInToAccessToOrders": "Vous devez être connecté pour accéder aux commandes",
+  "shopYouMustSignInToAccessToCart": "Vous devez être connecté pour accéder au panier",
   "validAccepted": "{attribute} doit être accepté ",
   "validBlank": "{attribute} ne peut pas être vide",
   "validConfirmation": "{attribute} ne correspond pas {other}",

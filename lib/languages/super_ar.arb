@@ -435,7 +435,7 @@
   "commonViewStatement": "عرض العمليات",
   "commonWeWishYouANiceDay": "نتمنى لك يوماً سعيداً",
   "commonWelcome": "أهلا بك",
-  "commonWelcomeBack": "مرحبًا بعودتك",
+  "commonWelcomeBack": "مرحباً بعودتك",
   "commonWelcomeBackWithFace": "أهلا بعودتك 👋",
   "commonWelcomeWithFace": "مرحبا بك 👋",
   "commonWhatTheySay": "ماذا يقولون ؟",
@@ -795,6 +795,8 @@
   "shopYouHaveNoWishlist": "لا يوجد لديك قائمة رغبات",
   "shopYouMustAddProductsOfTheSameMarketsChooseOne": "يجب عليك إضافة منتجات من نفس الأسواق اختر سوقًا واحدًا فقط!",
   "shopYouMustSignInToAccessToThisSection": "يجب عليك تسجيل الدخول للوصول إلى هذا القسم",
+  "shopYouMustSignInToAccessToOrders": "يجب عليك تسجيل الدخول للوصول إلى الطلبات",
+  "shopYouMustSignInToAccessToCart": "يجب عليك تسجيل الدخول للوصول إلى السلة",
   "validAccepted": "يجب أن تقبل {attribute}",
   "validBlank": "لا يمكن أن يكون المحتوى {attribute} فارغاً",
   "validConfirmation": "محتوى {attribute} لا يتطابق مع {other}",

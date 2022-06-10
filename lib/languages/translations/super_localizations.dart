@@ -4836,6 +4836,18 @@ abstract class SuperLocalizations {
   /// **'You must be logged in to access this section'**
   String get shopYouMustSignInToAccessToThisSection;
 
+  /// No description provided for @shopYouMustSignInToAccessToOrders.
+  ///
+  /// In en, this message translates to:
+  /// **'You must be logged in to access Orders'**
+  String get shopYouMustSignInToAccessToOrders;
+
+  /// No description provided for @shopYouMustSignInToAccessToCart.
+  ///
+  /// In en, this message translates to:
+  /// **'You must be logged in to access Cart'**
+  String get shopYouMustSignInToAccessToCart;
+
   /// No description provided for @validAccepted.
   ///
   /// In en, this message translates to:

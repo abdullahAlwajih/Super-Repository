@@ -1301,7 +1301,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get commonWelcome => 'أهلا بك';
 
   @override
-  String get commonWelcomeBack => 'مرحبًا بعودتك';
+  String get commonWelcomeBack => 'مرحباً بعودتك';
 
   @override
   String get commonWelcomeBackWithFace => 'أهلا بعودتك 👋';
@@ -2376,6 +2376,12 @@ class SuperLocalizationsAr extends SuperLocalizations {
 
   @override
   String get shopYouMustSignInToAccessToThisSection => 'يجب عليك تسجيل الدخول للوصول إلى هذا القسم';
+
+  @override
+  String get shopYouMustSignInToAccessToOrders => 'يجب عليك تسجيل الدخول للوصول إلى الطلبات';
+
+  @override
+  String get shopYouMustSignInToAccessToCart => 'يجب عليك تسجيل الدخول للوصول إلى السلة';
 
   @override
   String validAccepted(String attribute) {

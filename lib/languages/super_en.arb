@@ -973,6 +973,8 @@
   "shopYouHaveNoWishlist": "You don't have a wish list",
   "shopYouMustAddProductsOfTheSameMarketsChooseOne": "You must add products from the same markets, choose only one market!",
   "shopYouMustSignInToAccessToThisSection": "You must be logged in to access this section",
+  "shopYouMustSignInToAccessToOrders": "You must be logged in to access Orders",
+  "shopYouMustSignInToAccessToCart": "You must be logged in to access Cart",
   "validAccepted": "{attribute} must be accepted",
   "validBlank": "{attribute} can't be blank",
   "validConfirmation": "{attribute} doesn't match {other}",
