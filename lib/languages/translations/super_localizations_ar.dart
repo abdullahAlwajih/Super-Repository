@@ -617,7 +617,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get commonClosed => 'مغلق';
 
   @override
-  String get commonColor => 'اللون';
+  String get commonColor => 'الألوان';
 
   @override
   String get commonComingSoon => 'قريبا';
