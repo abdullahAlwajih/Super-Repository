@@ -4266,6 +4266,24 @@ abstract class SuperLocalizations {
   /// **'The payment was made'**
   String get shopPaid;
 
+  /// No description provided for @shopMadeIn.
+  ///
+  /// In en, this message translates to:
+  /// **'Made in'**
+  String get shopMadeIn;
+
+  /// No description provided for @shopWarranty.
+  ///
+  /// In en, this message translates to:
+  /// **'Warranty'**
+  String get shopWarranty;
+
+  /// No description provided for @shopGuarantor.
+  ///
+  /// In en, this message translates to:
+  /// **'Guarantor'**
+  String get shopGuarantor;
+
   /// No description provided for @shopParcelDeliveryService.
   ///
   /// In en, this message translates to:

@@ -2093,6 +2093,15 @@ class SuperLocalizationsFr extends SuperLocalizations {
   String get shopPaid => 'Le paiement a été effectué';
 
   @override
+  String get shopMadeIn => 'Fabriqué en';
+
+  @override
+  String get shopWarranty => 'garantie';
+
+  @override
+  String get shopGuarantor => 'garant';
+
+  @override
   String get shopParcelDeliveryService => 'service de livraison de colis';
 
   @override

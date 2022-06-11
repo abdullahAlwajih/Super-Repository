@@ -2093,6 +2093,15 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get shopPaid => 'تم الدفع';
 
   @override
+  String get shopMadeIn => 'صنع في';
+
+  @override
+  String get shopWarranty => 'الضمان';
+
+  @override
+  String get shopGuarantor => 'الضامن';
+
+  @override
   String get shopParcelDeliveryService => 'خدمة توصيل الطرود';
 
   @override
