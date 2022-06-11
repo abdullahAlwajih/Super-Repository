@@ -1928,7 +1928,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get shopFavoriteProducts => 'المنتجات المفضلة';
 
   @override
-  String get shopFeaturedCategories => 'فئات مميزة';
+  String get shopFeaturedCategories => 'فئات المميزة';
 
   @override
   String get shopFeaturedProducts => 'منتجات مميزة';
