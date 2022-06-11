@@ -878,6 +878,10 @@
   "shopOrderedProducts": "Required products",
   "shopOrders": "Orders",
   "shopPaid": "The payment was made",
+  "shopMadeIn": "Made in",
+  "shopWarranty": "Warranty",
+  "shopGuarantor": "Guarantor",
+
   "shopParcelDeliveryService": "Parcel delivery service",
   "shopPayWithPaypal": "Pay Via Paypal",
   "shopPayWithRazorPay": "Pay with Razor Pay",

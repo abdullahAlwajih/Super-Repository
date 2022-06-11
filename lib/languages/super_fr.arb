@@ -699,6 +699,11 @@
   "shopOrderedProducts": "« produits requis »",
   "shopOrders": "demandes",
   "shopPaid": "Le paiement a été effectué",
+  "shopMadeIn": "Fabriqué en",
+  "shopWarranty": "garantie",
+  "shopGuarantor": "garant",
+
+
   "shopParcelDeliveryService": "service de livraison de colis",
   "shopPayWithPaypal": "Payer via Paypal",
   "shopPayWithRazorPay": "Payez avec Razor Pay",

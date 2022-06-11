@@ -700,6 +700,10 @@
   "shopOrderedProducts": "المنتجات المطلوبة",
   "shopOrders": "الطلبات",
   "shopPaid": "تم الدفع",
+  "shopMadeIn": "صنع في",
+  "shopWarranty": "الضمان",
+  "shopGuarantor": "الضامن",
+
   "shopParcelDeliveryService": "خدمة توصيل الطرود",
   "shopPayWithPaypal": "الدفع عبر باي بال",
   "shopPayWithRazorPay": "ادفع عبر رازور باي",
