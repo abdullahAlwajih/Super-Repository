@@ -2177,7 +2177,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get shopPurchaseHistory => 'تاريخ المشتريات';
 
   @override
-  String get shopQuantity => 'كمية';
+  String get shopQuantity => 'الكمية';
 
   @override
   String get shopReady => 'جاهز';
