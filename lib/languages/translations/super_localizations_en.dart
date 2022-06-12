@@ -1994,7 +1994,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopMotorBike => 'Motorcycle';
 
   @override
-  String get shopMyOrders => 'My requests';
+  String get shopMyOrders => 'My orders';
 
   @override
   String get shopNoBrandsAreAvailable => 'No brands';

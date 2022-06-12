@@ -4071,7 +4071,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopMyOrders.
   ///
   /// In en, this message translates to:
-  /// **'My requests'**
+  /// **'My orders'**
   String get shopMyOrders;
 
   /// No description provided for @shopNoBrandsAreAvailable.
