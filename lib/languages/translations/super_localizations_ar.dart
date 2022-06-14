@@ -1232,7 +1232,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get commonTopRated => 'الاعلى تقييم';
 
   @override
-  String get commonTotal => 'مجموع';
+  String get commonTotal => 'المجموع';
 
   @override
   String get commonTotalAmount => 'المجموع الكلي';
