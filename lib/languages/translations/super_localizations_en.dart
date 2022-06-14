@@ -1232,7 +1232,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonTopRated => 'highest rating';
 
   @override
-  String get commonTotal => 'Sum';
+  String get commonTotal => 'Total';
 
   @override
   String get commonTotalAmount => 'Total summation';

@@ -2547,7 +2547,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonTotal.
   ///
   /// In en, this message translates to:
-  /// **'Sum'**
+  /// **'Total'**
   String get commonTotal;
 
   /// No description provided for @commonTotalAmount.
