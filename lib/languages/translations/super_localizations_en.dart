@@ -677,7 +677,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonDesc => 'Brief';
 
   @override
-  String get commonDescription => 'He described';
+  String get commonDescription => 'Description';
 
   @override
   String get commonDetails => 'Details';

@@ -1437,7 +1437,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonDescription.
   ///
   /// In en, this message translates to:
-  /// **'He described'**
+  /// **'Description'**
   String get commonDescription;
 
   /// No description provided for @commonDetails.
