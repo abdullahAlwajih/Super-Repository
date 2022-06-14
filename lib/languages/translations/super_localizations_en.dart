@@ -1784,7 +1784,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopCheckBalance => 'Balance check';
 
   @override
-  String get shopCheckout => 'Paying off';
+  String get shopCheckout => 'Checkout';
 
   @override
   String get shopChooseBranch => 'Select branch';

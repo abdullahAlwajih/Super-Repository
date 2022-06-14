@@ -3651,7 +3651,7 @@ abstract class SuperLocalizations {
   /// No description provided for @shopCheckout.
   ///
   /// In en, this message translates to:
-  /// **'Paying off'**
+  /// **'Checkout'**
   String get shopCheckout;
 
   /// No description provided for @shopChooseBranch.
