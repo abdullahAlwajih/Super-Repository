@@ -2090,6 +2090,9 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get shopOrders => 'الطلبات';
 
   @override
+  String get shopOrder => 'طلب';
+
+  @override
   String get shopPaid => 'تم الدفع';
 
   @override

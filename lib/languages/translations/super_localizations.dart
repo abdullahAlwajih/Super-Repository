@@ -4260,6 +4260,12 @@ abstract class SuperLocalizations {
   /// **'Orders'**
   String get shopOrders;
 
+  /// No description provided for @shopOrder.
+  ///
+  /// In en, this message translates to:
+  /// **'Order'**
+  String get shopOrder;
+
   /// No description provided for @shopPaid.
   ///
   /// In en, this message translates to:

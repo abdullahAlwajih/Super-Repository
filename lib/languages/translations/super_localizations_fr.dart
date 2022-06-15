@@ -2090,6 +2090,9 @@ class SuperLocalizationsFr extends SuperLocalizations {
   String get shopOrders => 'demandes';
 
   @override
+  String get shopOrder => 'Ordre';
+
+  @override
   String get shopPaid => 'Le paiement a été effectué';
 
   @override
