@@ -686,7 +686,7 @@
   "shopOneOrMoreProductsInYourCartNotDeliverable": "منتج واحد أو أكثر في سلة التسوق الخاصة بك غير قابلة للتسليم.",
   "shopOpenedMarkets": "الأسواق المفتوحة",
   "shopOrderCode": "رمز الطلب",
-  "shopOrderCost": "قيمة الطلب",
+  "shopOrderCost": "تكلفة الطلب",
   "shopOrderDate": "تاريخ الطلب",
   "shopOrderDetails": "تفاصيل الطلب",
   "shopOrderID": "رقم التعريف الخاص بالطلب",

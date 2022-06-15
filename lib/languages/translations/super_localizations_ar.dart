@@ -2051,7 +2051,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get shopOrderCode => 'رمز الطلب';
 
   @override
-  String get shopOrderCost => 'قيمة الطلب';
+  String get shopOrderCost => 'تكلفة الطلب';
 
   @override
   String get shopOrderDate => 'تاريخ الطلب';
