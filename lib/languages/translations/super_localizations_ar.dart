@@ -944,7 +944,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get commonNothingToPay => 'لا شيء للدفع';
 
   @override
-  String get commonNotifications => 'إشعارات';
+  String get commonNotifications => 'الإشعارات';
 
   @override
   String get commonOk => 'موافق';
