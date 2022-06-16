@@ -373,6 +373,7 @@
   "commonSections": "الأقسام",
   "commonSeeAll": "إظهار الكل",
   "commonSelectCity": "اختار المدينة",
+    "commonSelectArea": "اختار المنطقة",
   "commonSelectCountry": "اختار البلد",
   "commonSelectDeliveryAddress": "حدد موقع التوصيل الخاص بك",
   "commonSelectOptions": "قم بالتحديد",

@@ -551,6 +551,7 @@
   "commonSections": "Sections",
   "commonSeeAll": "Show all",
   "commonSelectCity": "Choose the city",
+  "commonSelectArea": "Choisissez la zone",
   "commonSelectCountry": "Choose Country",
   "commonSelectDeliveryAddress": "Select your delivery location",
   "commonSelectOptions": "select",
