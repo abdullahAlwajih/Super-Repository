@@ -2316,6 +2316,12 @@ abstract class SuperLocalizations {
   /// **'Choose the city'**
   String get commonSelectCity;
 
+  /// No description provided for @commonSelectArea.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose the area'**
+  String get commonSelectArea;
+
   /// No description provided for @commonSelectCountry.
   ///
   /// In en, this message translates to:

@@ -1118,6 +1118,9 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonSelectCity => 'Choose the city';
 
   @override
+  String get commonSelectArea => 'Choose the area';
+
+  @override
   String get commonSelectCountry => 'Choose Country';
 
   @override
