@@ -530,6 +530,9 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authYourAddress => 'Your address';
 
   @override
+  String get authMyAddresses => 'My addresses';
+
+  @override
   String get authYourAddressIsNotSupportedChooseAAddressWithinYourRegion => 'Your address is not supported, choose an address within your region';
 
   @override

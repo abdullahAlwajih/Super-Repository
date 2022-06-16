@@ -354,6 +354,7 @@
   "authYouDidNotReceivedTheCode": "Didn't you get the code?",
   "authYouNeedToBeLoggedIn": "Requires you to be logged in",
   "authYourAddress": "Your address",
+    "authMyAddresses": "My addresses",
   "authYourAddressIsNotSupportedChooseAAddressWithinYourRegion": "Your address is not supported, choose an address within your region",
   "authYourBalance": "Your balance",
   "authYourCreditCardNotValid": "Your credit card is invalid",

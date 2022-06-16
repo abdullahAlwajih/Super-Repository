@@ -1140,6 +1140,12 @@ abstract class SuperLocalizations {
   /// **'Your address'**
   String get authYourAddress;
 
+  /// No description provided for @authMyAddresses.
+  ///
+  /// In en, this message translates to:
+  /// **'My addresses'**
+  String get authMyAddresses;
+
   /// No description provided for @authYourAddressIsNotSupportedChooseAAddressWithinYourRegion.
   ///
   /// In en, this message translates to:

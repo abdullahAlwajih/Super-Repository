@@ -530,6 +530,9 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get authYourAddress => 'عنوانك';
 
   @override
+  String get authMyAddresses => 'عناويني';
+
+  @override
   String get authYourAddressIsNotSupportedChooseAAddressWithinYourRegion => 'عنوانك غير مدعوم ، اختر عنوانًا داخل منطقتك';
 
   @override

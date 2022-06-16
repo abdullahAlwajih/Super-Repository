@@ -177,6 +177,7 @@
   "authYouDidNotReceivedTheCode": "ألم تحصل على الرمز؟",
   "authYouNeedToBeLoggedIn": "يتطلب منك أن تكون مسجل الدخول",
   "authYourAddress": "عنوانك",
+  "authMyAddresses": "عناويني",
   "authYourAddressIsNotSupportedChooseAAddressWithinYourRegion": "عنوانك غير مدعوم ، اختر عنوانًا داخل منطقتك",
   "authYourBalance": "رصيدك",
   "authYourCreditCardNotValid": "بطاقتك الائتمانية غير صالحة",
