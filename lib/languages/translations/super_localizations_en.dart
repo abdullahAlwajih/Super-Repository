@@ -1121,6 +1121,9 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonSelectArea => 'Choose the area';
 
   @override
+  String get shopYouMustSpecifyTheDeliveryAddress => 'You must specify the delivery address';
+
+  @override
   String get commonSelectCountry => 'Choose Country';
 
   @override

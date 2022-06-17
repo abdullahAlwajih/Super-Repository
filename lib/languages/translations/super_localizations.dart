@@ -2322,6 +2322,12 @@ abstract class SuperLocalizations {
   /// **'Choose the area'**
   String get commonSelectArea;
 
+  /// No description provided for @shopYouMustSpecifyTheDeliveryAddress.
+  ///
+  /// In en, this message translates to:
+  /// **'You must specify the delivery address'**
+  String get shopYouMustSpecifyTheDeliveryAddress;
+
   /// No description provided for @commonSelectCountry.
   ///
   /// In en, this message translates to:

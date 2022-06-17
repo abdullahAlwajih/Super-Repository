@@ -1121,6 +1121,9 @@ class SuperLocalizationsFr extends SuperLocalizations {
   String get commonSelectArea => 'Choisissez la zone';
 
   @override
+  String get shopYouMustSpecifyTheDeliveryAddress => 'Vous devez préciser l\'adresse de livraison';
+
+  @override
   String get commonSelectCountry => 'Choisissez un pays';
 
   @override

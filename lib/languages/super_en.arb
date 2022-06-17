@@ -552,6 +552,8 @@
   "commonSeeAll": "Show all",
   "commonSelectCity": "Choose the city",
   "commonSelectArea": "Choose the area",
+  "shopYouMustSpecifyTheDeliveryAddress": "You must specify the delivery address",
+
   "commonSelectCountry": "Choose Country",
   "commonSelectDeliveryAddress": "Select your delivery location",
   "commonSelectOptions": "select",

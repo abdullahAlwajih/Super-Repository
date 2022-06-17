@@ -357,6 +357,7 @@
   "commonRecentSearch": "البحث الأخير",
   "commonRecentTransactions": "آخر العمليات",
   "commonRegionMustBeSelected": "يجب تحديد المنطقة",
+  "shopYouMustSpecifyTheDeliveryAddress": "يجب عليك تحديد عنوان التسليم",
   "commonRemove": "حذف",
   "commonRepeatTransactions": "تكرار عملية سابقة",
   "commonReports": "التقارير",
@@ -374,6 +375,7 @@
   "commonSeeAll": "إظهار الكل",
   "commonSelectCity": "اختار المدينة",
     "commonSelectArea": "اختار المنطقة",
+
   "commonSelectCountry": "اختار البلد",
   "commonSelectDeliveryAddress": "حدد موقع التوصيل الخاص بك",
   "commonSelectOptions": "قم بالتحديد",
