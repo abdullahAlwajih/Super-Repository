@@ -1509,7 +1509,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonEdit.
   ///
   /// In en, this message translates to:
-  /// **'Amendment'**
+  /// **'Edit'**
   String get commonEdit;
 
   /// No description provided for @commonEnded.

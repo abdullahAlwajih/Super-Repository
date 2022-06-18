@@ -545,7 +545,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get authYourResetLinkHasBeenSentToYourEmail => 'تم إرسال رابط إعادة تعيين إلى البريد الإلكتروني الخاص بك';
 
   @override
-  String get commonAdd => 'أضف';
+  String get commonAdd => 'أضافة';
 
   @override
   String get commonAdditionalInformation => 'معلومات إضافية';

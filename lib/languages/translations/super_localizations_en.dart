@@ -713,7 +713,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonDueDate => 'History';
 
   @override
-  String get commonEdit => 'Amendment';
+  String get commonEdit => 'Edit';
 
   @override
   String get commonEnded => 'I finish';
