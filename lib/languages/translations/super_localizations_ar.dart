@@ -911,7 +911,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get commonNoDataIsAvailable => 'لا يوجد اي بيانات';
 
   @override
-  String get commonNoFavorites => 'لا توجد مفضلات';
+  String get commonNoFavorites => 'لا توجد منتجات مفضلة';
 
   @override
   String get commonNoFileIsChosen => 'لم يتم اختيار';
