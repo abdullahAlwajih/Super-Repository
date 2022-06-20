@@ -557,7 +557,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonAmount => 'The amount';
 
   @override
-  String get commonApply => 'Implementation of';
+  String get commonApply => 'Apply';
 
   @override
   String get commonApplyFilters => 'Apply filters';
@@ -584,7 +584,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonCamera => 'Camera';
 
   @override
-  String get commonCancel => 'Cancellation';
+  String get commonCancel => 'Cancel';
 
   @override
   String get commonCanceled => 'Canceled';

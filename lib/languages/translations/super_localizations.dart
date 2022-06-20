@@ -1197,7 +1197,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonApply.
   ///
   /// In en, this message translates to:
-  /// **'Implementation of'**
+  /// **'Apply'**
   String get commonApply;
 
   /// No description provided for @commonApplyFilters.
@@ -1251,7 +1251,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonCancel.
   ///
   /// In en, this message translates to:
-  /// **'Cancellation'**
+  /// **'Cancel'**
   String get commonCancel;
 
   /// No description provided for @commonCanceled.
