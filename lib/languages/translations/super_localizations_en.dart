@@ -599,7 +599,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonCategory => 'Category';
 
   @override
-  String get commonChange => 'A change';
+  String get commonChange => 'Change';
 
   @override
   String get commonChat => 'Conversation';

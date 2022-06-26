@@ -1281,7 +1281,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonChange.
   ///
   /// In en, this message translates to:
-  /// **'A change'**
+  /// **'Change'**
   String get commonChange;
 
   /// No description provided for @commonChat.

@@ -599,7 +599,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get commonCategory => 'الفئة';
 
   @override
-  String get commonChange => 'تغيير';
+  String get commonChange => 'تغير';
 
   @override
   String get commonChat => 'محادثة';
