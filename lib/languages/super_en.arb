@@ -871,6 +871,7 @@
   "shopOrderCost": "Order value",
   "shopOrderDate": "The date of application",
   "shopOrderDetails": "Order details",
+  "shopShoppingDetails": "Shipping Details",
   "shopOrderID": "Private demand identification number",
   "shopOrderInformation": "Order information",
   "shopOrderIsReceived": "Your request has been received.",

@@ -692,6 +692,7 @@
   "shopOrderCost": "valeur de la demande",
   "shopOrderDate": "date de la demande",
   "shopOrderDetails": "détails de la demande",
+  "shopShoppingDetails": "Les détails d'expédition",
   "shopOrderID": "Numéro d'identification de la demande privée",
   "shopOrderInformation": "Informations sur la demande",
   "shopOrderIsReceived": "Votre demande a été reçue.",

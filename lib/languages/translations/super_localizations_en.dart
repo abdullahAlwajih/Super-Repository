@@ -2069,6 +2069,9 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get shopOrderDetails => 'Order details';
 
   @override
+  String get shopShoppingDetails => 'Shipping Details';
+
+  @override
   String get shopOrderID => 'Private demand identification number';
 
   @override

@@ -4218,6 +4218,12 @@ abstract class SuperLocalizations {
   /// **'Order details'**
   String get shopOrderDetails;
 
+  /// No description provided for @shopShoppingDetails.
+  ///
+  /// In en, this message translates to:
+  /// **'Shipping Details'**
+  String get shopShoppingDetails;
+
   /// No description provided for @shopOrderID.
   ///
   /// In en, this message translates to:

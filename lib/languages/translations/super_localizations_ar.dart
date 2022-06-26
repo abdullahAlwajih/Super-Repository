@@ -2069,6 +2069,9 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get shopOrderDetails => 'تفاصيل الطلب';
 
   @override
+  String get shopShoppingDetails => 'تفاصيل التسوق';
+
+  @override
   String get shopOrderID => 'رقم التعريف الخاص بالطلب';
 
   @override

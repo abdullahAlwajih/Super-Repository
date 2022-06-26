@@ -693,6 +693,7 @@
   "shopOrderCost": "تكلفة الطلب",
   "shopOrderDate": "تاريخ الطلب",
   "shopOrderDetails": "تفاصيل الطلب",
+  "shopShoppingDetails": "تفاصيل التسوق",
   "shopOrderID": "رقم التعريف الخاص بالطلب",
   "shopOrderInformation": "معلومات الطلب",
   "shopOrderIsReceived": "تم استقبال طلبك",
