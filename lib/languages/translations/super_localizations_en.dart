@@ -1298,7 +1298,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get commonViewLess => 'Show less';
 
   @override
-  String get commonViewMore => 'Show more';
+  String get commonViewMore => 'View more';
 
   @override
   String get commonViewStatement => 'Operations view';

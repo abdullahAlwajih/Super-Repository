@@ -2679,7 +2679,7 @@ abstract class SuperLocalizations {
   /// No description provided for @commonViewMore.
   ///
   /// In en, this message translates to:
-  /// **'Show more'**
+  /// **'View more'**
   String get commonViewMore;
 
   /// No description provided for @commonViewStatement.
