@@ -834,6 +834,12 @@ abstract class SuperLocalizations {
   /// **'Please accept the terms and conditions'**
   String get authPleaseAcceptTheTermsAndConditions;
 
+  /// No description provided for @authTermsAndConditions.
+  ///
+  /// In en, this message translates to:
+  /// **'terms and conditions'**
+  String get authTermsAndConditions;
+
   /// No description provided for @authPleaseAcceptTheTermsOfUse.
   ///
   /// In en, this message translates to:

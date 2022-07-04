@@ -303,6 +303,7 @@
   "authPhoneNumber": "Phone number",
   "authPhoneNumberIsRequired": "Phone number is required",
   "authPleaseAcceptTheTermsAndConditions": "Please accept the terms and conditions",
+  "authTermsAndConditions": "terms and conditions",
   "authPleaseAcceptTheTermsOfUse": "Please accept the terms of use",
   "authPleaseEnterTheCode": "Please enter the code",
   "authPleaseEnterTheCodeSentToYourDevice": "Please enter the code sent to your device.",

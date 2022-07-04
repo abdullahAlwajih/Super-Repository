@@ -377,6 +377,9 @@ class SuperLocalizationsFr extends SuperLocalizations {
   String get authPleaseAcceptTheTermsAndConditions => 'Veuillez accepter les termes et conditions';
 
   @override
+  String get authTermsAndConditions => 'termes et conditions';
+
+  @override
   String get authPleaseAcceptTheTermsOfUse => 'Veuillez accepter les conditions d\'utilisation';
 
   @override

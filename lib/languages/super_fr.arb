@@ -124,6 +124,7 @@
   "authPhoneNumber": "Numéro de téléphone",
   "authPhoneNumberIsRequired": "Le numéro de téléphone est requis",
   "authPleaseAcceptTheTermsAndConditions": "Veuillez accepter les termes et conditions",
+  "authTermsAndConditions": "termes et conditions",
   "authPleaseAcceptTheTermsOfUse": "Veuillez accepter les conditions d'utilisation",
   "authPleaseEnterTheCode": "Veuillez entrer le code",
   "authPleaseEnterTheCodeSentToYourDevice": "Veuillez saisir le code envoyé à votre appareil.",

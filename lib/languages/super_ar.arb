@@ -125,6 +125,7 @@
   "authPhoneNumber": "رقم الهاتف",
   "authPhoneNumberIsRequired": "رقم الهاتف مطلوب",
   "authPleaseAcceptTheTermsAndConditions": "الرجاء بقبول الشروط والأحكام",
+  "authTermsAndConditions": "الشروط والأحكام",
   "authPleaseAcceptTheTermsOfUse": "الرجاء الموافقة على شروط الإستخدام",
   "authPleaseEnterTheCode": "نرجو ادخال الكود",
   "authPleaseEnterTheCodeSentToYourDevice": "نرجو ادخال الكود المرسل إلى جهازك",
