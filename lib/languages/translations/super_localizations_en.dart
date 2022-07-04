@@ -275,7 +275,7 @@ class SuperLocalizationsEn extends SuperLocalizations {
   String get authHomeAddress => 'Home Address';
 
   @override
-  String get authIAccept => 'I agree to';
+  String get authIAccept => 'I accept';
 
   @override
   String get authIDNumber => 'Card number';

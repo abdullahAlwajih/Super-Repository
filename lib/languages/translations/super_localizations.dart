@@ -633,7 +633,7 @@ abstract class SuperLocalizations {
   /// No description provided for @authIAccept.
   ///
   /// In en, this message translates to:
-  /// **'I agree to'**
+  /// **'I accept'**
   String get authIAccept;
 
   /// No description provided for @authIDNumber.
