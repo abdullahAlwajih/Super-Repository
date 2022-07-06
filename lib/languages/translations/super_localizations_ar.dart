@@ -602,7 +602,7 @@ class SuperLocalizationsAr extends SuperLocalizations {
   String get commonCategory => 'الفئة';
 
   @override
-  String get commonChange => 'تغير';
+  String get commonChange => 'تغيير';
 
   @override
   String get commonChat => 'محادثة';
